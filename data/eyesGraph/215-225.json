@@ -1,0 +1,185 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch38"
+    },
+    "nodes": [
+      {
+        "id": "disease:retinoblastoma_china",
+        "label": "Disease",
+        "name": "视网膜母细胞瘤 (RB)",
+        "definition": "婴幼儿最常见的眼内恶性肿瘤，源于视网膜核层，具有家族遗传倾向（RB1基因突变），严重威胁生命和视力。",
+        "source_pdf": "中国视网膜母细胞瘤诊断和治疗指南（2019年）.pdf"
+      },
+      {
+        "id": "classification:iirc_staging",
+        "label": "Classification",
+        "name": "眼内期RB国际分期 (IIRC)",
+        "definition": "将眼内期RB分为A-E五期，其中A-C期为保眼治疗的优势人群，D-E期通常需眼球摘除或高强度化疗。",
+        "source_pdf": "中国视网膜母细胞瘤诊断和治疗指南（2019年）.pdf"
+      },
+      {
+        "id": "treatment:intra_arterial_chemotherapy_rb",
+        "label": "Treatment",
+        "name": "经眼动脉灌注化疗 (IAC)",
+        "definition": "将化疗药物（如马法兰、卡铂）直接注入眼动脉，用于治疗单侧眼内期D期或部分E期RB，可提高保眼率。",
+        "source_pdf": "中国视网膜母细胞瘤诊断和治疗指南（2019年）.pdf"
+      },
+      {
+        "id": "surgery:subretinal_injection_gene",
+        "label": "Surgery",
+        "name": "视网膜下注射术 (基因治疗)",
+        "definition": "将基因治疗药物（如病毒载体）精准递送至视网膜神经上皮与色素上皮之间的潜在腔隙，是治疗遗传性视网膜疾病的关键步骤。",
+        "source_pdf": "中国视网膜下基因治疗药物注射术操作规范推荐专家共识(2022).pdf"
+      },
+      {
+        "id": "technique:bleb_formation",
+        "label": "Technique",
+        "name": "视网膜下泡形成 (Bleb)",
+        "definition": "视网膜下注射成功的标志，通过注入液体（先以BSS形成预注射泡）使局部视网膜神经上皮隆起，确认注射位置正确。",
+        "source_pdf": "中国视网膜下基因治疗药物注射术操作规范推荐专家共识(2022).pdf"
+      },
+      {
+        "id": "disease:diabetic_cataract_management",
+        "label": "Disease",
+        "name": "糖尿病性白内障 (围手术期)",
+        "definition": "糖尿病患者的白内障手术风险更高，易并发黄斑水肿和感染，需围手术期严格控制血糖和眼部炎症。",
+        "source_pdf": "中国糖尿病患者白内障围手术期管理策略专家共识（2020年）.pdf"
+      },
+      {
+        "id": "treatment:anti_vegf_prophylaxis_cataract",
+        "label": "Treatment",
+        "name": "围手术期抗VEGF预防",
+        "definition": "对于合并重度NPDR或PDR的白内障患者，术前3-7天玻璃体腔注射抗VEGF药物可减少术中出血和术后黄斑水肿风险。",
+        "source_pdf": "中国糖尿病患者白内障围手术期管理策略专家共识（2020年）.pdf"
+      },
+      {
+        "id": "disease:diabetic_optic_neuropathy",
+        "label": "Disease",
+        "name": "糖尿病视神经病变 (DON)",
+        "definition": "糖尿病引起的视神经损害，包括糖尿病视盘病变（多见于年轻1型患者，自限性）和非动脉炎性前部缺血性视神经病变（NAION）。",
+        "source_pdf": "中国糖尿病视神经病变诊断和治疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "diagnostic:visual_field_don",
+        "label": "Diagnostic",
+        "name": "视野缺损 (DON特征)",
+        "definition": "DON常表现为生理盲点扩大或不规则视野缺损，需与青光眼及其他视神经病变鉴别。",
+        "source_pdf": "中国糖尿病视神经病变诊断和治疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "service:telemedicine_dr",
+        "label": "Service Model",
+        "name": "DR远程医疗筛查",
+        "definition": "利用免散瞳眼底照相+互联网传输+远程读片（或AI辅助）的模式，解决基层眼科医生不足、提高DR筛查覆盖率。",
+        "source_pdf": "中国糖尿病视网膜病变远程医疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "standard:image_quality_dr",
+        "label": "Standard",
+        "name": "眼底图像质量标准 (DR筛查)",
+        "definition": "要求单张眼底照片应包含视盘和黄斑，且清晰度足以辨认微血管瘤，双眼2张或4张拼图方案是主流。",
+        "source_pdf": "中国糖尿病视网膜病变远程医疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "disease:iih",
+        "label": "Disease",
+        "name": "特发性颅内压增高 (IIH)",
+        "definition": "临床表现为颅内压升高、视乳头水肿、头痛，但脑脊液成分及脑影像学正常的综合征，多见于肥胖育龄女性。",
+        "source_pdf": "中国特发性颅内压增高(视乳头水肿)诊断和治疗专家共识(2025).pdf"
+      },
+      {
+        "id": "treatment:venous_sinus_stenting",
+        "label": "Surgery",
+        "name": "静脉窦支架植入术",
+        "definition": "针对伴有静脉窦狭窄的IIH患者的新型微创治疗，通过降低静脉窦压力来降低颅内压，缓解视乳头水肿。",
+        "source_pdf": "中国特发性颅内压增高(视乳头水肿)诊断和治疗专家共识(2025).pdf"
+      },
+      {
+        "id": "disease:don_guideline_2021",
+        "label": "Disease",
+        "name": "脱髓鞘性视神经炎 (2021指南)",
+        "definition": "包括多发性硬化相关(MS-ON)、视神经脊髓炎谱系病相关(NMOSD-ON)及MOG抗体相关(MOG-ON)三种主要亚型。",
+        "source_pdf": "中国脱髓鞘性视神经炎诊断和治疗循证指南（2021年）.pdf"
+      },
+      {
+        "id": "treatment:acute_phase_don",
+        "label": "Treatment",
+        "name": "大剂量激素冲击 (DON)",
+        "definition": "甲泼尼龙500-1000mg/d静脉滴注3-5天，是DON急性期的标准治疗，旨在挽救视力、减轻疼痛。",
+        "source_pdf": "中国脱髓鞘性视神经炎诊断和治疗循证指南（2021年）.pdf"
+      },
+      {
+        "id": "guideline:rvo_pathway",
+        "label": "Guideline",
+        "name": "视网膜静脉阻塞临床路径 (中国)",
+        "definition": "规范RVO的诊疗流程：确诊分型 -> 评估黄斑水肿/缺血 -> 抗VEGF/激素/激光分层治疗 -> 长期随访。",
+        "source_pdf": "中国视网膜静脉阻塞临床诊疗路径专家共识.pdf"
+      },
+      {
+        "id": "treatment:anti_vegf_rvo_loading",
+        "label": "Treatment Strategy",
+        "name": "1+PRN 或 3+PRN (RVO)",
+        "definition": "RVO黄斑水肿的抗VEGF给药模式，中国共识建议可视情采用1针或3针负荷剂量后按需注射。",
+        "source_pdf": "中国视网膜静脉阻塞临床诊疗路径专家共识.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:retinoblastoma_china",
+        "target": "classification:iirc_staging",
+        "relation": "临床分期"
+      },
+      {
+        "source": "classification:iirc_staging",
+        "target": "treatment:intra_arterial_chemotherapy_rb",
+        "relation": "D期推荐治疗"
+      },
+      {
+        "source": "surgery:subretinal_injection_gene",
+        "target": "technique:bleb_formation",
+        "relation": "关键操作步骤"
+      },
+      {
+        "source": "disease:diabetic_cataract_management",
+        "target": "treatment:anti_vegf_prophylaxis_cataract",
+        "relation": "高危预防措施"
+      },
+      {
+        "source": "disease:diabetic_optic_neuropathy",
+        "target": "diagnostic:visual_field_don",
+        "relation": "辅助诊断"
+      },
+      {
+        "source": "service:telemedicine_dr",
+        "target": "standard:image_quality_dr",
+        "relation": "质控要求"
+      },
+      {
+        "source": "disease:iih",
+        "target": "treatment:venous_sinus_stenting",
+        "relation": "介入治疗选择"
+      },
+      {
+        "source": "disease:don_guideline_2021",
+        "target": "treatment:acute_phase_don",
+        "relation": "急性期首选"
+      },
+      {
+        "source": "disease:nmosd_on",
+        "target": "disease:don_guideline_2021",
+        "relation": "属于亚型"
+      },
+      {
+        "source": "guideline:rvo_pathway",
+        "target": "treatment:anti_vegf_rvo_loading",
+        "relation": "推荐治疗策略"
+      },
+      {
+        "source": "guideline:rvo_pathway",
+        "target": "disease:ischemic_crvo",
+        "relation": "需重点监测新生血管"
+      }
+    ]
+  }

@@ -1,0 +1,194 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch13"
+    },
+    "nodes": [
+      {
+        "id": "disease:glaucoma_china_guideline",
+        "label": "Disease",
+        "name": "青光眼 (2005中国指南)",
+        "definition": "一组以视神经萎缩和视野缺损为共同特征的疾病，病理性的眼压升高是其主要危险因素。",
+        "source_pdf": "《中国青光眼临床工作指南》(2005)公布.pdf"
+      },
+      {
+        "id": "disease:pacg_acute",
+        "label": "Disease",
+        "name": "急性闭角型青光眼",
+        "definition": "由于房角突然关闭导致眼压急剧升高，表现为眼痛、视力下降、虹视、恶心呕吐，需紧急抢救视力。",
+        "parent_id": "disease:glaucoma_china_guideline",
+        "source_pdf": "《中国青光眼临床工作指南》(2005)公布.pdf"
+      },
+      {
+        "id": "diagnostic:provocative_test_dark_room",
+        "label": "Diagnostic",
+        "name": "暗室俯卧试验",
+        "definition": "一种青光眼激发试验，用于诊断可疑的原发性房角关闭，阳性标准通常为眼压升高≥8mmHg。",
+        "source_pdf": "《中国青光眼临床工作指南》(2005)公布.pdf"
+      },
+      {
+        "id": "treatment:trabeculectomy_standard",
+        "label": "Surgery",
+        "name": "小梁切除术 (标准术式)",
+        "definition": "建立一条新的房水引流通道至结膜下滤过泡的滤过性手术，是中国青光眼指南中控制眼压的主流术式。",
+        "source_pdf": "《中国青光眼临床工作指南》(2005)公布.pdf"
+      },
+      {
+        "id": "disease:don",
+        "label": "Disease",
+        "name": "脱髓鞘性视神经炎 (DON)",
+        "definition": "一类以视神经及视交叉脱髓鞘改变为主要病理特征的炎症性疾病，包括MS-ON、NMOSD-ON和MOG-ON等。",
+        "source_pdf": "《中国脱髓鞘性视神经炎诊断和治疗循证指南（2021年）》解读.pdf"
+      },
+      {
+        "id": "disease:nmosd_on",
+        "label": "Disease",
+        "name": "视神经脊髓炎谱系疾病相关视神经炎 (NMOSD-ON)",
+        "definition": "由AQP4抗体介导的严重视神经炎，复发率高，致残率高，常伴有长节段脊髓炎。",
+        "parent_id": "disease:don",
+        "source_pdf": "《中国脱髓鞘性视神经炎诊断和治疗循证指南（2021年）》解读.pdf"
+      },
+      {
+        "id": "drug:methylprednisolone_pulse",
+        "label": "Drug",
+        "name": "甲泼尼龙冲击疗法 (IVMP)",
+        "definition": "DON急性期治疗的首选方案，通常为1g/天静脉滴注，连用3天，随后阶梯减量。",
+        "source_pdf": "《中国脱髓鞘性视神经炎诊断和治疗循证指南（2021年）》解读.pdf"
+      },
+      {
+        "id": "diagnostic:aqp4_antibody",
+        "label": "Diagnostic",
+        "name": "AQP4抗体检测",
+        "definition": "诊断NMOSD的特异性血清学标志物，对区分不同类型的视神经炎及指导治疗至关重要。",
+        "source_pdf": "《中国脱髓鞘性视神经炎诊断和治疗循证指南（2021年）》解读.pdf"
+      },
+      {
+        "id": "standard:oct_report_2025",
+        "label": "Standard",
+        "name": "OCT操作及报告规范 (2025共识)",
+        "definition": "针对眼底OCT图像采集、质量控制及报告书写的标准化要求，强调描述病变的形态、位置及反射特征。",
+        "source_pdf": "《中国眼底OCT操作及图像阅读报告规范德尔菲法专家共识（2025年）》解读.pdf"
+      },
+      {
+        "id": "pathology:ellipsoid_zone",
+        "label": "Pathology",
+        "name": "椭圆体带 (EZ)",
+        "definition": "OCT图像上代表光感受器内节/外节连接处的强反射带，其完整性是视功能预后的重要指标。",
+        "source_pdf": "《中国眼底OCT操作及图像阅读报告规范德尔菲法专家共识（2025年）》解读.pdf"
+      },
+      {
+        "id": "pathology:pachychoroid",
+        "label": "Pathology",
+        "name": "厚脉络膜征象",
+        "definition": "OCT增强深部成像(EDI)模式下显示的脉络膜异常增厚及血管扩张，常见于CSC和PCV。",
+        "source_pdf": "《中国眼底OCT操作及图像阅读报告规范德尔菲法专家共识（2025年）》解读.pdf"
+      },
+      {
+        "id": "drug:anti_tnf_alpha",
+        "label": "Drug",
+        "name": "抗TNF-α单克隆抗体",
+        "definition": "如阿达木单抗(Adalimumab)和英夫利西单抗(Infliximab)，用于治疗难治性非感染性葡萄膜炎。",
+        "source_pdf": "《抗肿瘤坏死因子-α单克隆抗体治疗非感染性葡萄膜炎中国专家共识》解读.pdf"
+      },
+      {
+        "id": "disease:behcet_uveitis",
+        "label": "Disease",
+        "name": "白塞病葡萄膜炎",
+        "definition": "一种严重的非感染性葡萄膜炎，常表现为全葡萄膜炎和视网膜血管炎，抗TNF-α治疗效果显著。",
+        "source_pdf": "《抗肿瘤坏死因子-α单克隆抗体治疗非感染性葡萄膜炎中国专家共识》解读.pdf"
+      },
+      {
+        "id": "protocol:tb_hepatitis_screening",
+        "label": "Protocol",
+        "name": "结核与肝炎筛查",
+        "definition": "在使用抗TNF-α生物制剂前必须进行的安全性评估，以防止潜伏感染的再激活。",
+        "source_pdf": "《抗肿瘤坏死因子-α单克隆抗体治疗非感染性葡萄膜炎中国专家共识》解读.pdf"
+      },
+      {
+        "id": "disease:choroideremia",
+        "label": "Disease",
+        "name": "无脉络膜症 (CHM)",
+        "definition": "一种X连锁隐性遗传性视网膜脉络膜营养不良，特征为RPE和脉络膜毛细血管的进行性萎缩。",
+        "source_pdf": "《无脉络膜症临床诊疗中国专家共识（2024年）》解读.pdf"
+      },
+      {
+        "id": "gene:chm_gene",
+        "label": "Genetic",
+        "name": "CHM基因",
+        "definition": "位于Xq21.2，编码Rab护送蛋白-1 (REP-1)，其突变导致无脉络膜症。",
+        "source_pdf": "《无脉络膜症临床诊疗中国专家共识（2024年）》解读.pdf"
+      },
+      {
+        "id": "symptom:nyctalopia_progressive",
+        "label": "Symptom",
+        "name": "进行性夜盲",
+        "definition": "无脉络膜症最早期的症状，通常在童年期出现，随后发展为视野缩窄。",
+        "source_pdf": "《无脉络膜症临床诊疗中国专家共识（2024年）》解读.pdf"
+      },
+      {
+        "id": "diagnostic:faf_island",
+        "label": "Diagnostic",
+        "name": "残存黄斑岛 (FAF特征)",
+        "definition": "眼底自发荧光检查中，无脉络膜症晚期典型的表现，仅在黄斑中心凹保留小片状强荧光区。",
+        "source_pdf": "《无脉络膜症临床诊疗中国专家共识（2024年）》解读.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:pacg_acute",
+        "target": "treatment:trabeculectomy_standard",
+        "relation": "药物无效时的手术治疗"
+      },
+      {
+        "source": "diagnostic:provocative_test_dark_room",
+        "target": "disease:glaucoma_china_guideline",
+        "relation": "辅助诊断手段"
+      },
+      {
+        "source": "disease:nmosd_on",
+        "target": "diagnostic:aqp4_antibody",
+        "relation": "确诊依赖指标"
+      },
+      {
+        "source": "disease:don",
+        "target": "drug:methylprednisolone_pulse",
+        "relation": "急性期标准治疗"
+      },
+      {
+        "source": "standard:oct_report_2025",
+        "target": "pathology:ellipsoid_zone",
+        "relation": "必须描述的结构"
+      },
+      {
+        "source": "standard:oct_report_2025",
+        "target": "pathology:pachychoroid",
+        "relation": "需识别的征象"
+      },
+      {
+        "source": "drug:anti_tnf_alpha",
+        "target": "disease:behcet_uveitis",
+        "relation": "一线或二线推荐"
+      },
+      {
+        "source": "drug:anti_tnf_alpha",
+        "target": "protocol:tb_hepatitis_screening",
+        "relation": "用药前强制执行"
+      },
+      {
+        "source": "disease:choroideremia",
+        "target": "gene:chm_gene",
+        "relation": "致病基因"
+      },
+      {
+        "source": "disease:choroideremia",
+        "target": "symptom:nyctalopia_progressive",
+        "relation": "首发症状"
+      },
+      {
+        "source": "disease:choroideremia",
+        "target": "diagnostic:faf_island",
+        "relation": "特征性影像表现"
+      }
+    ]
+  }

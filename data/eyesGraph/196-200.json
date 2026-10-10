@@ -1,0 +1,160 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch34"
+    },
+    "nodes": [
+      {
+        "id": "surgery:transprk",
+        "label": "Surgery",
+        "name": "经上皮准分子激光角膜切削术 (TransPRK)",
+        "definition": "一种全激光表层角膜屈光手术，利用准分子激光一步去除角膜上皮和切削基质，无需器械接触角膜。",
+        "source_pdf": "中国经上皮准分子激光角膜切削术专家共识（2019年）.pdf"
+      },
+      {
+        "id": "technology:smart_pulse_technology",
+        "label": "Technology",
+        "name": "智能脉冲技术 (SPT)",
+        "definition": "应用于TransPRK的激光切削辅助技术，通过优化激光脉冲排列，获得更光滑的角膜基质床，有助于术后视力恢复。",
+        "source_pdf": "中国经上皮准分子激光角膜切削术专家共识（2019年）.pdf"
+      },
+      {
+        "id": "complication:haze_transprk",
+        "label": "Complication",
+        "name": "角膜上皮下混浊 (Haze)",
+        "definition": "表层屈光手术后角膜愈合反应导致的基质混浊，TransPRK术后Haze发生率相对较低，但仍需激素预防。",
+        "source_pdf": "中国经上皮准分子激光角膜切削术专家共识（2019年）.pdf"
+      },
+      {
+        "id": "drug:glaucoma_fixed_combination",
+        "label": "Drug",
+        "name": "抗青光眼复方制剂 (FC)",
+        "definition": "将两种不同作用机制的降眼压药物固定比例混合在同一滴眼液中，旨在提高疗效、减少滴眼次数和防腐剂暴露。",
+        "source_pdf": "中国抗青光眼药物复方制剂使用的专家共识（2019年）.pdf"
+      },
+      {
+        "id": "drug:pg_timolol_fc",
+        "label": "Drug",
+        "name": "前列腺素/噻吗洛尔复方制剂",
+        "definition": "最常用的青光眼复方制剂（如拉坦噻吗、曲伏噻吗），具有互补的降压机制（增加流出+减少生成），每日仅需一次点药。",
+        "source_pdf": "中国抗青光眼药物复方制剂使用的专家共识（2019年）.pdf"
+      },
+      {
+        "id": "disease:glaucoma_medication_osd",
+        "label": "Disease",
+        "name": "抗青光眼药物相关眼表疾病",
+        "definition": "长期使用抗青光眼药物（特别是含防腐剂的）引起的眼表结构和功能损害，表现为干眼、结膜炎、睑缘炎等。",
+        "source_pdf": "中国抗青光眼药物相关眼表疾病诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "risk_factor:bak_glaucoma",
+        "label": "Risk Factor",
+        "name": "苯扎氯铵 (BAK) 累积效应",
+        "definition": "青光眼药物中最常见的防腐剂，具有累积毒性，可破坏角膜上皮屏障、诱导炎症和氧化应激。",
+        "source_pdf": "中国抗青光眼药物相关眼表疾病诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "treatment:preservative_free_switch",
+        "label": "Treatment Strategy",
+        "name": "无防腐剂药物转换",
+        "definition": "对于出现眼表疾病或需长期多药治疗的青光眼患者，主要管理策略是转换为无防腐剂单剂量包装药物或复方制剂。",
+        "source_pdf": "中国抗青光眼药物相关眼表疾病诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "surgery:subconjunctival_migs",
+        "label": "Surgery",
+        "name": "结膜下植入物MIGS",
+        "definition": "通过微创方式将引流管（如XEN）植入结膜下，建立房水外引流通道的青光眼手术。",
+        "source_pdf": "中国结膜下植入物滤过性微创青光眼手术围手术期管理专家共识（2023年）.pdf"
+      },
+      {
+        "id": "device:xen_gel_stent_china",
+        "label": "Device",
+        "name": "XEN 凝胶引流管",
+        "definition": "一种由明胶制成的亲水性微管，内径45μm，用于连接前房与结膜下间隙，通过限制流量预防低眼压。",
+        "source_pdf": "中国结膜下植入物滤过性微创青光眼手术围手术期管理专家共识（2023年）.pdf"
+      },
+      {
+        "id": "drug:mmc_migs",
+        "label": "Drug",
+        "name": "丝裂霉素C (MMC) - MIGS",
+        "definition": "结膜下MIGS术中必须使用的抗代谢药物，用于抑制滤过泡瘢痕化，维持手术远期成功率。",
+        "source_pdf": "中国结膜下植入物滤过性微创青光眼手术围手术期管理专家共识（2023年）.pdf"
+      },
+      {
+        "id": "disease:infiltrative_optic_neuropathy",
+        "label": "Disease",
+        "name": "浸润性视神经病变 (ION)",
+        "definition": "由肿瘤（白血病、淋巴瘤、癌转移）或炎症细胞（结节病、肉芽肿）直接浸润视神经引起的视神经病变。",
+        "source_pdf": "中国浸润性视神经病变诊断和治疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "disease:leukemic_optic_neuropathy",
+        "label": "Disease",
+        "name": "白血病视神经浸润",
+        "definition": "中枢神经系统白血病的一种表现，视盘水肿伴出血，视神经增粗，需行鞘内化疗或放疗。",
+        "parent_id": "disease:infiltrative_optic_neuropathy",
+        "source_pdf": "中国浸润性视神经病变诊断和治疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "diagnostic:optic_nerve_mri_enhancement",
+        "label": "Diagnostic",
+        "name": "视神经MRI增强扫描 (ION)",
+        "definition": "ION的关键影像学特征，表现为视神经弥漫性增粗、强化，有时可见脑膜强化（“轨道征”）。",
+        "source_pdf": "中国浸润性视神经病变诊断和治疗专家共识（2022年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "surgery:transprk",
+        "target": "complication:haze_transprk",
+        "relation": "潜在并发症"
+      },
+      {
+        "source": "technology:smart_pulse_technology",
+        "target": "surgery:transprk",
+        "relation": "技术升级"
+      },
+      {
+        "source": "drug:pg_timolol_fc",
+        "target": "drug:glaucoma_fixed_combination",
+        "relation": "主要类型"
+      },
+      {
+        "source": "drug:glaucoma_fixed_combination",
+        "target": "disease:poag_full",
+        "relation": "推荐治疗 (减少负担)"
+      },
+      {
+        "source": "disease:glaucoma_medication_osd",
+        "target": "risk_factor:bak_glaucoma",
+        "relation": "主要诱因"
+      },
+      {
+        "source": "treatment:preservative_free_switch",
+        "target": "disease:glaucoma_medication_osd",
+        "relation": "核心管理策略"
+      },
+      {
+        "source": "surgery:subconjunctival_migs",
+        "target": "device:xen_gel_stent_china",
+        "relation": "使用器械"
+      },
+      {
+        "source": "drug:mmc_migs",
+        "target": "surgery:subconjunctival_migs",
+        "relation": "术中辅助"
+      },
+      {
+        "source": "disease:infiltrative_optic_neuropathy",
+        "target": "disease:leukemic_optic_neuropathy",
+        "relation": "包含"
+      },
+      {
+        "source": "disease:infiltrative_optic_neuropathy",
+        "target": "diagnostic:optic_nerve_mri_enhancement",
+        "relation": "特征性影像"
+      }
+    ]
+  }

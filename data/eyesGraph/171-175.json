@@ -1,0 +1,171 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch29"
+    },
+    "nodes": [
+      {
+        "id": "service:dry_eye_center",
+        "label": "Service Model",
+        "name": "干眼诊疗中心",
+        "definition": "具备专业人员、设备和规范化诊疗流程，能提供干眼慢病管理、个性化物理治疗及健康教育的专科医疗单元。",
+        "source_pdf": "中国干眼诊疗中心规范化建设专家共识(2021).pdf"
+      },
+      {
+        "id": "standard:dry_eye_center_equipment",
+        "label": "Standard",
+        "name": "干眼中心设备配置标准",
+        "definition": "基础配置包括裂隙灯、眼表综合分析仪；高级配置包括共聚焦显微镜、强脉冲光治疗仪、热脉动治疗仪等。",
+        "source_pdf": "中国干眼诊疗中心规范化建设专家共识(2021).pdf"
+      },
+      {
+        "id": "definition:dry_eye_2020",
+        "label": "Definition",
+        "name": "干眼 (2020中国定义)",
+        "definition": "以泪膜稳态失衡为主要特征，伴有眼部不适症状的多因素眼表疾病，强调了泪膜不稳定、高渗透压、眼表炎症与损伤及神经感觉异常的作用。",
+        "source_pdf": "中国干眼专家共识：定义和分类（2020年）.pdf"
+      },
+      {
+        "id": "classification:mixed_dry_eye",
+        "label": "Classification",
+        "name": "混合型干眼",
+        "definition": "临床最常见的干眼类型，同时存在水液缺乏和蒸发过强两种机制，通常由一种类型发展而来。",
+        "source_pdf": "中国干眼专家共识：定义和分类（2020年）.pdf"
+      },
+      {
+        "id": "classification:lifestyle_related_dry_eye",
+        "label": "Classification",
+        "name": "生活方式相关干眼",
+        "definition": "由视频终端使用、睡眠不足、化妆、吸烟等不良生活习惯诱发的干眼，是近年来发病率上升最快的类型。",
+        "source_pdf": "中国干眼专家共识：定义和分类（2020年）.pdf"
+      },
+      {
+        "id": "disease:immune_related_dry_eye",
+        "label": "Disease",
+        "name": "免疫性疾病相关性干眼",
+        "definition": "由全身或局部免疫性疾病（如SS, GVHD, SJS, OCP）导致的干眼，病情重、难治愈，常伴严重的眼表破坏。",
+        "source_pdf": "中国干眼专家共识：免疫性疾病相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "disease:gvhd_ocular",
+        "label": "Disease",
+        "name": "移植物抗宿主病 (眼部表现)",
+        "definition": "造血干细胞移植后的常见并发症，眼部表现为严重的结膜炎、角膜上皮病变和瘢痕形成，是免疫性干眼的典型代表。",
+        "source_pdf": "中国干眼专家共识：免疫性疾病相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "disease:stevens_johnson_syndrome_ocular",
+        "label": "Disease",
+        "name": "史蒂文斯-约翰逊综合征 (眼部)",
+        "definition": "一种严重的免疫介导性皮肤黏膜反应，急性期可致眼表坏死，慢性期导致眼睑畸形、倒睫和严重干眼。",
+        "source_pdf": "中国干眼专家共识：免疫性疾病相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "disease:vkh_syndrome",
+        "label": "Disease",
+        "name": "福格特-小柳-原田综合征 (VKH)",
+        "definition": "一种针对黑色素细胞的自身免疫性肉芽肿性全葡萄膜炎，常伴有脑膜刺激征、听力下降和皮肤白斑/脱发。",
+        "source_pdf": "中国福格特-小柳-原田综合征临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "symptom:sunset_glow_fundus",
+        "label": "Symptom",
+        "name": "晚霞状眼底",
+        "definition": "VKH慢性复发期或恢复期的特征性改变，由于脉络膜黑色素细胞脱失，眼底呈现橙红色改变。",
+        "source_pdf": "中国福格特-小柳-原田综合征临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "symptom:dalen_fuchs_nodules",
+        "label": "Symptom",
+        "name": "Dalen-Fuchs 结节",
+        "definition": "VKH典型的眼底体征，为视网膜色素上皮层下的黄白色肉芽肿性结节。",
+        "source_pdf": "中国福格特-小柳-原田综合征临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "treatment:corticosteroid_systemic_vkh",
+        "label": "Treatment",
+        "name": "全身糖皮质激素 (VKH)",
+        "definition": "VKH急性期治疗的首选，需足量、足疗程（通常需维持6个月以上）以防复发和并发症。",
+        "source_pdf": "中国福格特-小柳-原田综合征临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "guideline:dry_eye_china_2024",
+        "label": "Guideline",
+        "name": "中国干眼临床诊疗专家共识 (2024年)",
+        "definition": "最新的干眼诊疗规范，强调分级诊疗、慢病管理理念，并细化了物理治疗（IPL, LipiFlow）和手术治疗的适应证。",
+        "source_pdf": "中国干眼临床诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "treatment:ipl_dry_eye_2024",
+        "label": "Treatment",
+        "name": "强脉冲光 (IPL) - 2024共识",
+        "definition": "2024版共识明确IPL为MGD及相关干眼的主要物理治疗手段，具有抗炎、杀螨、热疏通多重作用。",
+        "source_pdf": "中国干眼临床诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "treatment:free_graft_transplantation",
+        "label": "Surgery",
+        "name": "游离颌下腺移植 (干眼)",
+        "definition": "针对绝对泪液缺乏（如晚期SJS、OCP）的终极手术方案，利用颌下腺分泌物替代泪液。",
+        "source_pdf": "中国干眼临床诊疗专家共识（2024年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "service:dry_eye_center",
+        "target": "standard:dry_eye_center_equipment",
+        "relation": "建设要求"
+      },
+      {
+        "source": "definition:dry_eye_2020",
+        "target": "classification:mixed_dry_eye",
+        "relation": "包含分类"
+      },
+      {
+        "source": "definition:dry_eye_2020",
+        "target": "classification:lifestyle_related_dry_eye",
+        "relation": "强调病因"
+      },
+      {
+        "source": "disease:immune_related_dry_eye",
+        "target": "disease:gvhd_ocular",
+        "relation": "包含疾病"
+      },
+      {
+        "source": "disease:immune_related_dry_eye",
+        "target": "disease:stevens_johnson_syndrome_ocular",
+        "relation": "包含疾病"
+      },
+      {
+        "source": "disease:vkh_syndrome",
+        "target": "symptom:sunset_glow_fundus",
+        "relation": "晚期体征"
+      },
+      {
+        "source": "disease:vkh_syndrome",
+        "target": "symptom:dalen_fuchs_nodules",
+        "relation": "特征性体征"
+      },
+      {
+        "source": "disease:vkh_syndrome",
+        "target": "treatment:corticosteroid_systemic_vkh",
+        "relation": "标准治疗"
+      },
+      {
+        "source": "guideline:dry_eye_china_2024",
+        "target": "treatment:ipl_dry_eye_2024",
+        "relation": "推荐物理治疗"
+      },
+      {
+        "source": "guideline:dry_eye_china_2024",
+        "target": "treatment:free_graft_transplantation",
+        "relation": "重症手术推荐"
+      },
+      {
+        "source": "disease:sjogren_syndrome",
+        "target": "disease:immune_related_dry_eye",
+        "relation": "属于"
+      }
+    ]
+  }

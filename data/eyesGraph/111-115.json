@@ -1,0 +1,159 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch17"
+    },
+    "nodes": [
+      {
+        "id": "complication:hyphema_post_goniotomy",
+        "label": "Complication",
+        "name": "房角切开术后前房出血",
+        "definition": "内路房角切开术后常见的并发症，多数为微量出血，可自行吸收，但严重出血需干预。",
+        "source_pdf": "房角切开术围手术期前房出血及术后一过性眼压升高管理方案专家推荐意见.pdf"
+      },
+      {
+        "id": "complication:iop_spike_post_goniotomy",
+        "label": "Complication",
+        "name": "术后一过性眼压升高 (IOP Spike)",
+        "definition": "房角切开术后短期内出现的眼压急剧升高，可能与粘弹剂残留、前房出血或炎症有关。",
+        "source_pdf": "房角切开术围手术期前房出血及术后一过性眼压升高管理方案专家推荐意见.pdf"
+      },
+      {
+        "id": "treatment:anterior_chamber_washout",
+        "label": "Treatment",
+        "name": "前房冲洗术",
+        "definition": "当前房出血量大、眼压控制不佳或有角膜血染风险时，需进行的手术干预措施。",
+        "source_pdf": "房角切开术围手术期前房出血及术后一过性眼压升高管理方案专家推荐意见.pdf"
+      },
+      {
+        "id": "drug:compound_anisodine",
+        "label": "Drug",
+        "name": "复方樟柳碱注射液",
+        "definition": "一种中西药复方制剂，主要成分为氢溴酸樟柳碱和普鲁卡因，具有缓解血管痉挛、改善微循环的作用。",
+        "source_pdf": "复方樟柳碱注射液在常见缺血性眼病中应用专家共识(2020版).pdf"
+      },
+      {
+        "id": "disease:ischemic_optic_neuropathy_nonarteritic",
+        "label": "Disease",
+        "name": "非动脉炎性前部缺血性视神经病变 (NAION)",
+        "definition": "复方樟柳碱的主要适应症之一，用于改善视盘供血，促进视功能恢复。",
+        "source_pdf": "复方樟柳碱注射液在常见缺血性眼病中应用专家共识(2020版).pdf"
+      },
+      {
+        "id": "procedure:temporal_injection",
+        "label": "Procedure",
+        "name": "颞浅动脉旁皮下注射",
+        "definition": "复方樟柳碱的特定给药方式，通过刺激植物神经末梢调节眼部血管舒缩功能。",
+        "source_pdf": "复方樟柳碱注射液在常见缺血性眼病中应用专家共识(2020版).pdf"
+      },
+      {
+        "id": "diagnostic:metagenomic_ngs",
+        "label": "Diagnostic",
+        "name": "宏基因组二代测序 (mNGS)",
+        "definition": "感染性眼病病原学诊断的新技术，能无偏倚地检测细菌、真菌、病毒和寄生虫，尤其适用于疑难病例。",
+        "source_pdf": "感染性眼病的病原微生物实验室诊断专家共识.pdf"
+      },
+      {
+        "id": "diagnostic:corneal_scraping",
+        "label": "Diagnostic",
+        "name": "角膜刮片检查",
+        "definition": "感染性角膜炎的一线诊断方法，通过显微镜检（革兰染色、吉姆萨染色等）快速初步鉴定病原体。",
+        "source_pdf": "感染性眼病的病原微生物实验室诊断专家共识.pdf"
+      },
+      {
+        "id": "strategy:myopia_prevention_public_health",
+        "label": "Strategy",
+        "name": "近视防控公共卫生策略 (分期)",
+        "definition": "将近视防控分为近视前驱期（预防发生）、近视发展期（控制进展）和高度近视期（防并发症）三个阶段。",
+        "source_pdf": "儿童青少年近视防控公共卫生策略分期专家共识（2022）.pdf"
+      },
+      {
+        "id": "concept:pre_myopia",
+        "label": "Concept",
+        "name": "近视前驱期 (Pre-myopia)",
+        "definition": "指儿童远视储备低于相应年龄段正常值，虽未发展为近视，但发生近视的风险极高。",
+        "source_pdf": "儿童青少年近视防控公共卫生策略分期专家共识（2022）.pdf"
+      },
+      {
+        "id": "treatment:outdoor_activity",
+        "label": "Intervention",
+        "name": "户外活动 (2小时/天)",
+        "definition": "近视前驱期和近视发展期最有效的公共卫生干预措施，可显著降低近视发生率。",
+        "source_pdf": "儿童青少年近视防控公共卫生策略分期专家共识（2022）.pdf"
+      },
+      {
+        "id": "treatment:tcm_auricular_point",
+        "label": "Treatment",
+        "name": "耳穴压丸",
+        "definition": "中西医结合诊疗指南推荐的近视辅助疗法，通过刺激耳廓特定穴位调节眼部气血。",
+        "source_pdf": "儿童青少年近视中西医结合诊疗指南.pdf"
+      },
+      {
+        "id": "treatment:orthokeratology",
+        "label": "Treatment",
+        "name": "角膜塑形镜 (OK镜)",
+        "definition": "中西医结合指南推荐用于控制近视进展的光学手段，通过夜间佩戴改变角膜形态。",
+        "source_pdf": "儿童青少年近视中西医结合诊疗指南.pdf"
+      },
+      {
+        "id": "disease:pathologic_myopia",
+        "label": "Disease",
+        "name": "病理性近视",
+        "definition": "高度近视伴有眼底后极部退行性病变（如后巩膜葡萄肿、漆裂纹），致盲风险高。",
+        "source_pdf": "儿童青少年近视防控公共卫生策略分期专家共识（2022）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "treatment:anterior_chamber_washout",
+        "target": "complication:hyphema_post_goniotomy",
+        "relation": "严重时的处理"
+      },
+      {
+        "source": "drug:compound_anisodine",
+        "target": "disease:ischemic_optic_neuropathy_nonarteritic",
+        "relation": "推荐治疗"
+      },
+      {
+        "source": "drug:compound_anisodine",
+        "target": "disease:central_retinal_artery_occlusion",
+        "relation": "辅助治疗"
+      },
+      {
+        "source": "diagnostic:metagenomic_ngs",
+        "target": "disease:bacterial_keratitis",
+        "relation": "疑难病例诊断"
+      },
+      {
+        "source": "diagnostic:corneal_scraping",
+        "target": "disease:bacterial_keratitis",
+        "relation": "首选快速诊断"
+      },
+      {
+        "source": "strategy:myopia_prevention_public_health",
+        "target": "concept:pre_myopia",
+        "relation": "重点干预阶段"
+      },
+      {
+        "source": "treatment:outdoor_activity",
+        "target": "concept:pre_myopia",
+        "relation": "主要预防手段"
+      },
+      {
+        "source": "treatment:tcm_auricular_point",
+        "target": "disease:myopia",
+        "relation": "辅助控制"
+      },
+      {
+        "source": "disease:pathologic_myopia",
+        "target": "disease:choroidal_neovascularization",
+        "relation": "高风险并发"
+      },
+      {
+        "source": "procedure:temporal_injection",
+        "target": "drug:compound_anisodine",
+        "relation": "给药途径"
+      }
+    ]
+  }

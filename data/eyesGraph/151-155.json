@@ -1,0 +1,166 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch25"
+    },
+    "nodes": [
+      {
+        "id": "disease:cataract_perioperative_dry_eye",
+        "label": "Disease",
+        "name": "白内障围手术期干眼",
+        "definition": "白内障手术前后出现的泪膜稳态失衡，可能由手术创伤、显微镜光照、围手术期用药（防腐剂）等因素诱发或加重。",
+        "source_pdf": "中国白内障围手术期干眼防治专家共识（2021年）.pdf"
+      },
+      {
+        "id": "risk_factor:benzalkonium_chloride",
+        "label": "Risk Factor",
+        "name": "苯扎氯铵 (防腐剂)",
+        "definition": "眼科滴眼液中常用的防腐剂，长期使用可破坏角膜上皮屏障，加重围手术期干眼症状。",
+        "source_pdf": "中国白内障围手术期干眼防治专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:optimization_ocular_surface",
+        "label": "Treatment",
+        "name": "术前眼表优化",
+        "definition": "对于不仅有干眼症状而且有体征的白内障患者，建议术前使用人工泪液、抗炎药物等进行治疗，待眼表稳定后再行手术。",
+        "source_pdf": "中国白内障围手术期干眼防治专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:behcet_uveitis_2023",
+        "label": "Disease",
+        "name": "白塞综合征性葡萄膜炎 (2023共识)",
+        "definition": "一种严重的致盲性葡萄膜炎，特征为双眼复发性全葡萄膜炎、视网膜血管炎，常伴有口腔溃疡等全身表现。",
+        "source_pdf": "中国白塞综合征性葡萄膜炎临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "drug:adalimumab_behcet",
+        "label": "Drug",
+        "name": "阿达木单抗 (白塞适应症)",
+        "definition": "中国专家共识推荐作为治疗难治性白塞葡萄膜炎的一线生物制剂，可快速控制炎症并减少激素用量。",
+        "source_pdf": "中国白塞综合征性葡萄膜炎临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "drug:interferon_alpha2a_behcet",
+        "label": "Drug",
+        "name": "干扰素α-2a (白塞治疗)",
+        "definition": "用于治疗难治性白塞葡萄膜炎，尤其适用于伴有神经系统受累的患者。",
+        "source_pdf": "中国白塞综合征性葡萄膜炎临床诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "condition:presbyopia_early_refractive",
+        "label": "Condition",
+        "name": "伴年龄相关性调节不足的屈光不正",
+        "definition": "指40岁以上，调节力逐渐下降但尚未完全丧失，同时伴有近视、远视或散光的人群。",
+        "source_pdf": "中国伴年龄相关性调节不足屈光不正患者激光角膜屈光手术专家共识（2021年）.pdf"
+      },
+      {
+        "id": "strategy:monovision_laser",
+        "label": "Treatment Strategy",
+        "name": "单眼视激光手术 (Monovision)",
+        "definition": "通过激光矫正，使主视眼看远，非主视眼保留轻度近视（-0.50D至-1.50D）看近，以解决老视症状。",
+        "source_pdf": "中国伴年龄相关性调节不足屈光不正患者激光角膜屈光手术专家共识（2021年）.pdf"
+      },
+      {
+        "id": "test:dominant_eye_test",
+        "label": "Diagnostic",
+        "name": "主视眼检测",
+        "definition": "单眼视手术设计前的关键步骤，通常选择主视眼矫正远视力。",
+        "source_pdf": "中国伴年龄相关性调节不足屈光不正患者激光角膜屈光手术专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:viral_corneal_endotheliitis",
+        "label": "Disease",
+        "name": "病毒性角膜内皮炎",
+        "definition": "病毒感染角膜内皮细胞引起的炎症，特征为角膜水肿、角膜后沉着物(KP)及前房炎症反应，不累及基质层。",
+        "source_pdf": "中国病毒性角膜内皮炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "pathogen:cmv_endotheliitis",
+        "label": "Pathogen",
+        "name": "巨细胞病毒 (CMV) - 内皮炎",
+        "definition": "引起角膜内皮炎的常见病毒之一，典型表现为钱币状或线状KP，常伴有眼压升高。",
+        "source_pdf": "中国病毒性角膜内皮炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "drug:ganciclovir_gel",
+        "label": "Drug",
+        "name": "更昔洛韦眼用凝胶",
+        "definition": "治疗CMV角膜内皮炎的局部抗病毒药物，通常需长期维持治疗以防复发。",
+        "source_pdf": "中国病毒性角膜内皮炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "disease:adoa",
+        "label": "Disease",
+        "name": "常染色体显性遗传视神经萎缩 (ADOA)",
+        "definition": "最常见的遗传性视神经病变，通常儿童期发病，表现为双眼对称性视力下降、视盘颞侧苍白和中心视野缺损。",
+        "source_pdf": "中国常染色体显性遗传视神经萎缩诊疗专家共识（2024年） (1).pdf"
+      },
+      {
+        "id": "gene:opa1",
+        "label": "Genetic",
+        "name": "OPA1 基因",
+        "definition": "位于3q28-q29，编码线粒体动力蛋白，其突变是ADOA最主要的致病原因（约占60%-80%）。",
+        "source_pdf": "中国常染色体显性遗传视神经萎缩诊疗专家共识（2024年） (1).pdf"
+      },
+      {
+        "id": "drug:idebenone_adoa",
+        "label": "Drug",
+        "name": "艾地苯醌 (Idebenone)",
+        "definition": "一种线粒体保护剂，共识建议可作为ADOA的辅助治疗药物，虽疗效尚待大规模证实。",
+        "source_pdf": "中国常染色体显性遗传视神经萎缩诊疗专家共识（2024年） (1).pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "risk_factor:benzalkonium_chloride",
+        "target": "disease:cataract_perioperative_dry_eye",
+        "relation": "加重因素"
+      },
+      {
+        "source": "treatment:optimization_ocular_surface",
+        "target": "disease:cataract_perioperative_dry_eye",
+        "relation": "预防性策略"
+      },
+      {
+        "source": "drug:adalimumab_behcet",
+        "target": "disease:behcet_uveitis_2023",
+        "relation": "推荐生物制剂"
+      },
+      {
+        "source": "drug:interferon_alpha2a_behcet",
+        "target": "disease:behcet_uveitis_2023",
+        "relation": "难治性治疗"
+      },
+      {
+        "source": "strategy:monovision_laser",
+        "target": "condition:presbyopia_early_refractive",
+        "relation": "手术解决方案"
+      },
+      {
+        "source": "test:dominant_eye_test",
+        "target": "strategy:monovision_laser",
+        "relation": "术前必须"
+      },
+      {
+        "source": "pathogen:cmv_endotheliitis",
+        "target": "disease:viral_corneal_endotheliitis",
+        "relation": "致病原"
+      },
+      {
+        "source": "drug:ganciclovir_gel",
+        "target": "pathogen:cmv_endotheliitis",
+        "relation": "针对性治疗"
+      },
+      {
+        "source": "disease:adoa",
+        "target": "gene:opa1",
+        "relation": "主要致病基因"
+      },
+      {
+        "source": "drug:idebenone_adoa",
+        "target": "disease:adoa",
+        "relation": "辅助治疗"
+      }
+    ]
+  }

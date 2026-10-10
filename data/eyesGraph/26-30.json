@@ -1,0 +1,271 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-PPP-Knowledge-Graph-Batch2"
+    },
+    "nodes": [
+      {
+        "id": "disease:pvd",
+        "label": "Disease",
+        "name": "玻璃体后脱离 (PVD)",
+        "definition": "玻璃体后皮质与视网膜内表面的分离，常见于老年人，主要症状为闪光感和飞蚊症。",
+        "source_pdf": "PVD Retinal Breaks and Lattice Degeneration PPP.pdf"
+      },
+      {
+        "id": "disease:retinal_break",
+        "label": "Disease",
+        "name": "视网膜裂孔",
+        "definition": "视网膜神经上皮层的全层缺损，通常由玻璃体牵引引起，是孔源性视网膜脱离的主要原因。",
+        "source_pdf": "PVD Retinal Breaks and Lattice Degeneration PPP.pdf"
+      },
+      {
+        "id": "disease:lattice_degeneration",
+        "label": "Disease",
+        "name": "格子样变性",
+        "definition": "一种周边视网膜变性，特征为视网膜变薄、玻璃体液化和与其边缘的紧密粘连，增加视网膜脱离风险。",
+        "source_pdf": "PVD Retinal Breaks and Lattice Degeneration PPP.pdf"
+      },
+      {
+        "id": "disease:rhegmatogenous_retinal_detachment",
+        "label": "Disease",
+        "name": "孔源性视网膜脱离 (RRD)",
+        "definition": "液化玻璃体通过视网膜裂孔进入视网膜下腔，导致神经上皮与色素上皮分离。",
+        "source_pdf": "PVD Retinal Breaks and Lattice Degeneration PPP.pdf"
+      },
+      {
+        "id": "treatment:laser_retinopexy",
+        "label": "Treatment",
+        "name": "激光视网膜固定术",
+        "definition": "利用激光在视网膜裂孔周围产生脉络膜视网膜瘢痕粘连，以防止视网膜脱离。",
+        "source_pdf": "PVD Retinal Breaks and Lattice Degeneration PPP.pdf"
+      },
+      {
+        "id": "symptom:flashes_and_floaters",
+        "label": "Symptom",
+        "name": "闪光感与飞蚊症",
+        "definition": "急性玻璃体后脱离或视网膜裂孔形成的典型警示症状。",
+        "source_pdf": "PVD Retinal Breaks and Lattice Degeneration PPP.pdf"
+      },
+      {
+        "id": "disease:myopia",
+        "label": "Disease",
+        "name": "近视",
+        "definition": "一种屈光不正，平行光线聚焦在视网膜前，导致远视力下降。",
+        "source_pdf": "Refractive Errors PPP.pdf"
+      },
+      {
+        "id": "disease:hyperopia",
+        "label": "Disease",
+        "name": "远视",
+        "definition": "一种屈光不正，平行光线聚焦在视网膜后，可能导致视疲劳或调节性内斜视。",
+        "source_pdf": "Refractive Errors PPP.pdf"
+      },
+      {
+        "id": "disease:presbyopia",
+        "label": "Disease",
+        "name": "老视",
+        "definition": "随着年龄增长，晶状体调节能力下降，导致近距离工作困难。",
+        "source_pdf": "Refractive Errors PPP.pdf"
+      },
+      {
+        "id": "disease:astigmatism",
+        "label": "Disease",
+        "name": "散光",
+        "definition": "眼球光学系统的主要经线屈光力不同，导致光线无法聚焦成一个点。",
+        "source_pdf": "Refractive Errors PPP.pdf"
+      },
+      {
+        "id": "surgery:lasik",
+        "label": "Surgery",
+        "name": "准分子激光原位角膜磨镶术 (LASIK)",
+        "definition": "制作角膜瓣后使用准分子激光切削角膜基质以改变角膜曲率的屈光手术。",
+        "source_pdf": "Refractive Surgery PPP_Updated 2024.pdf"
+      },
+      {
+        "id": "surgery:prk",
+        "label": "Surgery",
+        "name": "光折射角膜切削术 (PRP/ASA)",
+        "definition": "去除角膜上皮后直接在角膜前弹力层和基质层进行激光切削的表层屈光手术。",
+        "source_pdf": "Refractive Surgery PPP_Updated 2024.pdf"
+      },
+      {
+        "id": "surgery:smile",
+        "label": "Surgery",
+        "name": "全飞秒激光手术 (SMILE)",
+        "definition": "使用飞秒激光在角膜基质内制作透镜并取出的微创屈光手术。",
+        "source_pdf": "Refractive Surgery PPP_Updated 2024.pdf"
+      },
+      {
+        "id": "surgery:phakic_iol",
+        "label": "Surgery",
+        "name": "有晶体眼人工晶体植入术 (PIOL)",
+        "definition": "在保留自然晶状体的情况下植入人工晶体，常用于矫正高度近视。",
+        "source_pdf": "Refractive Surgery PPP_Updated 2024.pdf"
+      },
+      {
+        "id": "complication:post_refractive_ectasia",
+        "label": "Complication",
+        "name": "屈光术后角膜扩张",
+        "definition": "屈光手术后角膜生物力学强度下降导致的进行性角膜变薄和突出。",
+        "source_pdf": "Refractive Surgery PPP_Updated 2024.pdf"
+      },
+      {
+        "id": "disease:poag_full",
+        "label": "Disease",
+        "name": "原发性开角型青光眼 (POAG)",
+        "definition": "一种慢性视神经病变，特征为视神经结构损伤和视野缺损，房角开放，眼压是主要风险因素。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "disease:normal_tension_glaucoma",
+        "label": "Disease",
+        "name": "正常眼压性青光眼 (NTG)",
+        "definition": "眼压在统计学正常范围内（≤21 mmHg）的开角型青光眼。",
+        "parent_id": "disease:poag_full",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "disease:poag_suspect",
+        "label": "Disease",
+        "name": "原发性开角型青光眼可疑者",
+        "definition": "具有视神经损伤可疑征象、视野缺损可疑征象或高眼压，但尚未确诊为青光眼的个体。",
+        "source_pdf": "Primary Open-Angle Glaucoma Suspect PPP.pdf"
+      },
+      {
+        "id": "disease:ocular_hypertension",
+        "label": "Disease",
+        "name": "高眼压症 (OHT)",
+        "definition": "眼压持续>21 mmHg，但无视神经损伤或视野缺损，房角开放。",
+        "source_pdf": "Primary Open-Angle Glaucoma Suspect PPP.pdf"
+      },
+      {
+        "id": "drug:prostaglandin_analogs",
+        "label": "Drug",
+        "name": "前列腺素类似物 (PGAs)",
+        "definition": "通过增加葡萄膜巩膜通道房水流出来降低眼压，是POAG的一线治疗药物。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "drug:beta_blockers_glaucoma",
+        "label": "Drug",
+        "name": "β受体阻滞剂 (滴眼液)",
+        "definition": "通过减少房水生成来降低眼压的药物。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "treatment:laser_trabeculoplasty_slt",
+        "label": "Treatment",
+        "name": "选择性激光小梁成形术 (SLT)",
+        "definition": "使用Q开关倍频Nd:YAG激光选择性作用于小梁网色素细胞，增加房水流出。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "surgery:trabeculectomy",
+        "label": "Surgery",
+        "name": "小梁切除术",
+        "definition": "建立一条新的房水引流通道至结膜下滤过泡的滤过性手术，用于药物或激光无法控制眼压的青光眼。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "surgery:migs",
+        "label": "Surgery",
+        "name": "微创青光眼手术 (MIGS)",
+        "definition": "一类创伤小、安全性高的青光眼手术，通常通过内路途径增加房水流出。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "diagnostic:pachymetry",
+        "label": "Diagnostic",
+        "name": "角膜厚度测量 (CCT)",
+        "definition": "测量中央角膜厚度，薄角膜是青光眼进展的独立风险因素，且影响眼压测量的准确性。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "diagnostic:gonioscopy",
+        "label": "Diagnostic",
+        "name": "房角镜检查",
+        "definition": "评估前房角结构及其开放或关闭状态的金标准检查。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      },
+      {
+        "id": "diagnostic:visual_field",
+        "label": "Diagnostic",
+        "name": "视野检查 (Perimetry)",
+        "definition": "评估青光眼功能性损伤及其进展的关键检查，常用标准自动视野计(SAP)。",
+        "source_pdf": "Primary Open-Angle Glaucoma PPP.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:pvd",
+        "target": "disease:retinal_break",
+        "relation": "主要致病原因"
+      },
+      {
+        "source": "disease:pvd",
+        "target": "symptom:flashes_and_floaters",
+        "relation": "导致"
+      },
+      {
+        "source": "disease:lattice_degeneration",
+        "target": "disease:retinal_break",
+        "relation": "风险因素"
+      },
+      {
+        "source": "disease:retinal_break",
+        "target": "disease:rhegmatogenous_retinal_detachment",
+        "relation": "如果不治疗可进展为"
+      },
+      {
+        "source": "treatment:laser_retinopexy",
+        "target": "disease:retinal_break",
+        "relation": "预防视网膜脱离"
+      },
+      {
+        "source": "surgery:lasik",
+        "target": "disease:myopia",
+        "relation": "矫正"
+      },
+      {
+        "source": "surgery:lasik",
+        "target": "disease:astigmatism",
+        "relation": "矫正"
+      },
+      {
+        "source": "surgery:lasik",
+        "target": "complication:post_refractive_ectasia",
+        "relation": "潜在严重并发症"
+      },
+      {
+        "source": "disease:poag_full",
+        "target": "drug:prostaglandin_analogs",
+        "relation": "一线药物治疗"
+      },
+      {
+        "source": "disease:poag_full",
+        "target": "treatment:laser_trabeculoplasty_slt",
+        "relation": "初始或辅助治疗"
+      },
+      {
+        "source": "disease:poag_full",
+        "target": "surgery:trabeculectomy",
+        "relation": "药物/激光无效时的治疗"
+      },
+      {
+        "source": "diagnostic:pachymetry",
+        "target": "disease:poag_suspect",
+        "relation": "风险评估指标"
+      },
+      {
+        "source": "disease:ocular_hypertension",
+        "target": "disease:poag_full",
+        "relation": "转化为POAG的风险"
+      },
+      {
+        "source": "diagnostic:gonioscopy",
+        "target": "disease:poag_full",
+        "relation": "确诊房角开放"
+      }
+    ]
+  }

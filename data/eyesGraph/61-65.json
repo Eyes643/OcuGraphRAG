@@ -1,0 +1,166 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch9"
+    },
+    "nodes": [
+      {
+        "id": "role:eclo",
+        "label": "Role",
+        "name": "眼科联络官 (ECLO)",
+        "definition": "在眼科诊所工作的专业人员，为视力丧失患者提供情感支持、社会服务转介及CVI认证协助，是连接临床与社会服务的桥梁。",
+        "source_pdf": "Low-Vision-Guide.pdf"
+      },
+      {
+        "id": "certification:cvi",
+        "label": "Certification",
+        "name": "视力损害认证 (CVI)",
+        "definition": "英国用于正式登记视力障碍（视力受损或严重视力受损）的法律文件，是患者获取社会福利和康复服务的凭证。",
+        "source_pdf": "Low-Vision-Guide.pdf"
+      },
+      {
+        "id": "disease:macular_hole_2025",
+        "label": "Disease",
+        "name": "特发性黄斑裂孔 (2025指南)",
+        "definition": "全层黄斑裂孔，新指南强调了孔径大小对治疗决策（如是否俯卧位）的分层指导作用。",
+        "source_pdf": "Macular-Holes-Guidelines-final-version-jan-2025.pdf"
+      },
+      {
+        "id": "treatment:mh_posturing_regimen",
+        "label": "Treatment",
+        "name": "非仰卧体位 (Non-supine Posturing)",
+        "definition": "对于较小的黄斑裂孔（<400微米），建议术后避免仰卧即可，未必需要严格的俯卧位(Face-down)，以提高患者依从性。",
+        "source_pdf": "Macular-Holes-Guidelines-final-version-jan-2025.pdf"
+      },
+      {
+        "id": "treatment:combined_phacovitrectomy",
+        "label": "Surgery",
+        "name": "联合超声乳化玻璃体切除术",
+        "definition": "对于50岁以上的黄斑裂孔患者，建议同时进行白内障摘除，以避免二次手术并提高视力恢复速度。",
+        "source_pdf": "Macular-Holes-Guidelines-final-version-jan-2025.pdf"
+      },
+      {
+        "id": "disease:coag_management",
+        "label": "Disease",
+        "name": "慢性开角型青光眼 (COAG)",
+        "definition": "一种无痛性眼压升高导致的视神经病变，管理重点在于终身监测和降低眼压以保护视野。",
+        "source_pdf": "Management-of-Open-Angle-Closure-Glaucoma.pdf"
+      },
+      {
+        "id": "treatment:slt_primary",
+        "label": "Treatment",
+        "name": "选择性激光小梁成形术 (SLT - 一线)",
+        "definition": "新指南推荐SLT作为开角型青光眼和高眼压症的初始一线治疗（替代滴眼液），具有更好的成本效益。",
+        "source_pdf": "Management-of-Open-Angle-Closure-Glaucoma.pdf"
+      },
+      {
+        "id": "drug:preservative_free_drops",
+        "label": "Drug",
+        "name": "无防腐剂滴眼液",
+        "definition": "对于需要长期用药且有眼表疾病或对防腐剂过敏的青光眼患者，应优先选择无防腐剂剂型。",
+        "source_pdf": "Management-of-Open-Angle-Closure-Glaucoma.pdf"
+      },
+      {
+        "id": "protocol:ivt_safety_checklist",
+        "label": "Protocol",
+        "name": "玻璃体腔注射安全核查表",
+        "definition": "类似于WHO手术核查表的标准化流程，包括确认患者身份、眼别（标记）、药物剂量及过敏史，必须在注射前执行。",
+        "source_pdf": "Intravitral-injections_consent-and-checklist-recommendations.pdf"
+      },
+      {
+        "id": "risk:wrong_site_injection",
+        "label": "Safety Event",
+        "name": "错误部位注射",
+        "definition": "玻璃体腔注射中的严重“警讯事件”，通常由于标记不清或未执行暂停核对(Time Out)导致。",
+        "source_pdf": "Intravitral-injections_consent-and-checklist-recommendations.pdf"
+      },
+      {
+        "id": "process:informed_consent_ivt",
+        "label": "Process",
+        "name": "IVT 知情同意流程",
+        "definition": "鉴于注射的重复性，建议采用“过程同意书”覆盖一系列治疗，但需定期复核患者意愿。",
+        "source_pdf": "Intravitral-injections_consent-and-checklist-recommendations.pdf"
+      },
+      {
+        "id": "service:nmp_injectors",
+        "label": "Service Model",
+        "name": "非医疗人员注射者 (NMP)",
+        "definition": "经过专门培训的护士、视光师或视轴矫正师，在协议授权下独立执行玻璃体腔注射，以应对日益增长的服务需求。",
+        "source_pdf": "Intravitreal-Injection-Therapy-August-2018-1.pdf"
+      },
+      {
+        "id": "drug:povidone_iodine_5",
+        "label": "Drug",
+        "name": "5% 聚维酮碘",
+        "definition": "玻璃体腔注射前必须使用的眼表消毒剂，需接触结膜囊至少3分钟，是预防眼内炎的最关键措施。",
+        "source_pdf": "Intravitreal-Injection-Therapy-August-2018-1.pdf"
+      },
+      {
+        "id": "complication:post_ivt_endophthalmitis",
+        "label": "Complication",
+        "name": "注射后感染性眼内炎",
+        "definition": "玻璃体腔注射最严重的并发症，发生率约1/1000-1/3000，需紧急玻璃体取样和抗生素治疗。",
+        "source_pdf": "Intravitreal-Injection-Therapy-August-2018-1.pdf"
+      },
+      {
+        "id": "device:speculum_usage",
+        "label": "Device",
+        "name": "开睑器 (Speculum)",
+        "definition": "注射过程中必须使用，以防止睫毛接触注射针头，减少污染风险。",
+        "source_pdf": "Intravitreal-Injection-Therapy-August-2018-1.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "role:eclo",
+        "target": "certification:cvi",
+        "relation": "协助办理"
+      },
+      {
+        "source": "treatment:mh_posturing_regimen",
+        "target": "disease:macular_hole_2025",
+        "relation": "术后管理策略"
+      },
+      {
+        "source": "treatment:combined_phacovitrectomy",
+        "target": "disease:macular_hole_2025",
+        "relation": "推荐手术方式 (>50岁)"
+      },
+      {
+        "source": "treatment:slt_primary",
+        "target": "disease:coag_management",
+        "relation": "NICE推荐一线治疗"
+      },
+      {
+        "source": "drug:preservative_free_drops",
+        "target": "disease:coag_management",
+        "relation": "减少眼表损伤"
+      },
+      {
+        "source": "protocol:ivt_safety_checklist",
+        "target": "risk:wrong_site_injection",
+        "relation": "预防措施"
+      },
+      {
+        "source": "drug:povidone_iodine_5",
+        "target": "complication:post_ivt_endophthalmitis",
+        "relation": "关键预防药物"
+      },
+      {
+        "source": "service:nmp_injectors",
+        "target": "process:informed_consent_ivt",
+        "relation": "需接受培训"
+      },
+      {
+        "source": "device:speculum_usage",
+        "target": "complication:post_ivt_endophthalmitis",
+        "relation": "物理隔离预防"
+      },
+      {
+        "source": "disease:sjogren_syndrome",
+        "target": "disease:aqueous_deficient_ded",
+        "relation": "病因关联 (来自前序知识)"
+      }
+    ]
+  } 

@@ -1,0 +1,171 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch19"
+    },
+    "nodes": [
+      {
+        "id": "disease:syphilitic_optic_neuritis",
+        "label": "Disease",
+        "name": "梅毒性视神经炎",
+        "definition": "梅毒螺旋体感染视神经引起的炎症，属于神经梅毒的一种形式，常表现为视力下降、视野缺损，可伴有眼底改变。",
+        "source_pdf": "梅毒性视神经炎诊断和治疗专家共识(2022).pdf"
+      },
+      {
+        "id": "drug:penicillin_g_aqueous",
+        "label": "Drug",
+        "name": "水剂青霉素G",
+        "definition": "治疗梅毒性视神经炎的首选药物，需大剂量静脉滴注（如1800万~2400万U/d），以确保脑脊液中达到有效杀菌浓度。",
+        "source_pdf": "梅毒性视神经炎诊断和治疗专家共识(2022).pdf"
+      },
+      {
+        "id": "reaction:jarisch_herxheimer",
+        "label": "Complication",
+        "name": "吉-海反应 (Jarisch-Herxheimer Reaction)",
+        "definition": "梅毒患者在接受抗梅毒治疗（特别是青霉素）初期可能出现的急性发热反应，可能导致原有视神经损害暂时加重。",
+        "source_pdf": "梅毒性视神经炎诊断和治疗专家共识(2022).pdf"
+      },
+      {
+        "id": "diagnostic:csf_examination_syphilis",
+        "label": "Diagnostic",
+        "name": "脑脊液检查 (梅毒)",
+        "definition": "对于疑似梅毒性视神经炎患者，脑脊液检查（VDRL/RPR, TPPA）是确诊神经梅毒及评估治疗效果的关键依据。",
+        "source_pdf": "梅毒性视神经炎诊断和治疗专家共识(2022).pdf"
+      },
+      {
+        "id": "technology:ai_macular_screening_primary",
+        "label": "Technology",
+        "name": "基层AI黄斑病变筛查系统",
+        "definition": "专为基层医疗机构设计的自动化筛查工具，用于识别黄斑区的异常体征（如玻璃膜疣、渗出、出血），需具备高灵敏度。",
+        "source_pdf": "面向基层的人工智能眼底彩色照相黄斑区域病变体征筛查系统规范化设计及应用指南.pdf"
+      },
+      {
+        "id": "standard:ai_screening_output",
+        "label": "Standard",
+        "name": "AI筛查输出规范",
+        "definition": "AI系统应输出明确的转诊建议（如“建议转诊”、“定期随访”）而非仅输出疾病诊断，以适应基层全科医生的应用场景。",
+        "source_pdf": "面向基层的人工智能眼底彩色照相黄斑区域病变体征筛查系统规范化设计及应用指南.pdf"
+      },
+      {
+        "id": "treatment:ipl_mgd_therapy",
+        "label": "Treatment",
+        "name": "强脉冲光治疗 (IPL)",
+        "definition": "利用广谱强光照射眼周皮肤，通过光热作用、抗炎作用及杀螨作用治疗睑板腺功能障碍(MGD)及其相关干眼。",
+        "source_pdf": "强脉冲光治疗睑板腺功能障碍及其相关干眼专家共识(2022).pdf"
+      },
+      {
+        "id": "mechanism:demodex_eradication",
+        "label": "Mechanism",
+        "name": "蠕形螨杀灭 (IPL机制)",
+        "definition": "IPL产生的高温可直接杀灭睑缘的蠕形螨，这是其改善MGD症状的重要机制之一。",
+        "source_pdf": "强脉冲光治疗睑板腺功能障碍及其相关干眼专家共识(2022).pdf"
+      },
+      {
+        "id": "mechanism:vessel_thrombosis_ipl",
+        "label": "Mechanism",
+        "name": "异常血管封闭 (IPL机制)",
+        "definition": "IPL通过选择性光热解作用封闭睑缘异常扩张的毛细血管，阻断炎症介质向睑板腺的输送。",
+        "source_pdf": "强脉冲光治疗睑板腺功能障碍及其相关干眼专家共识(2022).pdf"
+      },
+      {
+        "id": "diagnostic:fferg_standard",
+        "label": "Diagnostic",
+        "name": "全视野视网膜电图 (ffERG)",
+        "definition": "评估整个视网膜功能的客观检查，包括暗适应（视杆细胞系统）和明适应（视锥细胞系统）反应，遵循ISCEV标准。",
+        "source_pdf": "临床全视野视网膜电图标准.pdf"
+      },
+      {
+        "id": "component:erg_a_wave",
+        "label": "Component",
+        "name": "ERG a波",
+        "definition": "ERG波形中的第一个负波，主要起源于光感受器（视杆和视锥细胞）的超极化活动。",
+        "source_pdf": "临床全视野视网膜电图标准.pdf"
+      },
+      {
+        "id": "component:erg_b_wave",
+        "label": "Component",
+        "name": "ERG b波",
+        "definition": "ERG波形中继a波之后的正波，主要反映双极细胞和Müller细胞的活动，视网膜缺血时b波常先于a波受损。",
+        "source_pdf": "临床全视野视网膜电图标准.pdf"
+      },
+      {
+        "id": "diagnostic:vep_standard",
+        "label": "Diagnostic",
+        "name": "视觉诱发电位 (VEP)",
+        "definition": "记录大脑皮层对视觉刺激产生的电活动，主要用于评估视神经和视路的功能完整性。",
+        "source_pdf": "临床视觉诱发电位标准.pdf"
+      },
+      {
+        "id": "metric:p100_latency",
+        "label": "Metric",
+        "name": "P100潜伏期",
+        "definition": "图形VEP中最恒定的正向波峰，其潜伏期延长是视神经脱髓鞘病变（如视神经炎）的敏感指标。",
+        "source_pdf": "临床视觉诱发电位标准.pdf"
+      },
+      {
+        "id": "indication:vep_indication",
+        "label": "Indication",
+        "name": "VEP适应证",
+        "definition": "包括不明原因视力下降、视神经炎、多发性硬化、视路压迫性病变及伪盲的鉴别诊断。",
+        "source_pdf": "临床视觉诱发电位标准.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:syphilitic_optic_neuritis",
+        "target": "drug:penicillin_g_aqueous",
+        "relation": "金标准治疗"
+      },
+      {
+        "source": "disease:syphilitic_optic_neuritis",
+        "target": "diagnostic:csf_examination_syphilis",
+        "relation": "确诊及随访依据"
+      },
+      {
+        "source": "drug:penicillin_g_aqueous",
+        "target": "reaction:jarisch_herxheimer",
+        "relation": "可能诱发"
+      },
+      {
+        "source": "treatment:ipl_mgd_therapy",
+        "target": "disease:meibomian_gland_dysfunction",
+        "relation": "物理治疗"
+      },
+      {
+        "source": "treatment:ipl_mgd_therapy",
+        "target": "mechanism:demodex_eradication",
+        "relation": "作用机制"
+      },
+      {
+        "source": "treatment:ipl_mgd_therapy",
+        "target": "mechanism:vessel_thrombosis_ipl",
+        "relation": "作用机制"
+      },
+      {
+        "source": "diagnostic:fferg_standard",
+        "target": "disease:retinitis_pigmentosa",
+        "relation": "核心诊断工具"
+      },
+      {
+        "source": "component:erg_a_wave",
+        "target": "diagnostic:fferg_standard",
+        "relation": "波形组成"
+      },
+      {
+        "source": "diagnostic:vep_standard",
+        "target": "metric:p100_latency",
+        "relation": "关键测量指标"
+      },
+      {
+        "source": "diagnostic:vep_standard",
+        "target": "disease:don",
+        "relation": "评估视神经功能"
+      },
+      {
+        "source": "technology:ai_macular_screening_primary",
+        "target": "standard:ai_screening_output",
+        "relation": "遵循输出规范"
+      }
+    ]
+  }

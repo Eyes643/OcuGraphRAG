@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch20"
+    },
+    "nodes": [
+      {
+        "id": "service:dr_screening_community",
+        "label": "Service Model",
+        "name": "社区DR筛查工作流程",
+        "definition": "依托社区医疗机构（社康中心）进行的糖尿病视网膜病变筛查，包括建档、眼底照相、AI初筛及远程读片。",
+        "source_pdf": "社区医疗机构糖尿病视网膜病变筛查工作流程与管理规范的专家共识（2023版）.pdf"
+      },
+      {
+        "id": "role:case_manager_dr",
+        "label": "Role",
+        "name": "DR个案管理师",
+        "definition": "在社区筛查中负责患者随访管理、健康教育及转诊协调的专职人员（通常由护士或全科医生担任）。",
+        "source_pdf": "社区医疗机构糖尿病视网膜病变筛查工作流程与管理规范的专家共识（2023版）.pdf"
+      },
+      {
+        "id": "criterion:dr_referral_urgent",
+        "label": "Criterion",
+        "name": "DR紧急转诊标准",
+        "definition": "包括严重PDR、伴有高风险特征的DR、新生血管性青光眼或不明原因视力骤降，需立即转诊至上级医院。",
+        "source_pdf": "社区医疗机构糖尿病视网膜病变筛查工作流程与管理规范的专家共识（2023版）.pdf"
+      },
+      {
+        "id": "service:neuro_ophthalmology_inpatient",
+        "label": "Service Model",
+        "name": "神经眼科住院管理",
+        "definition": "针对病情复杂、进展迅速或需特殊治疗（如激素冲击、血浆置换）的神经眼科患者的住院诊疗规范。",
+        "source_pdf": "神经眼科住院患者管理规范.pdf"
+      },
+      {
+        "id": "indication:neuro_oph_admission",
+        "label": "Indication",
+        "name": "神经眼科收治标准",
+        "definition": "包括急性视神经炎、缺血性视神经病变急性期、视神经周围炎、Graves眼病活动期及需进一步查因的视神经病变。",
+        "source_pdf": "神经眼科住院患者管理规范.pdf"
+      },
+      {
+        "id": "diagnostic:erg_standard_iscev",
+        "label": "Diagnostic",
+        "name": "ISCEV标准ERG",
+        "definition": "国际临床视觉电生理学会(ISCEV)制定的全视野视网膜电图标准，包括暗适应0.01、3.0、10.0、振荡电位及明适应3.0、30Hz闪烁光反应。",
+        "source_pdf": "视觉电生理诊断流程指南.pdf"
+      },
+      {
+        "id": "diagnostic:pattern_erg",
+        "label": "Diagnostic",
+        "name": "图形视网膜电图 (PERG)",
+        "definition": "主要反映视网膜神经节细胞及黄斑部功能的电生理检查，P50波源于神经节细胞，N95波源于神经节细胞及其轴突。",
+        "source_pdf": "视觉电生理诊断流程指南.pdf"
+      },
+      {
+        "id": "diagnostic:eog",
+        "label": "Diagnostic",
+        "name": "眼电图 (EOG)",
+        "definition": "记录眼球静息电位随光照变化的检查，主要反映视网膜色素上皮(RPE)与光感受器的功能复合体，Arden比值<1.5为异常。",
+        "source_pdf": "视觉电生理诊断流程指南.pdf"
+      },
+      {
+        "id": "standard:ai_database_quality",
+        "label": "Standard",
+        "name": "AI眼病图像数据库质量评价",
+        "definition": "对入库的眼底图像数据进行完整性、规范性、一致性、准确性及可访问性的多维度评价体系。",
+        "source_pdf": "人工智能眼病图像数据库入库数据质量评价指南.pdf"
+      },
+      {
+        "id": "data:annotation_consistency",
+        "label": "Data Quality",
+        "name": "标注一致性 (Annotation Consistency)",
+        "definition": "同一图像由不同专家或同一专家不同时间标注结果的一致程度，是评价AI训练数据质量的核心指标。",
+        "source_pdf": "人工智能眼病图像数据库入库数据质量评价指南.pdf"
+      },
+      {
+        "id": "technology:ai_myopia_prediction",
+        "label": "Technology",
+        "name": "AI近视预测模型",
+        "definition": "基于屈光度、眼轴、角膜曲率及遗传环境因素构建的算法，用于预测儿童青少年近视发生及进展风险。",
+        "source_pdf": "人工智能在近视防治中的应用专家共识(2024).pdf"
+      },
+      {
+        "id": "technology:ai_fundus_myopia",
+        "label": "Technology",
+        "name": "AI病理性近视眼底分析",
+        "definition": "利用深度学习技术自动识别眼底照片中的豹纹状眼底、后巩膜葡萄肿、漆裂纹及脉络膜新生血管等病变。",
+        "source_pdf": "人工智能在近视防治中的应用专家共识(2024).pdf"
+      },
+      {
+        "id": "application:orthokeratology_ai",
+        "label": "Application",
+        "name": "AI辅助角膜塑形镜验配",
+        "definition": "利用AI分析角膜地形图，辅助设计镜片参数，提高验配成功率及预测塑形效果。",
+        "source_pdf": "人工智能在近视防治中的应用专家共识(2024).pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "service:dr_screening_community",
+        "target": "role:case_manager_dr",
+        "relation": "关键执行人员"
+      },
+      {
+        "source": "service:dr_screening_community",
+        "target": "criterion:dr_referral_urgent",
+        "relation": "转诊依据"
+      },
+      {
+        "source": "service:neuro_ophthalmology_inpatient",
+        "target": "indication:neuro_oph_admission",
+        "relation": "适用人群"
+      },
+      {
+        "source": "service:neuro_ophthalmology_inpatient",
+        "target": "disease:don",
+        "relation": "常见收治病种"
+      },
+      {
+        "source": "diagnostic:erg_standard_iscev",
+        "target": "disease:retinitis_pigmentosa",
+        "relation": "确诊及分型"
+      },
+      {
+        "source": "diagnostic:pattern_erg",
+        "target": "disease:glaucoma_china_guideline",
+        "relation": "早期功能评估"
+      },
+      {
+        "source": "diagnostic:eog",
+        "target": "disease:best_disease",
+        "relation": "特异性诊断异常"
+      },
+      {
+        "source": "standard:ai_database_quality",
+        "target": "data:annotation_consistency",
+        "relation": "评价维度之一"
+      },
+      {
+        "source": "technology:ai_myopia_prediction",
+        "target": "strategy:myopia_prevention_public_health",
+        "relation": "技术支撑"
+      },
+      {
+        "source": "technology:ai_fundus_myopia",
+        "target": "disease:pathologic_myopia",
+        "relation": "筛查与监测"
+      },
+      {
+        "source": "application:orthokeratology_ai",
+        "target": "treatment:orthokeratology",
+        "relation": "优化流程"
+      }
+    ]
+  }

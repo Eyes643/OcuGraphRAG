@@ -1,0 +1,200 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "name": "Ophthalmology-Service-and-Pathology-KG-Batch5"
+  },
+  "nodes": [
+    {
+      "id": "disease:abusive_head_trauma",
+      "label": "Disease",
+      "name": "虐待性头部创伤 (AHT)",
+      "definition": "以前称为摇晃婴儿综合征，指对婴幼儿造成的非意外头部损伤，是婴儿致死或致残的主要原因之一。",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye.pdf"
+    },
+    {
+      "id": "symptom:retinal_hemorrhage_aht",
+      "label": "Symptom",
+      "name": "多层视网膜出血 (AHT特征)",
+      "definition": "涉及视网膜多层（视网膜前、视网膜内、视网膜下）且范围广泛（直至周边部）的出血，是AHT的高度特征性表现。",
+      "parent_id": "disease:abusive_head_trauma",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye.pdf"
+    },
+    {
+      "id": "disease:traumatic_retinoschisis",
+      "label": "Disease",
+      "name": "创伤性视网膜劈裂",
+      "definition": "主要由玻璃体牵引引起的视网膜层间分离，在AHT中常见，通常位于黄斑周围，形成环形褶皱。",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye.pdf"
+    },
+    {
+      "id": "procedure:indirect_ophthalmoscopy_dilated",
+      "label": "Procedure",
+      "name": "散瞳间接检眼镜检查",
+      "definition": "评估疑似AHT儿童的金标准检查方法，必须在扩瞳状态下进行以观察周边视网膜。",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye_Exec_Summary_2024.pdf"
+    },
+    {
+      "id": "role:ophthalmologist_child_protection",
+      "label": "Role",
+      "name": "眼科医生 (儿童保护)",
+      "definition": "在疑似身体虐待案件中负责记录眼部体征、排除出血的其他眼部或系统性原因，并协助多学科团队评估。",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye_Exec_Summary_2024.pdf"
+    },
+    {
+      "id": "service:amd_pathway",
+      "label": "Service Model",
+      "name": "AMD 快速通道服务",
+      "definition": "针对湿性AMD的快速转诊和治疗路径，要求从转诊到首次治疗的时间不超过14天。",
+      "source_pdf": "AMD-Services-Commissioning-Guidance-Recommendtions.pdf"
+    },
+    {
+      "id": "service:one_stop_clinic",
+      "label": "Service Model",
+      "name": "一站式诊所 (One-Stop Clinic)",
+      "definition": "在一次就诊中完成视力检查、OCT扫描、眼科医生评估并进行抗VEGF注射的服务模式，旨在减少患者往返。",
+      "source_pdf": "AMD-Services-Commissioning-Guidance-Recommendtions.pdf"
+    },
+    {
+      "id": "service:virtual_clinic",
+      "label": "Service Model",
+      "name": "虚拟诊所 (Virtual Clinic)",
+      "definition": "由技术人员采集数据（视力、OCT），顾问医生远程阅片并做出治疗决定的随访模式，用于扩大服务容量。",
+      "source_pdf": "AMD-Services-Commissioning-Guidance-Recommendtions.pdf"
+    },
+    {
+      "id": "strategy:treat_and_extend",
+      "label": "Treatment Strategy",
+      "name": "治疗并延长策略 (Treat and Extend)",
+      "definition": "一种抗VEGF给药方案，在疾病无活动性时逐步延长注射间隔，旨在减少注射次数同时维持视力。",
+      "source_pdf": "AMD-Services-Commissioning-Guidance-Recommendtions.pdf"
+    },
+    {
+      "id": "procedure:cataract_surgery_isbcs",
+      "label": "Surgery",
+      "name": "立即双侧序贯白内障手术 (ISBCS)",
+      "definition": "在同一次手术过程中，按顺序对双眼进行白内障手术，需遵循严格的无菌隔离程序以预防双眼眼内炎。",
+      "source_pdf": "cataract.pdf"
+    },
+    {
+      "id": "criterion:cataract_surgery_referral",
+      "label": "Criterion",
+      "name": "白内障手术转诊标准",
+      "definition": "不单纯基于视力数值，而是基于视力下降对患者生活质量的影响以及患者对手术风险的接受程度。",
+      "source_pdf": "cataract.pdf"
+    },
+    {
+      "id": "device:toric_iol",
+      "label": "Device",
+      "name": "散光矫正型人工晶状体 (Toric IOL)",
+      "definition": "用于在白内障手术中同时矫正角膜散光的人工晶状体，具有良好的成本效益。",
+      "source_pdf": "cataract.pdf"
+    },
+    {
+      "id": "complication:posterior_capsular_rupture",
+      "label": "Complication",
+      "name": "后囊破裂 (PCR)",
+      "definition": "白内障手术中最常见的严重术中并发症，也是衡量手术服务质量的关键基准指标。",
+      "source_pdf": "cataract.pdf"
+    },
+    {
+      "id": "screening:newborn_eye",
+      "label": "Screening",
+      "name": "新生儿眼部筛查 (NIPE)",
+      "definition": "出生后72小时内进行的筛查，主要通过红光反射检查先天性白内障和视网膜母细胞瘤。",
+      "source_pdf": "Advice-on-Commissioning-of-Ophthalmic-Services-for-Children.pdf"
+    },
+    {
+      "id": "screening:school_entry",
+      "label": "Screening",
+      "name": "入学视力筛查",
+      "definition": "针对4-5岁儿童的视力筛查，主要目的是检测未矫正的屈光不正和弱视。",
+      "source_pdf": "Advice-on-Commissioning-of-Ophthalmic-Services-for-Children.pdf"
+    },
+    {
+      "id": "disease:cerebral_visual_impairment_cvi",
+      "label": "Disease",
+      "name": "脑性视力损伤 (CVI)",
+      "definition": "发达国家儿童视力障碍的最常见原因，涉及大脑视觉通路的损伤，常伴随神经发育障碍。",
+      "source_pdf": "Advice-on-Commissioning-of-Ophthalmic-Services-for-Children.pdf"
+    },
+    {
+      "id": "service:pediatric_ophthalmology_team",
+      "label": "Service Model",
+      "name": "多学科儿童眼科团队",
+      "definition": "包括眼科医生、视光师、视轴矫正师(Orthoptist)和专科护士，共同管理儿童眼病。",
+      "source_pdf": "Advice-on-Commissioning-of-Ophthalmic-Services-for-Children.pdf"
+    },
+    {
+      "id": "disease:terson_syndrome",
+      "label": "Disease",
+      "name": "Terson综合征",
+      "definition": "蛛网膜下腔出血引起的玻璃体、视网膜下或视网膜内出血，需与AHT引起的出血鉴别。",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye.pdf"
+    },
+    {
+      "id": "pathology:perimacular_fold",
+      "label": "Pathology",
+      "name": "黄斑周视网膜皱褶",
+      "definition": "高凸起的环形视网膜皱褶，通常见于严重的AHT，与极差的视觉预后和高死亡率相关。",
+      "source_pdf": "Abusive-Head-Trauma-and-the-Eye.pdf"
+    }
+  ],
+  "links": [
+    {
+      "source": "disease:abusive_head_trauma",
+      "target": "symptom:retinal_hemorrhage_aht",
+      "relation": "常见眼部体征"
+    },
+    {
+      "source": "disease:abusive_head_trauma",
+      "target": "disease:traumatic_retinoschisis",
+      "relation": "导致"
+    },
+    {
+      "source": "role:ophthalmologist_child_protection",
+      "target": "procedure:indirect_ophthalmoscopy_dilated",
+      "relation": "必须执行的检查"
+    },
+    {
+      "source": "service:one_stop_clinic",
+      "target": "disease:neovascular_amd",
+      "relation": "优化治疗流程"
+    },
+    {
+      "source": "strategy:treat_and_extend",
+      "target": "drug:anti_vegf_maintenance",
+      "relation": "给药策略"
+    },
+    {
+      "source": "procedure:cataract_surgery_isbcs",
+      "target": "surgery:cataract_surgery",
+      "relation": "特殊实施方式"
+    },
+    {
+      "source": "device:toric_iol",
+      "target": "disease:astigmatism",
+      "relation": "矫正"
+    },
+    {
+      "source": "screening:school_entry",
+      "target": "disease:amblyopia_pediatric",
+      "relation": "主要筛查目标"
+    },
+    {
+      "source": "disease:terson_syndrome",
+      "target": "symptom:retinal_hemorrhage_aht",
+      "relation": "鉴别诊断"
+    },
+    {
+      "source": "pathology:perimacular_fold",
+      "target": "disease:abusive_head_trauma",
+      "relation": "高度特异性体征"
+    },
+    {
+      "source": "service:virtual_clinic",
+      "target": "service:amd_pathway",
+      "relation": "增加随访容量"
+    }
+  ]
+}

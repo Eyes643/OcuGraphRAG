@@ -1,0 +1,155 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch36"
+    },
+    "nodes": [
+      {
+        "id": "disease:basal_cell_carcinoma_skin",
+        "label": "Disease",
+        "name": "皮肤基底细胞癌 (BCC)",
+        "definition": "最常见的皮肤恶性肿瘤，多发于头面部（包括眼睑），紫外线暴露和基因突变（Hh信号通路激活）是主要风险因素。",
+        "source_pdf": "中国皮肤基底细胞癌诊疗指南（2023版）.pdf"
+      },
+      {
+        "id": "drug:vismodegib",
+        "label": "Drug",
+        "name": "维莫德吉 (Vismodegib)",
+        "definition": "Hedgehog通路抑制剂，用于治疗不宜手术或放疗的局部晚期或转移性基底细胞癌。",
+        "source_pdf": "中国皮肤基底细胞癌诊疗指南（2023版）.pdf"
+      },
+      {
+        "id": "surgery:mohs_micrographic_surgery",
+        "label": "Surgery",
+        "name": "Mohs显微描记手术",
+        "definition": "在显微镜控制下分层切除肿瘤并即时检查切缘，是高风险部位（如眼周）BCC的首选治疗，能最大程度保留正常组织。",
+        "source_pdf": "中国皮肤基底细胞癌诊疗指南（2023版）.pdf"
+      },
+      {
+        "id": "disease:uveal_melanoma",
+        "label": "Disease",
+        "name": "葡萄膜黑色素瘤 (UM)",
+        "definition": "成人最常见的眼内原发性恶性肿瘤，包括虹膜、睫状体和脉络膜黑色素瘤，易发生肝转移。",
+        "source_pdf": "中国葡萄膜黑色素瘤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:plaque_brachytherapy",
+        "label": "Treatment",
+        "name": "巩膜敷贴放射治疗",
+        "definition": "利用放射性核素（如I-125, Ru-106）敷贴于巩膜表面对肿瘤进行近距离照射，是UM的主要保眼治疗手段。",
+        "source_pdf": "中国葡萄膜黑色素瘤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:enucleation_um",
+        "label": "Surgery",
+        "name": "眼球摘除术 (UM)",
+        "definition": "适用于肿瘤体积大、视力丧失、无法行局部切除或放疗、或伴有严重继发性青光眼的UM患者。",
+        "source_pdf": "中国葡萄膜黑色素瘤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "surgery:gdd_implantation",
+        "label": "Surgery",
+        "name": "青光眼引流阀植入术",
+        "definition": "将引流装置植入眼内，将房水引流至结膜下间隙，适用于难治性青光眼（如NVG、无晶体眼青光眼）。",
+        "source_pdf": "中国青光眼引流阀植入手术操作专家共识（2019年2版）.pdf"
+      },
+      {
+        "id": "complication:tube_exposure",
+        "label": "Complication",
+        "name": "引流管暴露",
+        "definition": "GDD植入术后严重并发症，需手术修补（如使用异体巩膜或角膜补片覆盖），否则易导致眼内炎。",
+        "source_pdf": "中国青光眼引流阀植入手术操作专家共识（2019年2版）.pdf"
+      },
+      {
+        "id": "surgery:endoscopic_dcr",
+        "label": "Surgery",
+        "name": "内镜下泪囊鼻腔吻合术 (En-DCR)",
+        "definition": "在鼻内镜直视下造孔，建立泪囊与鼻腔的直接通道，治疗慢性泪囊炎，避免面部切口。",
+        "source_pdf": "中国内镜泪囊鼻腔吻合术治疗慢性泪囊炎专家共识（2020年）.pdf"
+      },
+      {
+        "id": "technique:mucosal_flap_preservation",
+        "label": "Technique",
+        "name": "鼻黏膜瓣保留技术",
+        "definition": "En-DCR中的关键步骤，保留鼻黏膜瓣覆盖骨窗下缘，可减少肉芽生长，提高吻合口通畅率。",
+        "source_pdf": "中国内镜泪囊鼻腔吻合术治疗慢性泪囊炎专家共识（2020年）.pdf"
+      },
+      {
+        "id": "disease:amd_china_2023",
+        "label": "Disease",
+        "name": "年龄相关性黄斑变性 (2023指南)",
+        "definition": "老年人视力丧失的主要原因，分为干性（萎缩性）和湿性（新生血管性），强调早期筛查和规范化治疗。",
+        "source_pdf": "中国年龄相关性黄斑变性临床诊疗指南（2023年）.pdf"
+      },
+      {
+        "id": "disease:pcv",
+        "label": "Disease",
+        "name": "息肉状脉络膜血管病变 (PCV)",
+        "definition": "nAMD的一种特殊亚型，在亚洲人群中高发，特征为橘红色结节和异常血管网，对光动力疗法(PDT)反应较好。",
+        "parent_id": "disease:amd_china_2023",
+        "source_pdf": "中国年龄相关性黄斑变性临床诊疗指南（2023年）.pdf"
+      },
+      {
+        "id": "treatment:anti_vegf_te",
+        "label": "Treatment Strategy",
+        "name": "治疗-延长 (T&E) 方案",
+        "definition": "nAMD抗VEGF治疗的主流策略，根据病情活动性动态调整注射间隔，旨在维持视力并减少注射次数。",
+        "source_pdf": "中国年龄相关性黄斑变性临床诊疗指南（2023年）.pdf"
+      },
+      {
+        "id": "treatment:pdt_pcv",
+        "label": "Treatment",
+        "name": "光动力疗法 (PDT) - PCV",
+        "definition": "常与抗VEGF联合使用治疗PCV，能更有效地封闭息肉状病灶，减少复发。",
+        "source_pdf": "中国年龄相关性黄斑变性临床诊疗指南（2023年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:basal_cell_carcinoma_skin",
+        "target": "surgery:mohs_micrographic_surgery",
+        "relation": "高风险部位首选"
+      },
+      {
+        "source": "disease:basal_cell_carcinoma_skin",
+        "target": "drug:vismodegib",
+        "relation": "晚期/转移性治疗"
+      },
+      {
+        "source": "disease:uveal_melanoma",
+        "target": "treatment:plaque_brachytherapy",
+        "relation": "保眼治疗金标准"
+      },
+      {
+        "source": "disease:uveal_melanoma",
+        "target": "treatment:enucleation_um",
+        "relation": "大肿瘤治疗"
+      },
+      {
+        "source": "surgery:gdd_implantation",
+        "target": "complication:tube_exposure",
+        "relation": "主要并发症"
+      },
+      {
+        "source": "surgery:endoscopic_dcr",
+        "target": "technique:mucosal_flap_preservation",
+        "relation": "推荐技术"
+      },
+      {
+        "source": "disease:amd_china_2023",
+        "target": "disease:pcv",
+        "relation": "包含亚型"
+      },
+      {
+        "source": "disease:amd_china_2023",
+        "target": "treatment:anti_vegf_te",
+        "relation": "推荐给药方案"
+      },
+      {
+        "source": "disease:pcv",
+        "target": "treatment:pdt_pcv",
+        "relation": "联合治疗选择"
+      }
+    ]
+  }

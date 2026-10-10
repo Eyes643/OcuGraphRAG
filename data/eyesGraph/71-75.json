@@ -1,0 +1,178 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch11"
+    },
+    "nodes": [
+      {
+        "id": "tool:ophthalmology_gtt",
+        "label": "Tool",
+        "name": "眼科全球触发工具 (GTT)",
+        "definition": "一种回顾性病历审查工具，通过识别特定的“触发器”（如重返手术室、眼内炎）来发现医疗护理中的不良事件。",
+        "source_pdf": "Ophthalmology-Global-Trigger-Tool-Copy.pdf"
+      },
+      {
+        "id": "trigger:return_to_theatre",
+        "label": "Trigger",
+        "name": "重返手术室 (触发器)",
+        "definition": "GTT中的关键触发指标，指在同一次住院或30天内非计划地再次进行手术，常提示发生了并发症。",
+        "source_pdf": "Ophthalmology-Global-Trigger-Tool-Copy.pdf"
+      },
+      {
+        "id": "trigger:vitreous_loss_documentation",
+        "label": "Trigger",
+        "name": "玻璃体溢出记录 (触发器)",
+        "definition": "白内障手术中后囊破裂导致玻璃体脱出的记录，是识别手术不良事件的重要线索。",
+        "source_pdf": "Ophthalmology-Global-Trigger-Tool-Copy.pdf"
+      },
+      {
+        "id": "trigger:failed_discharge",
+        "label": "Trigger",
+        "name": "出院失败 (触发器)",
+        "definition": "预定出院的患者因临床原因（如眼压失控、疼痛）未能出院，提示可能存在护理问题。",
+        "source_pdf": "Ophthalmology-Global-Trigger-Tool-Copy.pdf"
+      },
+      {
+        "id": "service:rop_screening_service",
+        "label": "Service Model",
+        "name": "早产儿视网膜病变 (ROP) 筛查服务",
+        "definition": "针对低出生体重或早产儿的强制性眼底筛查网络，要求在新生儿重症监护病房(NICU)内按时进行，以预防盲。",
+        "source_pdf": "Ophthalmic-Services-for-Children-March-2021.pdf"
+      },
+      {
+        "id": "role:lead_clinician_rop",
+        "label": "Role",
+        "name": "ROP 首席临床医生",
+        "definition": "负责协调整个区域ROP筛查和治疗服务的眼科顾问医生，确保所有高危婴儿不被漏诊。",
+        "source_pdf": "Ophthalmic-Services-for-Children-March-2021.pdf"
+      },
+      {
+        "id": "service:school_vision_screening_program",
+        "label": "Service Model",
+        "name": "学校视力筛查项目",
+        "definition": "由地方当局委托，视轴矫正师(Orthoptist)主导的针对4-5岁入学儿童的视力筛查，主要检测弱视。",
+        "source_pdf": "Ophthalmic-Services-for-Children-March-2021.pdf"
+      },
+      {
+        "id": "strategy:lean_thinking_outpatient",
+        "label": "Strategy",
+        "name": "精益思维 (Lean Thinking)",
+        "definition": "应用于眼科门诊流程优化的管理理念，旨在消除浪费（如重复检查、等待时间），最大化患者价值。",
+        "source_pdf": "Ophthalmology-outpatients-–-safe-and-efficient-processes.pdf"
+      },
+      {
+        "id": "process:virtual_review_clinic",
+        "label": "Service Model",
+        "name": "虚拟复查诊所",
+        "definition": "患者仅进行技术检查（如视野、OCT），随后由临床医生异步审查结果并做出决定的门诊模式，不仅限于青光眼。",
+        "source_pdf": "Ophthalmology-outpatients-–-safe-and-efficient-processes.pdf"
+      },
+      {
+        "id": "risk:cjd_transmission",
+        "label": "Risk Factor",
+        "name": "克雅氏病 (CJD) 传播风险",
+        "definition": "朊病毒通过受污染的手术器械传播的风险，眼后段组织（视网膜、视神经）被视为高感染性组织。",
+        "source_pdf": "Ophthalmic-Instrument-Decontamination.pdf"
+      },
+      {
+        "id": "device:single_use_instruments",
+        "label": "Device",
+        "name": "一次性手术器械",
+        "definition": "为预防朊病毒和感染传播，在涉及高风险组织（如视网膜）或无法有效去污的手术中强制使用的器械。",
+        "source_pdf": "Ophthalmic-Instrument-Decontamination.pdf"
+      },
+      {
+        "id": "protocol:instrument_quarantine",
+        "label": "Protocol",
+        "name": "器械隔离程序",
+        "definition": "当患者被确诊或疑似为CJD携带者时，对其使用过的可重复使用器械进行隔离或销毁的规定。",
+        "source_pdf": "Ophthalmic-Instrument-Decontamination.pdf"
+      },
+      {
+        "id": "specialty:ophthalmic_pathology",
+        "label": "Specialty",
+        "name": "眼科病理学",
+        "definition": "专门研究眼球、眼眶和附件疾病的病理学分支，对确诊肿瘤（如黑色素瘤、淋巴瘤）和炎症性疾病至关重要。",
+        "source_pdf": "Ophthalmic-Pathology.pdf"
+      },
+      {
+        "id": "procedure:temporal_artery_biopsy_path",
+        "label": "Procedure",
+        "name": "颞动脉活检 (病理)",
+        "definition": "取颞浅动脉段进行组织病理学检查，是诊断巨细胞动脉炎(GCA)的金标准。",
+        "source_pdf": "Ophthalmic-Pathology.pdf"
+      },
+      {
+        "id": "sample:enucleation_specimen",
+        "label": "Diagnostic",
+        "name": "眼球摘除标本",
+        "definition": "完整摘除的眼球，需特殊固定（通常不切开）送检，以评估眼内肿瘤（如视网膜母细胞瘤、黑色素瘤）的浸润范围。",
+        "source_pdf": "Ophthalmic-Pathology.pdf"
+      },
+      {
+        "id": "disease:ocular_lymphoma_diagnosis",
+        "label": "Disease",
+        "name": "眼部淋巴瘤 (诊断)",
+        "definition": "玻璃体视网膜淋巴瘤常伪装成葡萄膜炎，需通过玻璃体切除术获取标本进行细胞学和分子病理学确诊。",
+        "source_pdf": "Ophthalmic-Pathology.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "trigger:return_to_theatre",
+        "target": "tool:ophthalmology_gtt",
+        "relation": "属于其指标"
+      },
+      {
+        "source": "trigger:vitreous_loss_documentation",
+        "target": "complication:posterior_capsular_rupture",
+        "relation": "指示发生"
+      },
+      {
+        "source": "service:rop_screening_service",
+        "target": "disease:retinopathy_of_prematurity",
+        "relation": "专门管理"
+      },
+      {
+        "source": "role:lead_clinician_rop",
+        "target": "service:rop_screening_service",
+        "relation": "负责监管"
+      },
+      {
+        "source": "strategy:lean_thinking_outpatient",
+        "target": "service:virtual_review_clinic",
+        "relation": "指导流程设计"
+      },
+      {
+        "source": "risk:cjd_transmission",
+        "target": "device:single_use_instruments",
+        "relation": "强制使用原因"
+      },
+      {
+        "source": "procedure:temporal_artery_biopsy_path",
+        "target": "disease:giant_cell_arteritis",
+        "relation": "确诊依据"
+      },
+      {
+        "source": "sample:enucleation_specimen",
+        "target": "disease:uveal_melanoma",
+        "relation": "评估预后"
+      },
+      {
+        "source": "disease:ocular_lymphoma_diagnosis",
+        "target": "specialty:ophthalmic_pathology",
+        "relation": "依赖其确诊"
+      },
+      {
+        "source": "service:school_vision_screening_program",
+        "target": "disease:amblyopia_pediatric",
+        "relation": "主要筛查目标"
+      },
+      {
+        "source": "protocol:instrument_quarantine",
+        "target": "risk:cjd_transmission",
+        "relation": "控制措施"
+      }
+    ]
+  }

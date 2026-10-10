@@ -1,0 +1,199 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch27"
+    },
+    "nodes": [
+      {
+        "id": "disease:pediatric_cataract_china",
+        "label": "Disease",
+        "name": "儿童白内障 (中国共识)",
+        "definition": "儿童期发生的晶状体混浊，是儿童可治性视力障碍的主要原因，治疗需兼顾手术时机、方式及术后弱视治疗。",
+        "source_pdf": "中国儿童白内障围手术期管理专家共识（2022年）.pdf"
+      },
+      {
+        "id": "surgery:pphqv_pediatric",
+        "label": "Surgery",
+        "name": "后囊切开+前部玻璃体切除术 (PPH+AV)",
+        "definition": "儿童白内障手术（尤其是<6岁）的标准步骤，旨在清除后囊膜混浊及支架结构，大幅降低术后PCO发生率。",
+        "source_pdf": "中国儿童白内障围手术期管理专家共识（2022年）.pdf"
+      },
+      {
+        "id": "complication:visual_axis_opacification",
+        "label": "Complication",
+        "name": "视轴混浊 (VAO)",
+        "definition": "儿童白内障术后最常见的并发症，由残留的晶状体上皮细胞增殖引起，严重影响视力发育，需再次手术。",
+        "source_pdf": "中国儿童白内障围手术期管理专家共识（2022年）.pdf"
+      },
+      {
+        "id": "treatment:optical_rehabilitation_pediatric",
+        "label": "Treatment",
+        "name": "术后光学矫正 (儿童)",
+        "definition": "包括人工晶状体植入、角膜接触镜（RGP/软镜）及框架眼镜，是白内障术后预防弱视、重建双眼视的关键。",
+        "source_pdf": "中国儿童白内障围手术期管理专家共识（2022年）.pdf"
+      },
+      {
+        "id": "surgery:pediatric_keratoplasty",
+        "label": "Surgery",
+        "name": "儿童角膜移植手术",
+        "definition": "针对儿童角膜混浊（如Peter异常、巩膜化角膜）的复明手术，因眼球解剖特点（如巩膜弹性大）和术后护理困难，难度远高于成人。",
+        "source_pdf": "中国儿童角膜移植手术专家共识（2022年）.pdf"
+      },
+      {
+        "id": "disease:peters_anomaly",
+        "label": "Disease",
+        "name": "Peter异常",
+        "definition": "一种先天性眼前段发育异常，特征为角膜中央白斑伴虹膜或晶状体粘连，是儿童角膜移植的常见适应证。",
+        "source_pdf": "中国儿童角膜移植手术专家共识（2022年）.pdf"
+      },
+      {
+        "id": "drug:systemic_immunosuppressants_pkp",
+        "label": "Drug",
+        "name": "全身免疫抑制剂 (儿童角膜移植)",
+        "definition": "鉴于儿童免疫反应强、排斥风险高，对于高危移植患儿，共识推荐术后联合使用全身免疫抑制剂（如FK506、环孢素）。",
+        "source_pdf": "中国儿童角膜移植手术专家共识（2022年）.pdf"
+      },
+      {
+        "id": "diagnostic:cycloplegic_refraction_consensus",
+        "label": "Diagnostic",
+        "name": "睫状肌麻痹验光 (中国共识)",
+        "definition": "使用药物麻痹睫状肌后进行的验光检查，是儿童屈光不正诊断的金标准，用药选择需根据年龄和眼位决定。",
+        "source_pdf": "中国儿童睫状肌麻痹验光及安全用药专家共识（2019年）.pdf"
+      },
+      {
+        "id": "drug:atropine_1_percent",
+        "label": "Drug",
+        "name": "1% 硫酸阿托品眼用凝胶/眼膏",
+        "definition": "最强的睫状肌麻痹剂，适用于<6岁儿童、内斜视患者或远视度数较高的初诊儿童，需连续用药3-5天。",
+        "source_pdf": "中国儿童睫状肌麻痹验光及安全用药专家共识（2019年）.pdf"
+      },
+      {
+        "id": "drug:cyclopentolate_hydrochloride",
+        "label": "Drug",
+        "name": "1% 盐酸环喷托酯滴眼液",
+        "definition": "起效快（30-60分钟），麻痹效果接近阿托品但恢复快，是6岁以上学龄儿童或青少年验光的首选药物。",
+        "source_pdf": "中国儿童睫状肌麻痹验光及安全用药专家共识（2019年）.pdf"
+      },
+      {
+        "id": "disease:hsk_china",
+        "label": "Disease",
+        "name": "单纯疱疹病毒性角膜炎 (HSK 中国共识)",
+        "definition": "由HSV-1感染引起的角膜盲主要原因，临床表现多样（上皮型、基质型、内皮型），易复发。",
+        "source_pdf": "中国单纯疱疹病毒性角膜炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "disease:hsk_epithelial",
+        "label": "Disease",
+        "name": "上皮型 HSK",
+        "definition": "病毒在角膜上皮细胞内复制导致，典型表现为树枝状或地图状溃疡，治疗以局部抗病毒为主，禁忌单用激素。",
+        "parent_id": "disease:hsk_china",
+        "source_pdf": "中国单纯疱疹病毒性角膜炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "disease:hsk_stromal_necrotizing",
+        "label": "Disease",
+        "name": "坏死性基质型 HSK",
+        "definition": "病毒直接侵袭基质引起坏死，表现为角膜基质致密浸润、溶解甚至穿孔，需全身及局部抗病毒治疗，慎用激素。",
+        "parent_id": "disease:hsk_china",
+        "source_pdf": "中国单纯疱疹病毒性角膜炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "drug:ganciclovir_gel_hsk",
+        "label": "Drug",
+        "name": "更昔洛韦眼用凝胶 (HSK)",
+        "definition": "广谱抗DNA病毒药物，是治疗HSK的一线局部用药，对HSV-1有效。",
+        "source_pdf": "中国单纯疱疹病毒性角膜炎诊疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "device:miol_china",
+        "label": "Device",
+        "name": "多焦点人工晶状体 (MIOL 中国共识)",
+        "definition": "能同时提供远、中、近视力的人工晶体，适用于有脱镜意愿的白内障患者，但需严格筛选适应证。",
+        "source_pdf": "中国多焦点人工晶状体临床应用专家共识（2019年）.pdf"
+      },
+      {
+        "id": "contraindication:miol_irregular_astigmatism",
+        "label": "Contraindication",
+        "name": "不规则散光 (MIOL禁忌)",
+        "definition": "角膜地形图显示严重不规则散光是MIOL的绝对禁忌证，因其会显著降低术后视觉质量。",
+        "source_pdf": "中国多焦点人工晶状体临床应用专家共识（2019年）.pdf"
+      },
+      {
+        "id": "contraindication:miol_maculopathy",
+        "label": "Contraindication",
+        "name": "黄斑病变 (MIOL禁忌)",
+        "definition": "如严重的黄斑前膜、黄斑变性或糖尿病黄斑水肿，因对比敏感度下降，不建议植入MIOL。",
+        "source_pdf": "中国多焦点人工晶状体临床应用专家共识（2019年）.pdf"
+      },
+      {
+        "id": "symptom:photic_phenomena",
+        "label": "Symptom",
+        "name": "光干扰现象 (Photic Phenomena)",
+        "definition": "MIOL术后常见的视觉症状，包括光晕(Halo)和眩光(Glare)，需术前充分告知患者。",
+        "source_pdf": "中国多焦点人工晶状体临床应用专家共识（2019年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:pediatric_cataract_china",
+        "target": "surgery:pphqv_pediatric",
+        "relation": "推荐标准术式"
+      },
+      {
+        "source": "surgery:pphqv_pediatric",
+        "target": "complication:visual_axis_opacification",
+        "relation": "预防目标"
+      },
+      {
+        "source": "disease:pediatric_cataract_china",
+        "target": "treatment:optical_rehabilitation_pediatric",
+        "relation": "术后必需"
+      },
+      {
+        "source": "disease:peters_anomaly",
+        "target": "surgery:pediatric_keratoplasty",
+        "relation": "手术适应证"
+      },
+      {
+        "source": "surgery:pediatric_keratoplasty",
+        "target": "drug:systemic_immunosuppressants_pkp",
+        "relation": "术后高危管理"
+      },
+      {
+        "source": "diagnostic:cycloplegic_refraction_consensus",
+        "target": "drug:atropine_1_percent",
+        "relation": "金标准用药"
+      },
+      {
+        "source": "diagnostic:cycloplegic_refraction_consensus",
+        "target": "drug:cyclopentolate_hydrochloride",
+        "relation": "学龄儿童首选"
+      },
+      {
+        "source": "disease:hsk_epithelial",
+        "target": "drug:ganciclovir_gel_hsk",
+        "relation": "首选治疗"
+      },
+      {
+        "source": "disease:hsk_stromal_necrotizing",
+        "target": "drug:ganciclovir_gel_hsk",
+        "relation": "联合全身用药"
+      },
+      {
+        "source": "device:miol_china",
+        "target": "contraindication:miol_irregular_astigmatism",
+        "relation": "严格排除"
+      },
+      {
+        "source": "device:miol_china",
+        "target": "contraindication:miol_maculopathy",
+        "relation": "严格排除"
+      },
+      {
+        "source": "device:miol_china",
+        "target": "symptom:photic_phenomena",
+        "relation": "常见副作用"
+      }
+    ]
+  }

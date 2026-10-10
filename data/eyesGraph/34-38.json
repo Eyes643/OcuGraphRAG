@@ -1,0 +1,262 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch4"
+    },
+    "nodes": [
+      {
+        "id": "disease:jia",
+        "label": "Disease",
+        "name": "幼年特发性关节炎 (JIA)",
+        "definition": "儿童期最常见的风湿性疾病，常并发慢性前葡萄膜炎，是儿童致盲的重要原因。",
+        "source_pdf": "2006_PROF_046_JuvenileArthritis-updated-crest-2.pdf"
+      },
+      {
+        "id": "disease:jia_associated_uveitis",
+        "label": "Disease",
+        "name": "JIA相关葡萄膜炎",
+        "definition": "一种慢性、非肉芽肿性前葡萄膜炎，通常双眼发病且无症状（眼不红、无痛），需裂隙灯筛查发现。",
+        "parent_id": "disease:jia",
+        "source_pdf": "2006_PROF_046_JuvenileArthritis-updated-crest-2.pdf"
+      },
+      {
+        "id": "risk_factor:ana_positive",
+        "label": "Risk Factor",
+        "name": "抗核抗体 (ANA) 阳性",
+        "definition": "JIA患者发生葡萄膜炎的主要风险因素，ANA阳性患者需更频繁的眼科筛查。",
+        "source_pdf": "2006_PROF_046_JuvenileArthritis-updated-crest-2.pdf"
+      },
+      {
+        "id": "complication:band_keratopathy",
+        "label": "Complication",
+        "name": "带状角膜病变",
+        "definition": "JIA相关葡萄膜炎的常见并发症，钙质在角膜前弹力层沉积。",
+        "source_pdf": "2006_PROF_046_JuvenileArthritis-updated-crest-2.pdf"
+      },
+      {
+        "id": "drug:methotrexate_jia",
+        "label": "Drug",
+        "name": "甲氨蝶呤 (Methotrexate)",
+        "definition": "用于治疗JIA相关葡萄膜炎的一线免疫抑制剂，可减少对局部激素的依赖。",
+        "source_pdf": "2006_PROF_046_JuvenileArthritis-updated-crest-2.pdf"
+      },
+      {
+        "id": "guideline:jia_screening_schedule",
+        "label": "Guideline",
+        "name": "JIA眼科筛查方案",
+        "definition": "根据JIA亚型、发病年龄和ANA状态制定的定期裂隙灯检查计划，通常每3-4个月一次。",
+        "source_pdf": "2006_PROF_046_JuvenileArthritis-updated-crest-2.pdf"
+      },
+      {
+        "id": "disease:childhood_strabismus",
+        "label": "Disease",
+        "name": "儿童斜视",
+        "definition": "儿童期出现的眼位偏斜，可能导致弱视和双眼视功能丧失。",
+        "source_pdf": "2012-SCI-250-Guidelines-for-Management-of-Strabismus-in-Childhood-2012.pdf"
+      },
+      {
+        "id": "treatment:optical_correction_strabismus",
+        "label": "Treatment",
+        "name": "光学矫正 (配镜)",
+        "definition": "治疗调节性内斜视的首选方法，通过全屈光矫正来控制眼位偏斜。",
+        "source_pdf": "2012-SCI-250-Guidelines-for-Management-of-Strabismus-in-Childhood-2012.pdf"
+      },
+      {
+        "id": "treatment:botulinum_toxin_strabismus",
+        "label": "Treatment",
+        "name": "肉毒杆菌毒素注射",
+        "definition": "一种手术替代方案，通过注射眼外肌治疗某些类型的斜视（如小角度内斜视或手术后残留斜视）。",
+        "source_pdf": "2012-SCI-250-Guidelines-for-Management-of-Strabismus-in-Childhood-2012.pdf"
+      },
+      {
+        "id": "treatment:occlusion_therapy",
+        "label": "Treatment",
+        "name": "遮盖疗法",
+        "definition": "治疗斜视相关弱视的标准方法，通过遮盖健眼强迫使用弱视眼。",
+        "source_pdf": "2012-SCI-250-Guidelines-for-Management-of-Strabismus-in-Childhood-2012.pdf"
+      },
+      {
+        "id": "population:learning_disabilities",
+        "label": "Population",
+        "name": "学习障碍人群 (Learning Disabilities)",
+        "definition": "智力发育显著受损的人群，该人群中视力障碍的患病率远高于普通人群。",
+        "source_pdf": "2011_PROF_128_The-management-of-visual-problems-in-people-with-learning-disabilities.pdf"
+      },
+      {
+        "id": "disease:cerebral_visual_impairment",
+        "label": "Disease",
+        "name": "脑性视力损伤 (CVI)",
+        "definition": "由于大脑视觉处理区域损伤导致的视觉障碍，而非眼球本身病变，在重度学习障碍人群中常见。",
+        "source_pdf": "2011_PROF_128_The-management-of-visual-problems-in-people-with-learning-disabilities.pdf"
+      },
+      {
+        "id": "condition:down_syndrome_ocular",
+        "label": "Condition",
+        "name": "唐氏综合征眼部表现",
+        "definition": "唐氏综合征患者具有特定的眼部风险，包括高屈光不正、调节能力弱、睑缘炎和圆锥角膜。",
+        "source_pdf": "2011_PROF_128_The-management-of-visual-problems-in-people-with-learning-disabilities.pdf"
+      },
+      {
+        "id": "disease:keratoconus_downs",
+        "label": "Disease",
+        "name": "圆锥角膜 (唐氏综合征相关)",
+        "definition": "在唐氏综合征患者中发病率显著升高（达10%-15%），且常为急性发作（急性角膜积水）。",
+        "parent_id": "disease:keratoconus",
+        "source_pdf": "2011_PROF_128_The-management-of-visual-problems-in-people-with-learning-disabilities.pdf"
+      },
+      {
+        "id": "procedure:local_anesthesia_ophthalmic",
+        "label": "Procedure",
+        "name": "眼科局部麻醉",
+        "definition": "包括表面麻醉、球周麻醉、球后麻醉和Tenon囊下麻醉等多种技术。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "procedure:sub_tenon_block",
+        "label": "Procedure",
+        "name": "Tenon囊下麻醉",
+        "definition": "通过钝头套管将麻醉剂注入Tenon囊下间隙，安全性优于针刺阻滞，是目前许多内眼手术的首选。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "procedure:topical_anesthesia",
+        "label": "Procedure",
+        "name": "表面麻醉",
+        "definition": "仅使用滴眼液（如阿梅卡因、利多卡因）进行麻醉，常辅以前房内麻醉，主要用于白内障手术。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "procedure:retrobulbar_block",
+        "label": "Procedure",
+        "name": "球后麻醉",
+        "definition": "将麻醉剂注入肌锥内，通过阻断睫状神经节提供止痛和制动，但并发症风险较高。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "complication:globe_perforation",
+        "label": "Complication",
+        "name": "眼球穿孔",
+        "definition": "眼科针刺麻醉（特别是球后和球周麻醉）的严重并发症，高度近视眼风险更高。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "complication:retrobulbar_hemorrhage",
+        "label": "Complication",
+        "name": "球后出血",
+        "definition": "针刺麻醉损伤眶内血管导致，可能引起眼压急剧升高和视力丧失。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "drug:hyaluronidase",
+        "label": "Drug",
+        "name": "透明质酸酶",
+        "definition": "常作为辅助剂加入局麻药中，以促进麻醉剂在组织中的扩散，提高阻滞效果。",
+        "source_pdf": "2012-SCI-247-Local-Anaesthesia-in-Ophthalmic-Surgery-2012.pdf"
+      },
+      {
+        "id": "guideline:functional_vision_assessment",
+        "label": "Guideline",
+        "name": "功能性视力评估",
+        "definition": "针对学习障碍人群的视力检查方法，侧重于评估其在日常生活中的视觉表现而非单纯的视力表读数。",
+        "source_pdf": "2011_PROF_127_Exe.Summary-The-management-of-visual-problems-in-people-with-learning-disabilities.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:jia",
+        "target": "disease:jia_associated_uveitis",
+        "relation": "主要致病原因"
+      },
+      {
+        "source": "disease:jia_associated_uveitis",
+        "target": "complication:band_keratopathy",
+        "relation": "导致"
+      },
+      {
+        "source": "disease:jia_associated_uveitis",
+        "target": "disease:cataract",
+        "relation": "导致"
+      },
+      {
+        "source": "disease:jia_associated_uveitis",
+        "target": "disease:poag_full",
+        "relation": "导致 (继发性青光眼)"
+      },
+      {
+        "source": "risk_factor:ana_positive",
+        "target": "disease:jia_associated_uveitis",
+        "relation": "高风险指标"
+      },
+      {
+        "source": "guideline:jia_screening_schedule",
+        "target": "risk_factor:ana_positive",
+        "relation": "基于此制定频率"
+      },
+      {
+        "source": "drug:methotrexate_jia",
+        "target": "disease:jia_associated_uveitis",
+        "relation": "二线/激素保留治疗"
+      },
+      {
+        "source": "treatment:optical_correction_strabismus",
+        "target": "disease:accommodative_esotropia",
+        "relation": "首选治疗"
+      },
+      {
+        "source": "treatment:botulinum_toxin_strabismus",
+        "target": "disease:childhood_strabismus",
+        "relation": "替代手术治疗"
+      },
+      {
+        "source": "treatment:occlusion_therapy",
+        "target": "disease:amblyopia",
+        "relation": "标准治疗"
+      },
+      {
+        "source": "population:learning_disabilities",
+        "target": "disease:cerebral_visual_impairment",
+        "relation": "高发病率"
+      },
+      {
+        "source": "population:learning_disabilities",
+        "target": "disease:refractive_error",
+        "relation": "高发病率"
+      },
+      {
+        "source": "condition:down_syndrome_ocular",
+        "target": "disease:keratoconus_downs",
+        "relation": "显著增加风险"
+      },
+      {
+        "source": "condition:down_syndrome_ocular",
+        "target": "disease:blepharitis",
+        "relation": "易感"
+      },
+      {
+        "source": "procedure:sub_tenon_block",
+        "target": "surgery:cataract_surgery",
+        "relation": "常用麻醉方式"
+      },
+      {
+        "source": "procedure:topical_anesthesia",
+        "target": "surgery:cataract_surgery",
+        "relation": "常用麻醉方式"
+      },
+      {
+        "source": "procedure:retrobulbar_block",
+        "target": "complication:globe_perforation",
+        "relation": "潜在严重风险"
+      },
+      {
+        "source": "procedure:retrobulbar_block",
+        "target": "complication:retrobulbar_hemorrhage",
+        "relation": "潜在严重风险"
+      },
+      {
+        "source": "drug:hyaluronidase",
+        "target": "procedure:local_anesthesia_ophthalmic",
+        "relation": "辅助药物"
+      }
+    ]
+  }

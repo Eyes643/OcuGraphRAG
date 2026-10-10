@@ -1,0 +1,194 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch6"
+    },
+    "nodes": [
+      {
+        "id": "tool:glauc_strat_fast",
+        "label": "Tool",
+        "name": "GLAUC-STRAT-FAST 风险分层工具",
+        "definition": "一种用于青光眼患者风险分层的工具，将患者分为低、中、高风险三类，以指导护理路径和复诊频率。",
+        "source_pdf": "Designing-Glaucoma-Care-Pathways-using-GLAUC-STRAT-FAST.pdf"
+      },
+      {
+        "id": "risk_level:glaucoma_g1",
+        "label": "Risk Stratification",
+        "name": "G1 (低风险/非进展期)",
+        "definition": "包括高眼压症(OHT)或疑似青光眼，病情稳定，适合由非医疗从业者（如验光师）在虚拟诊所进行监测。",
+        "parent_id": "tool:glauc_strat_fast",
+        "source_pdf": "Designing-Glaucoma-Care-Pathways-using-GLAUC-STRAT-FAST.pdf"
+      },
+      {
+        "id": "risk_level:glaucoma_g3",
+        "label": "Risk Stratification",
+        "name": "G3 (高风险/复杂/不稳定)",
+        "definition": "包括晚期青光眼、独眼患者或眼压未控制者，必须由顾问眼科医生亲自诊疗。",
+        "parent_id": "tool:glauc_strat_fast",
+        "source_pdf": "Designing-Glaucoma-Care-Pathways-using-GLAUC-STRAT-FAST.pdf"
+      },
+      {
+        "id": "service:virtual_glaucoma_clinic",
+        "label": "Service Model",
+        "name": "虚拟青光眼诊所 (VGC)",
+        "definition": "一种数据采集与临床决策分离的护理模式，技术人员采集数据，临床医生远程审查，适用于G1和部分G2患者。",
+        "source_pdf": "Designing-Glaucoma-Care-Pathways-using-GLAUC-STRAT-FAST.pdf"
+      },
+      {
+        "id": "patient_group:dementia_cataract",
+        "label": "Patient Group",
+        "name": "痴呆症白内障患者",
+        "definition": "患有认知障碍的白内障患者，其手术决策需特别关注知情同意能力、配合度及术后护理支持。",
+        "source_pdf": "Cataract-surgery-with-patients-living-with-dementia-CPP-Nov-2023.pdf"
+      },
+      {
+        "id": "legal:mental_capacity_act",
+        "label": "Legal Standard",
+        "name": "心智能力法案 (MCA) 评估",
+        "definition": "术前必须进行的评估，以确定患者是否有能力对白内障手术给予知情同意。",
+        "source_pdf": "Cataract-surgery-with-patients-living-with-dementia-CPP-Nov-2023.pdf"
+      },
+      {
+        "id": "decision:best_interests",
+        "label": "Decision Making",
+        "name": "最佳利益决定 (Best Interests Decision)",
+        "definition": "当患者缺乏决策能力时，由医疗团队与家属/照护者共同制定的符合患者最大利益的手术决策。",
+        "source_pdf": "Cataract-surgery-with-patients-living-with-dementia-CPP-Nov-2023.pdf"
+      },
+      {
+        "id": "safety_event:wrong_iol",
+        "label": "Safety Event",
+        "name": "错误人工晶状体植入 (Wrong IOL)",
+        "definition": "被归类为“警讯事件 (Never Event)”的严重医疗差错，指植入了错误的型号或屈光度的人工晶体。",
+        "source_pdf": "Correct-IOL-implantation-in-cataract-surgery-quality-standard-1.pdf"
+      },
+      {
+        "id": "procedure:biometry_validation",
+        "label": "Procedure",
+        "name": "眼球生物测量验证",
+        "definition": "防止错误IOL的关键步骤，包括检查角膜曲率、眼轴长度及双眼数据的一致性。",
+        "source_pdf": "Correct-IOL-implantation-in-cataract-surgery-quality-standard-1.pdf"
+      },
+      {
+        "id": "procedure:who_checklist_cataract",
+        "label": "Procedure",
+        "name": "WHO手术安全核对表 (眼科版)",
+        "definition": "在手术暂停(Time Out)阶段强制执行的检查，需核对患者身份、手术眼别及IOL详细参数。",
+        "source_pdf": "Correct-IOL-implantation-in-cataract-surgery-quality-standard-1.pdf"
+      },
+      {
+        "id": "disease:cvi_childhood",
+        "label": "Disease",
+        "name": "脑性视力损伤 (CVI - 儿童)",
+        "definition": "由于大脑视觉通路或处理中心的损伤（而非眼球病变）导致的双侧视力下降或视觉功能障碍，是发达国家儿童致盲首因。",
+        "source_pdf": "CPPs-CVI-2023.pdf"
+      },
+      {
+        "id": "pathology:dorsal_stream_dysfunction",
+        "label": "Pathology",
+        "name": "背侧通路功能障碍",
+        "definition": "CVI的常见表现，涉及“视觉空间”处理（顶叶），表现为难以在杂乱环境中发现物体、难以判断运动。",
+        "source_pdf": "CPPs-CVI-2023.pdf"
+      },
+      {
+        "id": "pathology:ventral_stream_dysfunction",
+        "label": "Pathology",
+        "name": "腹侧通路功能障碍",
+        "definition": "CVI的表现之一，涉及“视觉识别”处理（颞叶），表现为难以识别人脸、物体或形状。",
+        "source_pdf": "CPPs-CVI-2023.pdf"
+      },
+      {
+        "id": "intervention:environmental_modification",
+        "label": "Intervention",
+        "name": "环境改造 (CVI)",
+        "definition": "针对CVI儿童的干预措施，包括减少视觉混乱、增加对比度、使用大字体等。",
+        "source_pdf": "CPPs-CVI-2023.pdf"
+      },
+      {
+        "id": "disease:erm_cpp",
+        "label": "Disease",
+        "name": "视网膜前膜 (ERM - 临床要点)",
+        "definition": "黄斑表面的纤维细胞增生，大多数患者无症状或症状轻微，不需要手术。",
+        "source_pdf": "CPPs-ERM.pdf"
+      },
+      {
+        "id": "symptom:binocular_interference",
+        "label": "Symptom",
+        "name": "双眼干扰 (Binocular Interference)",
+        "definition": "ERM患者即使单眼视力尚可，双眼同时视物时受患眼图像干扰导致整体视觉质量下降，是手术指征之一。",
+        "source_pdf": "CPPs-ERM.pdf"
+      },
+      {
+        "id": "risk_factor:post_op_cme_erm",
+        "label": "Risk Factor",
+        "name": "术后黄斑囊样水肿 (CME)",
+        "definition": "ERM剥除术后的常见并发症，通常对局部类固醇或NSAIDs滴眼液反应良好。",
+        "source_pdf": "CPPs-ERM.pdf"
+      },
+      {
+        "id": "drug:vital_dyes",
+        "label": "Drug",
+        "name": "活体染料 (Vital Dyes)",
+        "definition": "如台盼蓝 (Membrane Blue) 或亮蓝G (ILM Blue)，用于在手术中对ERM和ILM进行染色以辅助剥除。",
+        "source_pdf": "CPPs-ERM.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "tool:glauc_strat_fast",
+        "target": "risk_level:glaucoma_g1",
+        "relation": "分层为"
+      },
+      {
+        "source": "risk_level:glaucoma_g1",
+        "target": "service:virtual_glaucoma_clinic",
+        "relation": "适用服务模式"
+      },
+      {
+        "source": "patient_group:dementia_cataract",
+        "target": "legal:mental_capacity_act",
+        "relation": "术前必须评估"
+      },
+      {
+        "source": "legal:mental_capacity_act",
+        "target": "decision:best_interests",
+        "relation": "若无能力则启动"
+      },
+      {
+        "source": "procedure:biometry_validation",
+        "target": "safety_event:wrong_iol",
+        "relation": "关键预防措施"
+      },
+      {
+        "source": "procedure:who_checklist_cataract",
+        "target": "safety_event:wrong_iol",
+        "relation": "术中最后防线"
+      },
+      {
+        "source": "disease:cvi_childhood",
+        "target": "pathology:dorsal_stream_dysfunction",
+        "relation": "常见病理机制"
+      },
+      {
+        "source": "disease:cvi_childhood",
+        "target": "intervention:environmental_modification",
+        "relation": "主要管理策略"
+      },
+      {
+        "source": "disease:erm_cpp",
+        "target": "symptom:binocular_interference",
+        "relation": "手术考量因素"
+      },
+      {
+        "source": "drug:vital_dyes",
+        "target": "treatment:ppv_peeling",
+        "relation": "辅助手术"
+      },
+      {
+        "source": "treatment:ppv_peeling",
+        "target": "risk_factor:post_op_cme_erm",
+        "relation": "潜在并发症"
+      }
+    ]
+  }

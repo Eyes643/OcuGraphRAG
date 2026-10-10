@@ -1,0 +1,180 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch39"
+    },
+    "nodes": [
+      {
+        "id": "concept:hyperopia_reserve",
+        "label": "Concept",
+        "name": "远视储备",
+        "definition": "新生儿眼球较小，眼轴较短，光线聚焦在视网膜后，这种生理性远视被称为远视储备，是抵抗近视发展的“存折”。",
+        "source_pdf": "中国学龄儿童眼球远视储备、眼轴长度、角膜曲率参考区间及相关遗传因素专家共识（2022年）.pdf"
+      },
+      {
+        "id": "standard:hyperopia_reserve_6yo",
+        "label": "Standard",
+        "name": "6岁儿童远视储备标准",
+        "definition": "共识指出，6岁学龄儿童的平均远视储备量应在+1.00D至+1.50D之间，低于此范围提示近视风险增加。",
+        "source_pdf": "中国学龄儿童眼球远视储备、眼轴长度、角膜曲率参考区间及相关遗传因素专家共识（2022年）.pdf"
+      },
+      {
+        "id": "standard:axial_length_6yo",
+        "label": "Standard",
+        "name": "6岁儿童眼轴长度标准",
+        "definition": "我国6岁儿童的平均眼轴长度约为22.5mm，随年龄增长逐渐延长，监测眼轴增长速度对近视防控至关重要。",
+        "source_pdf": "中国学龄儿童眼球远视储备、眼轴长度、角膜曲率参考区间及相关遗传因素专家共识（2022年）.pdf"
+      },
+      {
+        "id": "standard:oct_scan_protocol",
+        "label": "Standard",
+        "name": "OCT扫描规范 (2025共识)",
+        "definition": "强调标准化操作，包括瞳孔直径、注视位置、扫描模式（如黄斑区512x128）及信号强度要求（如Q值>50%或信号指数>6/10）。",
+        "source_pdf": "中国眼底OCT操作及图像阅读报告规范德尔菲法专家共识（2025年）.pdf"
+      },
+      {
+        "id": "structure:oct_outer_retina",
+        "label": "Structure",
+        "name": "OCT外层视网膜结构",
+        "definition": "报告需重点描述外界膜(ELM)、椭圆体带(EZ)、嵌合体带(IZ)及RPE层的完整性与连续性。",
+        "source_pdf": "中国眼底OCT操作及图像阅读报告规范德尔菲法专家共识（2025年）.pdf"
+      },
+      {
+        "id": "ethics:gene_therapy_review",
+        "label": "Ethics",
+        "name": "眼科基因治疗伦理审查",
+        "definition": "针对基因治疗临床研究的高风险性，伦理委员会需重点审查风险获益比、知情同意书（特别是长期随访承诺）及受试者权益保护。",
+        "source_pdf": "中国眼科基因治疗临床研究伦理审查专家共识（2022年）.pdf"
+      },
+      {
+        "id": "risk:viral_vector_shedding",
+        "label": "Risk Factor",
+        "name": "病毒载体脱落 (Shedding)",
+        "definition": "基因治疗中使用的病毒载体（如AAV）可能通过眼泪、体液排出体外，伦理审查需关注其对环境和密切接触者的潜在风险。",
+        "source_pdf": "中国眼科基因治疗临床研究伦理审查专家共识（2022年）.pdf"
+      },
+      {
+        "id": "disease:traumatic_endophthalmitis",
+        "label": "Disease",
+        "name": "外伤性感染性眼内炎",
+        "definition": "开放性眼外伤后细菌或真菌进入眼内引起的严重感染，常见病原体为葡萄球菌、链球菌及蜡样芽孢杆菌。",
+        "source_pdf": "中国外伤性感染性眼内炎防治专家共识（2023年）.pdf"
+      },
+      {
+        "id": "treatment:intravitreal_antibiotics_trauma",
+        "label": "Treatment",
+        "name": "玻璃体腔注药 (外伤预防)",
+        "definition": "对于高危开放性眼外伤（如异物存留、伤口污染重），建议清创缝合时预防性行玻璃体腔注射万古霉素+头孢他啶。",
+        "source_pdf": "中国外伤性感染性眼内炎防治专家共识（2023年）.pdf"
+      },
+      {
+        "id": "surgery:early_vitrectomy_endophthalmitis",
+        "label": "Surgery",
+        "name": "早期玻璃体切除术 (眼内炎)",
+        "definition": "一旦确诊外伤性眼内炎，尤其是视力光感或更差、玻璃体严重混浊者，应尽早（24小时内）行玻切术以清除病原体和毒素。",
+        "source_pdf": "中国外伤性感染性眼内炎防治专家共识（2023年）.pdf"
+      },
+      {
+        "id": "surgery:migs_types_china",
+        "label": "Surgery",
+        "name": "微创青光眼手术 (MIGS 分类)",
+        "definition": "分为小梁网途径（如iStent, Trabectome）、葡萄膜巩膜途径（如iStent Supra）和结膜下滤过途径（如XEN）三类。",
+        "source_pdf": "中国微创青光眼手术适应证选择专家共识(2023).pdf"
+      },
+      {
+        "id": "indication:migs_mild_moderate",
+        "label": "Indication",
+        "name": "MIGS 适应证 (轻中度)",
+        "definition": "主要适用于药物控制不佳或不耐受药物的轻中度开角型青光眼，常与白内障手术联合进行。",
+        "source_pdf": "中国微创青光眼手术适应证选择专家共识(2023).pdf"
+      },
+      {
+        "id": "disease:cnldo_china",
+        "label": "Disease",
+        "name": "先天性鼻泪管阻塞 (CNLDO)",
+        "definition": "婴幼儿常见病，由鼻泪管下端Hasner瓣膜未开放引起，表现为溢泪和分泌物增多。",
+        "source_pdf": "中国先天性鼻泪管阻塞诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:crigler_massage",
+        "label": "Treatment",
+        "name": "Crigler按摩法",
+        "definition": "保守治疗CNLDO的首选方法，通过压迫泪囊区产生静水压冲破膜性阻塞，适用于6个月以内患儿。",
+        "source_pdf": "中国先天性鼻泪管阻塞诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "surgery:probing_timing",
+        "label": "Surgery",
+        "name": "泪道探通术 (时机)",
+        "definition": "保守治疗无效的CNLDO患儿，建议在6-12个月龄进行首次探通，成功率高且风险相对较小。",
+        "source_pdf": "中国先天性鼻泪管阻塞诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:covid19_ocular",
+        "label": "Disease",
+        "name": "新型冠状病毒眼病",
+        "definition": "COVID-19感染可引起结膜炎（最常见）、浅层巩膜炎甚至视网膜血管病变，病毒可通过眼表传播。",
+        "source_pdf": "中国新型冠状病毒眼病防控专家共识（2022年）.pdf"
+      },
+      {
+        "id": "protection:ophthalmology_covid",
+        "label": "Protection",
+        "name": "眼科诊疗防护 (COVID-19)",
+        "definition": "眼科医生近距离检查患者，属高风险暴露，需佩戴医用外科口罩/N95、护目镜，并在裂隙灯上安装防护挡板。",
+        "source_pdf": "中国新型冠状病毒眼病防控专家共识（2022年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "standard:hyperopia_reserve_6yo",
+        "target": "concept:hyperopia_reserve",
+        "relation": "量化指标"
+      },
+      {
+        "source": "standard:axial_length_6yo",
+        "target": "concept:hyperopia_reserve",
+        "relation": "负相关指标"
+      },
+      {
+        "source": "standard:oct_scan_protocol",
+        "target": "structure:oct_outer_retina",
+        "relation": "用于评估"
+      },
+      {
+        "source": "ethics:gene_therapy_review",
+        "target": "risk:viral_vector_shedding",
+        "relation": "重点评估内容"
+      },
+      {
+        "source": "disease:traumatic_endophthalmitis",
+        "target": "treatment:intravitreal_antibiotics_trauma",
+        "relation": "预防及治疗"
+      },
+      {
+        "source": "disease:traumatic_endophthalmitis",
+        "target": "surgery:early_vitrectomy_endophthalmitis",
+        "relation": "重症首选"
+      },
+      {
+        "source": "surgery:migs_types_china",
+        "target": "indication:migs_mild_moderate",
+        "relation": "主要应用场景"
+      },
+      {
+        "source": "disease:cnldo_china",
+        "target": "treatment:crigler_massage",
+        "relation": "初始治疗"
+      },
+      {
+        "source": "disease:cnldo_china",
+        "target": "surgery:probing_timing",
+        "relation": "二线治疗"
+      },
+      {
+        "source": "disease:covid19_ocular",
+        "target": "protection:ophthalmology_covid",
+        "relation": "防控要求"
+      }
+    ]
+  }

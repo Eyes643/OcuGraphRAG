@@ -1,0 +1,168 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch37"
+    },
+    "nodes": [
+      {
+        "id": "standard:iol_classification_china",
+        "label": "Standard",
+        "name": "中国人工晶状体分类体系",
+        "definition": "依据光学设计（单焦/多焦/EDOF）、材质（疏水/亲水丙烯酸）、矫正功能（散光/老视）对IOL进行的标准化分类。",
+        "source_pdf": "中国人工晶状体分类专家共识（2021年）.pdf"
+      },
+      {
+        "id": "device:edof_iol",
+        "label": "Device",
+        "name": "景深延长型人工晶状体 (EDOF IOL)",
+        "definition": "通过衍射或球差设计产生连续焦灶，提供远至中距离的连续视力，相比多焦点IOL，光晕和眩光较少。",
+        "parent_id": "standard:iol_classification_china",
+        "source_pdf": "中国人工晶状体分类专家共识（2021年）.pdf"
+      },
+      {
+        "id": "device:toric_iol_standard",
+        "label": "Device",
+        "name": "散光矫正型人工晶状体 (Toric IOL)",
+        "definition": "前表面或后表面带有柱镜度数，用于矫正角膜规则散光，要求术中精确对位。",
+        "parent_id": "standard:iol_classification_china",
+        "source_pdf": "中国人工晶状体分类专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:neurotrophic_keratitis_china",
+        "label": "Disease",
+        "name": "神经营养性角膜炎 (NK)",
+        "definition": "由三叉神经眼支损伤（如疱疹病毒、手术损伤、糖尿病）引起的角膜退行性疾病，导致角膜知觉减退和上皮愈合障碍。",
+        "source_pdf": "中国神经营养性角膜炎诊断及治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "stage:nk_mackie_classification",
+        "label": "Classification",
+        "name": "Mackie分期 (NK)",
+        "definition": "NK的经典分期：1期（上皮不规则/点染）、2期（持续性上皮缺损PED）、3期（角膜溃疡/穿孔）。",
+        "source_pdf": "中国神经营养性角膜炎诊断及治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "drug:rhngf_drops",
+        "label": "Drug",
+        "name": "重组人神经生长因子 (rhNGF)",
+        "definition": "一种新型生物制剂，通过促进角膜神经再生和上皮愈合治疗神经营养性角膜炎（尤其是2-3期）。",
+        "source_pdf": "中国神经营养性角膜炎诊断及治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "surgery:corneal_neurotization",
+        "label": "Surgery",
+        "name": "角膜神经化手术",
+        "definition": "利用对侧滑车上神经或耳大神经移植，重建角膜感觉神经支配，用于治疗严重的麻醉性角膜眼。",
+        "source_pdf": "中国神经营养性角膜炎诊断及治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:visual_fatigue_2024",
+        "label": "Disease",
+        "name": "视疲劳 (2024共识)",
+        "definition": "由于视觉负荷超过视觉功能承载能力引起的眼部及全身不适症候群，常见原因包括双眼视异常、调节异常及视频终端综合征。",
+        "source_pdf": "中国视疲劳诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "treatment:visual_training_fatigue",
+        "label": "Treatment",
+        "name": "视觉训练 (视疲劳)",
+        "definition": "针对调节功能障碍（如调节不足）或聚散功能异常（如集合不足）进行的个性化训练，是视疲劳的病因治疗。",
+        "source_pdf": "中国视疲劳诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "guideline:china_glaucoma_2020",
+        "label": "Guideline",
+        "name": "中国青光眼指南 (2020年)",
+        "definition": "中国青光眼诊疗的纲领性文件，涵盖原发性开角型/闭角型、继发性及儿童青光眼的全流程管理。",
+        "source_pdf": "中国青光眼指南（2020年）.pdf"
+      },
+      {
+        "id": "standard:target_iop_setting",
+        "label": "Standard",
+        "name": "目标眼压 (Target IOP) 设定",
+        "definition": "根据患者基线眼压、青光眼严重程度、年龄及预期寿命设定的个性化眼压控制目标，通常需比基线降低20%-30%以上。",
+        "source_pdf": "中国青光眼指南（2020年）.pdf"
+      },
+      {
+        "id": "surgery:keratoprosthesis_china",
+        "label": "Surgery",
+        "name": "人工角膜移植术 (KPro)",
+        "definition": "用于治疗双眼角膜盲且传统角膜移植失败或高危排斥患者（如严重化学伤、史-约综合征）的终极复明手术。",
+        "source_pdf": "中国人工角膜移植手术专家共识（2021年）.pdf"
+      },
+      {
+        "id": "device:micof_kpro",
+        "label": "Device",
+        "name": "米赫人工角膜 (MICOF)",
+        "definition": "一种主要用于中国临床的人工角膜，分为两期手术植入，依靠钛支架固定于角膜层间。",
+        "source_pdf": "中国人工角膜移植手术专家共识（2021年）.pdf"
+      },
+      {
+        "id": "device:link_kpro",
+        "label": "Device",
+        "name": "领扣型人工角膜 (Link KPro)",
+        "definition": "基于Boston I型人工角膜设计的国产人工角膜，适用于眼睑闭合功能正常、泪液分泌尚可的患者。",
+        "source_pdf": "中国人工角膜移植手术专家共识（2021年）.pdf"
+      },
+      {
+        "id": "complication:retroprosthetic_membrane",
+        "label": "Complication",
+        "name": "人工角膜后膜 (RPM)",
+        "definition": "KPro术后常见的并发症，纤维膜在人工角膜光学柱后增生影响视力，可用YAG激光切开。",
+        "source_pdf": "中国人工角膜移植手术专家共识（2021年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "device:edof_iol",
+        "target": "disease:presbyopia",
+        "relation": "矫正方案"
+      },
+      {
+        "source": "device:toric_iol_standard",
+        "target": "disease:astigmatism",
+        "relation": "矫正方案"
+      },
+      {
+        "source": "disease:neurotrophic_keratitis_china",
+        "target": "drug:rhngf_drops",
+        "relation": "生物靶向治疗"
+      },
+      {
+        "source": "disease:neurotrophic_keratitis_china",
+        "target": "surgery:corneal_neurotization",
+        "relation": "神经重建手术"
+      },
+      {
+        "source": "disease:neurotrophic_keratitis_china",
+        "target": "stage:nk_mackie_classification",
+        "relation": "分期标准"
+      },
+      {
+        "source": "disease:visual_fatigue_2024",
+        "target": "treatment:visual_training_fatigue",
+        "relation": "非药物治疗"
+      },
+      {
+        "source": "guideline:china_glaucoma_2020",
+        "target": "standard:target_iop_setting",
+        "relation": "治疗核心原则"
+      },
+      {
+        "source": "surgery:keratoprosthesis_china",
+        "target": "device:micof_kpro",
+        "relation": "主要类型"
+      },
+      {
+        "source": "surgery:keratoprosthesis_china",
+        "target": "device:link_kpro",
+        "relation": "主要类型"
+      },
+      {
+        "source": "surgery:keratoprosthesis_china",
+        "target": "complication:retroprosthetic_membrane",
+        "relation": "术后并发症"
+      }
+    ]
+  }

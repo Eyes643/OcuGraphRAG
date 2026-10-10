@@ -1,0 +1,190 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch26"
+    },
+    "nodes": [
+      {
+        "id": "disease:cranial_orbital_defect",
+        "label": "Disease",
+        "name": "颅眶缺损",
+        "definition": "由外伤、肿瘤切除或先天畸形导致的颅骨和眼眶骨骼结构缺失，需进行重建修复以恢复外观和保护脑组织。",
+        "source_pdf": "中国成人颅眶重建修复材料及应用专家共识（2023版）.pdf"
+      },
+      {
+        "id": "material:titanium_mesh",
+        "label": "Material",
+        "name": "钛网 (Titanium Mesh)",
+        "definition": "一种常用的颅眶修补材料，生物相容性好，强度高，易于塑形，是目前临床应用的主流材料。",
+        "source_pdf": "中国成人颅眶重建修复材料及应用专家共识（2023版）.pdf"
+      },
+      {
+        "id": "material:peek_implant",
+        "label": "Material",
+        "name": "聚醚醚酮 (PEEK) 植入物",
+        "definition": "一种新型高分子材料，具有与人体骨骼相似的力学性能，射线可透性好（不产生伪影），可个性化3D打印定制。",
+        "source_pdf": "中国成人颅眶重建修复材料及应用专家共识（2023版）.pdf"
+      },
+      {
+        "id": "material:autologous_bone_graft",
+        "label": "Material",
+        "name": "自体骨移植",
+        "definition": "使用患者自身的骨组织（如肋骨、髂骨、颅骨外板）进行修补，具有最佳的生物相容性，但供区有损伤。",
+        "source_pdf": "中国成人颅眶重建修复材料及应用专家共识（2023版）.pdf"
+      },
+      {
+        "id": "disease:vzk",
+        "label": "Disease",
+        "name": "带状疱疹病毒性角膜炎 (VZK)",
+        "definition": "由水痘-带状疱疹病毒(VZV)潜伏激活引起的角膜感染，常伴有眼睑皮疹和神经痛，可累及角膜各层。",
+        "source_pdf": "中国带状疱疹病毒性角膜炎诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "symptom:pseudodendrites",
+        "label": "Symptom",
+        "name": "假树枝状角膜溃疡 (Pseudodendrites)",
+        "definition": "VZK上皮型的特征性表现，与单纯疱疹病毒性角膜炎的树枝状溃疡不同，它微隆起，末端无端球，染色较浅。",
+        "source_pdf": "中国带状疱疹病毒性角膜炎诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "treatment:ganciclovir_gel_vzk",
+        "label": "Drug",
+        "name": "更昔洛韦眼用凝胶 (VZK治疗)",
+        "definition": "VZK局部抗病毒治疗的一线药物，需联合全身抗病毒药物使用。",
+        "source_pdf": "中国带状疱疹病毒性角膜炎诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "treatment:systemic_antiviral_vzk",
+        "label": "Treatment",
+        "name": "全身抗病毒治疗 (VZK)",
+        "definition": "口服或静脉滴注阿昔洛韦、伐昔洛韦等，是VZK治疗的关键，需足量足疗程（通常7-10天，甚至更长）。",
+        "source_pdf": "中国带状疱疹病毒性角膜炎诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "disease:unilateral_intraocular_rb",
+        "label": "Disease",
+        "name": "单侧眼内期视网膜母细胞瘤",
+        "definition": "肿瘤局限于一只眼球内，未发生眼外蔓延或远处转移的视网膜母细胞瘤，是最常见的RB就诊类型。",
+        "source_pdf": "中国单侧眼内期视网膜母细胞瘤诊疗专家共识（2019年）.pdf"
+      },
+      {
+        "id": "classification:iirc",
+        "label": "Classification",
+        "name": "国际视网膜母细胞瘤分期 (IIRC)",
+        "definition": "将眼内期RB分为A、B、C、D、E五期，用于指导保眼治疗或眼球摘除的决策。",
+        "source_pdf": "中国单侧眼内期视网膜母细胞瘤诊疗专家共识（2019年）.pdf"
+      },
+      {
+        "id": "treatment:enucleation_rb",
+        "label": "Surgery",
+        "name": "眼球摘除术 (RB治疗)",
+        "definition": "对于E期（无保眼希望或伴有高危因素如新生血管性青光眼）的单侧眼内期RB，眼球摘除是首选治疗。",
+        "source_pdf": "中国单侧眼内期视网膜母细胞瘤诊疗专家共识（2019年）.pdf"
+      },
+      {
+        "id": "treatment:intravenous_chemotherapy_rb",
+        "label": "Treatment",
+        "name": "静脉化疗 (RB保眼)",
+        "definition": "对于B、C、D期RB，全身静脉化疗（VEC方案：长春新碱+依托泊苷+卡铂）是主要的减容和保眼手段。",
+        "source_pdf": "中国单侧眼内期视网膜母细胞瘤诊疗专家共识（2019年）.pdf"
+      },
+      {
+        "id": "disease:adoa_china_2024",
+        "label": "Disease",
+        "name": "常染色体显性遗传视神经萎缩 (ADOA 2024共识)",
+        "definition": "中国专家共识重新梳理了ADOA的临床特征，强调了OPA1基因突变的核心地位及与Leber遗传性视神经病变的鉴别。",
+        "source_pdf": "中国常染色体显性遗传视神经萎缩诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "symptom:central_scotoma_adoa",
+        "label": "Symptom",
+        "name": "中心暗点 (ADOA)",
+        "definition": "ADOA患者典型的视野缺损类型，反映了视网膜神经节细胞（特别是乳头黄斑束）的进行性丢失。",
+        "source_pdf": "中国常染色体显性遗传视神经萎缩诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "guideline:adult_cataract_surgery_china_2023",
+        "label": "Guideline",
+        "name": "中国成人白内障摘除手术指南 (2023年)",
+        "definition": "针对中国国情制定的成人白内障手术规范，涵盖术前评估、手术时机、术式选择（超声乳化为主）及围手术期用药。",
+        "source_pdf": "中国成人白内障摘除手术指南（2023年）.pdf"
+      },
+      {
+        "id": "procedure:biometry_cataract",
+        "label": "Diagnostic",
+        "name": "眼球生物测量 (白内障术前)",
+        "definition": "精确测量眼轴长度、角膜曲率及前房深度，是计算人工晶状体(IOL)度数、保证术后屈光准确性的关键。",
+        "source_pdf": "中国成人白内障摘除手术指南（2023年）.pdf"
+      },
+      {
+        "id": "treatment:phacoemulsification_china",
+        "label": "Surgery",
+        "name": "超声乳化白内障吸除术 (中国指南推荐)",
+        "definition": "目前中国成人白内障手术的主流术式，具有切口小、愈合快、视力恢复好的优点。",
+        "source_pdf": "中国成人白内障摘除手术指南（2023年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:cranial_orbital_defect",
+        "target": "material:titanium_mesh",
+        "relation": "常用修复材料"
+      },
+      {
+        "source": "disease:cranial_orbital_defect",
+        "target": "material:peek_implant",
+        "relation": "新型修复材料"
+      },
+      {
+        "source": "disease:vzk",
+        "target": "symptom:pseudodendrites",
+        "relation": "鉴别特征"
+      },
+      {
+        "source": "disease:vzk",
+        "target": "treatment:ganciclovir_gel_vzk",
+        "relation": "局部治疗"
+      },
+      {
+        "source": "disease:vzk",
+        "target": "treatment:systemic_antiviral_vzk",
+        "relation": "核心治疗"
+      },
+      {
+        "source": "disease:unilateral_intraocular_rb",
+        "target": "classification:iirc",
+        "relation": "分期标准"
+      },
+      {
+        "source": "disease:unilateral_intraocular_rb",
+        "target": "treatment:enucleation_rb",
+        "relation": "晚期(E期)治疗"
+      },
+      {
+        "source": "disease:unilateral_intraocular_rb",
+        "target": "treatment:intravenous_chemotherapy_rb",
+        "relation": "保眼治疗"
+      },
+      {
+        "source": "disease:adoa_china_2024",
+        "target": "gene:opa1",
+        "relation": "致病基因 (前序已提及，此处强化)"
+      },
+      {
+        "source": "disease:adoa_china_2024",
+        "target": "symptom:central_scotoma_adoa",
+        "relation": "典型体征"
+      },
+      {
+        "source": "guideline:adult_cataract_surgery_china_2023",
+        "target": "treatment:phacoemulsification_china",
+        "relation": "推荐标准术式"
+      },
+      {
+        "source": "guideline:adult_cataract_surgery_china_2023",
+        "target": "procedure:biometry_cataract",
+        "relation": "术前必须"
+      }
+    ]
+  }

@@ -1,0 +1,186 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch21"
+    },
+    "nodes": [
+      {
+        "id": "service:eye_health_screening_checkup",
+        "label": "Service Model",
+        "name": "体检人群眼健康筛查",
+        "definition": "在健康体检中心进行的标准化眼科检查，旨在早期发现致盲性眼病（如青光眼、DR、AMD）及全身疾病的眼部表现。",
+        "source_pdf": "体检人群眼健康筛查及健康管理专家共识（2024）.pdf"
+      },
+      {
+        "id": "diagnostic:fundus_photography_screening",
+        "label": "Diagnostic",
+        "name": "免散瞳眼底照相 (体检筛查)",
+        "definition": "体检中心眼健康筛查的核心适宜技术，用于记录视盘、黄斑及血管情况，建议覆盖45°以上视野。",
+        "source_pdf": "体检人群眼健康筛查及健康管理专家共识（2024）.pdf"
+      },
+      {
+        "id": "guideline:dr_china_2022",
+        "label": "Guideline",
+        "name": "中国糖尿病视网膜病变临床诊疗指南 (2022年)",
+        "definition": "基于循证医学证据制定的中国DR诊疗规范，强调分级诊疗、激光与抗VEGF的联合应用及全病程管理。",
+        "source_pdf": "我国糖尿病视网膜病变临床诊疗指南（2022年）.pdf"
+      },
+      {
+        "id": "treatment:loading_dose_3_plus_prn",
+        "label": "Treatment Strategy",
+        "name": "3+PRN 方案",
+        "definition": "中国指南推荐的DME抗VEGF治疗基础方案：即初始连续3个月每月注射1次，之后根据病情按需治疗。",
+        "source_pdf": "我国糖尿病视网膜病变临床诊疗指南（2022年）.pdf"
+      },
+      {
+        "id": "disease:choroideremia_consensus",
+        "label": "Disease",
+        "name": "无脉络膜症 (中国专家共识)",
+        "definition": "CHM基因突变导致的X连锁隐性遗传性视网膜脉络膜营养不良，男性患病，特征为RPE和脉络膜毛细血管进行性萎缩。",
+        "source_pdf": "无脉络膜症临床诊疗中国专家共识（2024年）.pdf"
+      },
+      {
+        "id": "symptom:nyctalopia_chm",
+        "label": "Symptom",
+        "name": "夜盲 (CHM首发)",
+        "definition": "无脉络膜症患者最早期的症状，通常在童年期出现，源于杆细胞功能受损。",
+        "source_pdf": "无脉络膜症临床诊疗中国专家共识（2024年）.pdf"
+      },
+      {
+        "id": "diagnostic:fundus_autofluorescence_chm",
+        "label": "Diagnostic",
+        "name": "眼底自发荧光 (CHM特征)",
+        "definition": "显示保留的RPE岛状结构（高荧光）与周围萎缩区（低荧光）的清晰边界，是监测病程进展的敏感指标。",
+        "source_pdf": "无脉络膜症临床诊疗中国专家共识（2024年）.pdf"
+      },
+      {
+        "id": "disease:nmosd_aqp4_positive",
+        "label": "Disease",
+        "name": "AQP4抗体阳性NMOSD",
+        "definition": "水通道蛋白4抗体阳性的视神经脊髓炎谱系疾病，具有高复发率和高致残率，需长期免疫抑制治疗。",
+        "source_pdf": "水通道蛋白4抗体阳性视神经脊髓炎谱系疾病治疗国际共识解读.pdf"
+      },
+      {
+        "id": "drug:eculizumab",
+        "label": "Drug",
+        "name": "依库珠单抗 (Eculizumab)",
+        "definition": "补体C5抑制剂，获批用于治疗AQP4抗体阳性的NMOSD，能显著降低复发风险。",
+        "source_pdf": "水通道蛋白4抗体阳性视神经脊髓炎谱系疾病治疗国际共识解读.pdf"
+      },
+      {
+        "id": "drug:inebilizumab",
+        "label": "Drug",
+        "name": "伊奈利珠单抗 (Inebilizumab)",
+        "definition": "抗CD19单克隆抗体，通过耗竭B细胞治疗AQP4抗体阳性的NMOSD。",
+        "source_pdf": "水通道蛋白4抗体阳性视神经脊髓炎谱系疾病治疗国际共识解读.pdf"
+      },
+      {
+        "id": "drug:satralizumab",
+        "label": "Drug",
+        "name": "萨特利珠单抗 (Satralizumab)",
+        "definition": "IL-6受体拮抗剂，通过阻断IL-6信号通路治疗AQP4抗体阳性的NMOSD，可皮下注射。",
+        "source_pdf": "水通道蛋白4抗体阳性视神经脊髓炎谱系疾病治疗国际共识解读.pdf"
+      },
+      {
+        "id": "disease:diabetic_related_eye_disease",
+        "label": "Disease",
+        "name": "糖尿病相关眼病",
+        "definition": "除DR外，还包括糖尿病性白内障、糖尿病性角膜病变、糖尿病性视神经病变等一些列眼部并发症。",
+        "source_pdf": "糖尿病相关眼病防治多学科中国专家共识（2021年版）.pdf"
+      },
+      {
+        "id": "disease:diabetic_cataract",
+        "label": "Disease",
+        "name": "糖尿病性白内障",
+        "definition": "糖尿病患者发生的白内障，特点是发病早、进展快，囊下混浊多见，真性糖尿病性白内障（雪花状）较少见。",
+        "parent_id": "disease:diabetic_related_eye_disease",
+        "source_pdf": "糖尿病相关眼病防治多学科中国专家共识（2021年版）.pdf"
+      },
+      {
+        "id": "disease:diabetic_keratopathy",
+        "label": "Disease",
+        "name": "糖尿病性角膜病变",
+        "definition": "表现为角膜知觉减退、上皮愈合延迟、泪膜不稳定，易发生神经营养性角膜炎。",
+        "parent_id": "disease:diabetic_related_eye_disease",
+        "source_pdf": "糖尿病相关眼病防治多学科中国专家共识（2021年版）.pdf"
+      },
+      {
+        "id": "disease:diabetic_papillopathy",
+        "label": "Disease",
+        "name": "糖尿病性视盘病变",
+        "definition": "一种自限性的视盘水肿，多见于年轻1型糖尿病患者，需与NAION及颅内压升高鉴别。",
+        "parent_id": "disease:diabetic_related_eye_disease",
+        "source_pdf": "糖尿病相关眼病防治多学科中国专家共识（2021年版）.pdf"
+      },
+      {
+        "id": "service:multidisciplinary_dr_management",
+        "label": "Service Model",
+        "name": "糖尿病眼病多学科协作诊疗 (MDT)",
+        "definition": "内分泌科与眼科医师密切合作，共同管理血糖、血压、血脂及眼部并发症，实现全方位防控。",
+        "source_pdf": "糖尿病相关眼病防治多学科中国专家共识（2021年版）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "service:eye_health_screening_checkup",
+        "target": "diagnostic:fundus_photography_screening",
+        "relation": "核心手段"
+      },
+      {
+        "source": "guideline:dr_china_2022",
+        "target": "treatment:loading_dose_3_plus_prn",
+        "relation": "推荐方案"
+      },
+      {
+        "source": "disease:choroideremia_consensus",
+        "target": "symptom:nyctalopia_chm",
+        "relation": "早期特征"
+      },
+      {
+        "source": "disease:choroideremia_consensus",
+        "target": "diagnostic:fundus_autofluorescence_chm",
+        "relation": "关键监测指标"
+      },
+      {
+        "source": "disease:nmosd_aqp4_positive",
+        "target": "drug:eculizumab",
+        "relation": "靶向治疗药物"
+      },
+      {
+        "source": "disease:nmosd_aqp4_positive",
+        "target": "drug:inebilizumab",
+        "relation": "靶向治疗药物"
+      },
+      {
+        "source": "disease:nmosd_aqp4_positive",
+        "target": "drug:satralizumab",
+        "relation": "靶向治疗药物"
+      },
+      {
+        "source": "disease:diabetic_related_eye_disease",
+        "target": "disease:diabetic_cataract",
+        "relation": "包含"
+      },
+      {
+        "source": "disease:diabetic_related_eye_disease",
+        "target": "disease:diabetic_keratopathy",
+        "relation": "包含"
+      },
+      {
+        "source": "disease:diabetic_related_eye_disease",
+        "target": "disease:diabetic_papillopathy",
+        "relation": "包含"
+      },
+      {
+        "source": "service:multidisciplinary_dr_management",
+        "target": "disease:diabetic_related_eye_disease",
+        "relation": "最佳管理模式"
+      },
+      {
+        "source": "disease:diabetic_retinopathy",
+        "target": "guideline:dr_china_2022",
+        "relation": "遵循指南"
+      }
+    ]
+  }

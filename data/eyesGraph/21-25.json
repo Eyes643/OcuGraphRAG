@@ -1,0 +1,332 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-PPP-Summary-Benchmarks-KG"
+    },
+    "nodes": [
+      {
+        "id": "disease:adult_strabismus_history",
+        "label": "Disease",
+        "name": "成人斜视 (既往儿童斜视史)",
+        "definition": "成人期表现出的斜视，源于儿童时期未治愈或复发的斜视问题。",
+        "source_pdf": "PPP Summary Benchmarks.24.adult strabismus.pdf"
+      },
+      {
+        "id": "diagnostic:prism_testing",
+        "label": "Diagnostic",
+        "name": "棱镜适应性测试",
+        "definition": "用于模拟术后眼位排列，并确定患者能舒适耐受且不产生复视的过矫或欠矫范围。",
+        "source_pdf": "PPP Summary Benchmarks.24.adult strabismus.pdf"
+      },
+      {
+        "id": "treatment:adjustable_sutures",
+        "label": "Treatment",
+        "name": "调整缝线手术",
+        "definition": "一种斜视手术技术，术后可调整肌肉位置以优化眼位对齐。",
+        "source_pdf": "PPP Summary Benchmarks.24.adult strabismus.pdf"
+      },
+      {
+        "id": "surgery:keratorefractive_surgery",
+        "label": "Surgery",
+        "name": "角膜屈光手术",
+        "definition": "通过改变角膜形状来矫正屈光不正（近视、远视、散光）的手术，如LASIK或表层切削。",
+        "source_pdf": "PPP Summary Benchmarks.24.refractive.pdf"
+      },
+      {
+        "id": "instruction:contact_lens_discontinuation",
+        "label": "Instruction",
+        "name": "停戴隐形眼镜",
+        "definition": "屈光手术术前检查前必须执行的步骤，以确保角膜地形图和验光的准确性。",
+        "source_pdf": "PPP Summary Benchmarks.24.refractive.pdf"
+      },
+      {
+        "id": "complication:post_refractive_dry_eye",
+        "label": "Complication",
+        "name": "术后干眼",
+        "definition": "屈光手术后常见的并发症，可能由角膜神经切断导致，需术前评估和术后管理。",
+        "source_pdf": "PPP Summary Benchmarks.24.refractive.pdf"
+      },
+      {
+        "id": "disease:poag",
+        "label": "Disease",
+        "name": "原发性开角型青光眼 (POAG)",
+        "definition": "一种慢性、进行性视神经病变，房角开放但眼压通常升高，导致视野缺损。",
+        "source_pdf": "PPP Summary Benchmarks.24.glaucoma.pdf"
+      },
+      {
+        "id": "target:iop_reduction_25",
+        "label": "Target",
+        "name": "眼压降低目标 (≥25%)",
+        "definition": "POAG初始治疗的推荐目标，即眼压较基线水平至少降低25%。",
+        "source_pdf": "PPP Summary Benchmarks.24.glaucoma.pdf"
+      },
+      {
+        "id": "treatment:laser_trabeculoplasty",
+        "label": "Treatment",
+        "name": "激光小梁成形术 (SLT/ALT)",
+        "definition": "一种通过激光照射小梁网增加房水流出的治疗方法，可作为POAG的初始或辅助治疗。",
+        "source_pdf": "PPP Summary Benchmarks.24.glaucoma.pdf"
+      },
+      {
+        "id": "disease:pacs",
+        "label": "Disease",
+        "name": "原发性房角关闭可疑者 (PACS)",
+        "definition": "虹膜小梁接触范围≥180度，但眼压正常且无视神经损伤。",
+        "source_pdf": "Primary Angle-Closure Disease PPP.pdf"
+      },
+      {
+        "id": "disease:acute_angle_closure_crisis",
+        "label": "Disease",
+        "name": "急性房角关闭危象 (AACC)",
+        "definition": "眼压急剧升高，伴有疼痛、红眼、视力模糊、角膜水肿和瞳孔中度散大固定。",
+        "source_pdf": "Primary Angle-Closure Disease PPP.pdf"
+      },
+      {
+        "id": "treatment:laser_peripheral_iridotomy",
+        "label": "Treatment",
+        "name": "激光周边虹膜切开术 (LPI)",
+        "definition": "治疗房角关闭的首选激光手术，通过在虹膜周边打孔解除瞳孔阻滞。",
+        "source_pdf": "Primary Angle-Closure Disease PPP.pdf"
+      },
+      {
+        "id": "disease:amd_intermediate",
+        "label": "Disease",
+        "name": "中度年龄相关性黄斑变性",
+        "definition": "AREDS分类3级，特征为大玻璃膜疣或广泛的中等玻璃膜疣，无晚期AMD体征。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "supplement:areds2_formula",
+        "label": "Treatment",
+        "name": "AREDS2 配方补充剂",
+        "definition": "抗氧化维生素和矿物质组合（含叶黄素/玉米黄质，不含β-胡萝卜素），用于降低中晚期AMD进展风险。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "disease:pvd_symptomatic",
+        "label": "Disease",
+        "name": "症状性玻璃体后脱离 (PVD)",
+        "definition": "伴有闪光感或飞蚊症的玻璃体脱离，需散瞳检查周边视网膜以排除视网膜裂孔。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "disease:retinal_tear_horseshoe",
+        "label": "Disease",
+        "name": "急性症状性马蹄形裂孔",
+        "definition": "视网膜受玻璃体牵引形成的裂孔，如伴有症状，发生视网膜脱离的风险极高，需及时治疗。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "disease:central_retinal_artery_occlusion",
+        "label": "Disease",
+        "name": "视网膜中央动脉阻塞 (CRAO)",
+        "definition": "视网膜血流急剧中断，若为急性且有症状，应视为中风急症，立即转诊至卒中中心。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "disease:bacterial_keratitis",
+        "label": "Disease",
+        "name": "细菌性角膜炎",
+        "definition": "角膜的细菌感染，常与隐形眼镜佩戴、外伤或眼表疾病有关，需局部抗生素治疗。",
+        "source_pdf": "PPP Summary Benchmarks.24.cornea.pdf"
+      },
+      {
+        "id": "drug:fortified_antibiotics",
+        "label": "Drug",
+        "name": "强化抗生素滴眼液",
+        "definition": "高浓度的抗生素配方（如强化头孢唑林、强化妥布霉素），用于治疗大面积、中心性或严重的角膜溃疡。",
+        "source_pdf": "PPP Summary Benchmarks.24.cornea.pdf"
+      },
+      {
+        "id": "disease:blepharitis",
+        "label": "Disease",
+        "name": "睑缘炎",
+        "definition": "睑缘的慢性炎症，常伴有金黄色葡萄球菌感染或睑板腺功能障碍。",
+        "source_pdf": "PPP Summary Benchmarks.24.cornea.pdf"
+      },
+      {
+        "id": "treatment:lid_hygiene",
+        "label": "Treatment",
+        "name": "眼睑清洁与热敷",
+        "definition": "睑缘炎的基础治疗，包括热敷以液化睑板腺分泌物和清洁睑缘。",
+        "source_pdf": "PPP Summary Benchmarks.24.cornea.pdf"
+      },
+      {
+        "id": "disease:keratoconus",
+        "label": "Disease",
+        "name": "圆锥角膜 (角膜扩张)",
+        "definition": "一种角膜变薄并向前突出的非炎症性疾病，常导致不规则散光和视力下降。",
+        "source_pdf": "PPP Summary Benchmarks.24.cornea.pdf"
+      },
+      {
+        "id": "treatment:corneal_crosslinking",
+        "label": "Treatment",
+        "name": "角膜胶原交联术 (CXL)",
+        "definition": "使用核黄素和紫外线A增强角膜基质强度，是目前唯一能阻止圆锥角膜进展的治疗方法。",
+        "source_pdf": "PPP Summary Benchmarks.24.cornea.pdf"
+      },
+      {
+        "id": "disease:amblyopia_pediatric",
+        "label": "Disease",
+        "name": "儿童弱视",
+        "definition": "视觉发育期由于异常视觉经验（斜视、屈光参差、形觉剥夺）导致的单眼或双眼视力下降。",
+        "source_pdf": "PPP Summary Benchmarks.24.pediatrics.pdf"
+      },
+      {
+        "id": "screening:instrument_based",
+        "label": "Screening",
+        "name": "仪器辅助视力筛查",
+        "definition": "使用照片筛查仪或自动验光仪检测弱视风险因素（如屈光参差、斜视），适用于1-5岁儿童。",
+        "source_pdf": "PPP Summary Benchmarks.24.pediatrics.pdf"
+      },
+      {
+        "id": "test:red_reflex",
+        "label": "Diagnostic",
+        "name": "红光反射测试 (Brückner Test)",
+        "definition": "检查双眼红光反射的对称性，用于筛查新生儿和婴儿的先天性白内障、视网膜母细胞瘤或显著屈光不正。",
+        "source_pdf": "PPP Summary Benchmarks.24.pediatrics.pdf"
+      },
+      {
+        "id": "guideline:refractive_correction_infant",
+        "label": "Guideline",
+        "name": "婴幼儿配镜指南",
+        "definition": "针对不同年龄段（<1岁, 1-2岁等）设定的屈光不正（近视、远视、散光、屈光参差）配镜阈值。",
+        "source_pdf": "PPP Summary Benchmarks.24.pediatrics.pdf"
+      },
+      {
+        "id": "surgery:cataract_surgery",
+        "label": "Surgery",
+        "name": "白内障超声乳化术",
+        "definition": "摘除混浊晶状体并植入人工晶状体的手术，通常为门诊手术。",
+        "source_pdf": "PPP Summary Benchmarks.24.cataract.pdf"
+      },
+      {
+        "id": "drug:intracameral_antibiotics",
+        "label": "Drug",
+        "name": "前房内注射抗生素",
+        "definition": "白内障手术结束时前房内注射抗生素（如头孢呋辛），证据显示可显著降低术后眼内炎风险。",
+        "source_pdf": "PPP Summary Benchmarks.24.cataract.pdf"
+      },
+      {
+        "id": "complication:pco",
+        "label": "Complication",
+        "name": "后囊膜混浊 (PCO)",
+        "definition": "白内障术后常见的迟发性并发症，影响视力，可通过Nd:YAG激光切开治疗。",
+        "source_pdf": "PPP Summary Benchmarks.24.cataract.pdf"
+      },
+      {
+        "id": "disease:retinal_vein_occlusion",
+        "label": "Disease",
+        "name": "视网膜静脉阻塞 (RVO)",
+        "definition": "视网膜静脉血流受阻，分为分支静脉阻塞(BRVO)和中央静脉阻塞(CRVO)，常导致黄斑水肿。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "treatment:anti_vegf_rvo",
+        "label": "Treatment",
+        "name": "抗VEGF治疗 (RVO)",
+        "definition": "系统评价证实抗VEGF药物对治疗视网膜静脉阻塞继发的黄斑水肿有效。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      },
+      {
+        "id": "treatment:panretinal_photocoagulation_pdr",
+        "label": "Treatment",
+        "name": "全视网膜光凝 (PDR/RVO)",
+        "definition": "用于治疗高危增殖性糖尿病视网膜病变或缺血性静脉阻塞并发的新生血管。",
+        "source_pdf": "PPP Summary Benchmarks.24.retina.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "diagnostic:prism_testing",
+        "target": "disease:adult_strabismus_history",
+        "relation": "用于术前评估"
+      },
+      {
+        "source": "instruction:contact_lens_discontinuation",
+        "target": "surgery:keratorefractive_surgery",
+        "relation": "术前必须"
+      },
+      {
+        "source": "treatment:laser_trabeculoplasty",
+        "target": "disease:poag",
+        "relation": "初始或辅助治疗"
+      },
+      {
+        "source": "target:iop_reduction_25",
+        "target": "disease:poag",
+        "relation": "初始治疗目标"
+      },
+      {
+        "source": "treatment:laser_peripheral_iridotomy",
+        "target": "disease:pacs",
+        "relation": "预防闭角发作"
+      },
+      {
+        "source": "treatment:laser_peripheral_iridotomy",
+        "target": "disease:acute_angle_closure_crisis",
+        "relation": "首选手术治疗"
+      },
+      {
+        "source": "supplement:areds2_formula",
+        "target": "disease:amd_intermediate",
+        "relation": "降低进展风险"
+      },
+      {
+        "source": "disease:retinal_tear_horseshoe",
+        "target": "disease:pvd_symptomatic",
+        "relation": "可能并发"
+      },
+      {
+        "source": "drug:fortified_antibiotics",
+        "target": "disease:bacterial_keratitis",
+        "relation": "治疗重症感染"
+      },
+      {
+        "source": "treatment:lid_hygiene",
+        "target": "disease:blepharitis",
+        "relation": "基础治疗"
+      },
+      {
+        "source": "treatment:corneal_crosslinking",
+        "target": "disease:keratoconus",
+        "relation": "阻止病情进展"
+      },
+      {
+        "source": "screening:instrument_based",
+        "target": "disease:amblyopia_pediatric",
+        "relation": "早期筛查"
+      },
+      {
+        "source": "drug:intracameral_antibiotics",
+        "target": "surgery:cataract_surgery",
+        "relation": "预防眼内炎"
+      },
+      {
+        "source": "treatment:anti_vegf_rvo",
+        "target": "disease:retinal_vein_occlusion",
+        "relation": "治疗黄斑水肿"
+      },
+      {
+        "source": "disease:central_retinal_artery_occlusion",
+        "target": "disease:giant_cell_arteritis",
+        "relation": "需排除病因 (50岁以上)"
+      },
+      {
+        "source": "treatment:panretinal_photocoagulation_pdr",
+        "target": "disease:diabetic_retinopathy",
+        "relation": "治疗高危PDR"
+      },
+      {
+        "source": "disease:accommodative_esotropia",
+        "target": "disease:infantile_esotropia",
+        "relation": "鉴别诊断"
+      },
+      {
+        "source": "test:red_reflex",
+        "target": "disease:amblyopia_pediatric",
+        "relation": "筛查介质混浊"
+      }
+    ]
+  }

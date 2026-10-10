@@ -1,0 +1,162 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch16"
+    },
+    "nodes": [
+      {
+        "id": "disease:monogenic_glaucoma",
+        "label": "Disease",
+        "name": "单基因青光眼",
+        "definition": "由单个基因突变引起的青光眼，具有明显的家族遗传倾向，包括原发性先天性青光眼(PCG)和青少年开角型青光眼(JOAG)等。",
+        "source_pdf": "单基因青光眼的临床实践指南.pdf"
+      },
+      {
+        "id": "gene:myoc",
+        "label": "Genetic",
+        "name": "MYOC 基因",
+        "definition": "编码肌纤蛋白(Myocilin)，其突变是青少年开角型青光眼(JOAG)和原发性开角型青光眼(POAG)最常见的致病原因之一。",
+        "source_pdf": "单基因青光眼的临床实践指南.pdf"
+      },
+      {
+        "id": "gene:cyp1b1",
+        "label": "Genetic",
+        "name": "CYP1B1 基因",
+        "definition": "编码细胞色素P450 1B1，其突变是原发性先天性青光眼(PCG)的主要致病原因。",
+        "source_pdf": "单基因青光眼的临床实践指南.pdf"
+      },
+      {
+        "id": "drug:atropine_0.01",
+        "label": "Drug",
+        "name": "0.01% 硫酸阿托品滴眼液",
+        "definition": "一种低浓度阿托品制剂，用于延缓儿童近视进展，相比高浓度副作用更小（如瞳孔散大、调节麻痹）。",
+        "source_pdf": "低浓度硫酸阿托品防控近视进展眼用制剂制备的专家共识(2023).pdf"
+      },
+      {
+        "id": "standard:atropine_ph",
+        "label": "Standard",
+        "name": "阿托品滴眼液pH值标准",
+        "definition": "专家共识建议低浓度阿托品滴眼液的pH值应控制在3.5-6.0之间，以保证药物稳定性和减少刺激。",
+        "source_pdf": "低浓度硫酸阿托品防控近视进展眼用制剂制备的专家共识(2023).pdf"
+      },
+      {
+        "id": "disease:cvi_children_cn",
+        "label": "Disease",
+        "name": "儿童脑源性视觉障碍 (CVI)",
+        "definition": "由于大脑视觉通路（包括视放射、视觉皮层及联合皮层）受损导致的视觉功能障碍，眼球结构通常无明显异常。",
+        "source_pdf": "儿童脑源性视觉障碍诊断与治疗专家共识（2023）.pdf"
+      },
+      {
+        "id": "symptom:visual_field_defect_cvi",
+        "label": "Symptom",
+        "name": "视野缺损 (CVI特征)",
+        "definition": "CVI患儿常见的视功能异常，如下方视野缺损（因视放射受损），导致行走困难或易绊倒。",
+        "source_pdf": "儿童脑源性视觉障碍诊断与治疗专家共识（2023）.pdf"
+      },
+      {
+        "id": "symptom:visual_agnosia",
+        "label": "Symptom",
+        "name": "视觉失认",
+        "definition": "CVI的高级视觉功能障碍表现，患儿视力正常但无法识别物体、人脸或形状。",
+        "source_pdf": "儿童脑源性视觉障碍诊断与治疗专家共识（2023）.pdf"
+      },
+      {
+        "id": "strategy:treat_and_extend_aflibercept",
+        "label": "Treatment Strategy",
+        "name": "治疗-延长方案 (T&E) - 阿柏西普",
+        "definition": "阿柏西普治疗nAMD的主动给药方案：初始连续注射后，若病情稳定则逐步延长注射间隔（通常每次延长2周，最长可达16周）。",
+        "source_pdf": "采用治疗—延长方案进行阿柏西普玻璃体内注射治疗新生血管性年龄相关性黄斑变性专家共识(2021版).pdf"
+      },
+      {
+        "id": "criterion:te_extension",
+        "label": "Criterion",
+        "name": "T&E 延长标准",
+        "definition": "满足以下条件可延长间隔：无视网膜内/下积液、无新发出血、视力稳定、无新生血管活动性。",
+        "source_pdf": "采用治疗—延长方案进行阿柏西普玻璃体内注射治疗新生血管性年龄相关性黄斑变性专家共识(2021版).pdf"
+      },
+      {
+        "id": "surgery:phaco_gsl_gt",
+        "label": "Surgery",
+        "name": "超声乳化+房角分离+房角切开术 (Phaco-GSL-GT)",
+        "definition": "一种联合手术方式，用于治疗合并白内障的原发性闭角型青光眼(PACG)，旨在解除瞳孔阻滞、开放房角并降低眼压。",
+        "source_pdf": "超声乳化白内障吸除人工晶状体植入联合房角分离及房角切开术适应证及禁忌证专家推荐意见(2025).pdf"
+      },
+      {
+        "id": "indication:phaco_gsl_gt_indication",
+        "label": "Indication",
+        "name": "Phaco-GSL-GT 适应证",
+        "definition": "主要适用于药物或激光治疗控制不佳、合并白内障、房角关闭范围>180度且PAS存在的PACG患者。",
+        "source_pdf": "超声乳化白内障吸除人工晶状体植入联合房角分离及房角切开术适应证及禁忌证专家推荐意见(2025).pdf"
+      },
+      {
+        "id": "contraindication:phaco_gsl_gt_contra",
+        "label": "Contraindication",
+        "name": "Phaco-GSL-GT 禁忌证",
+        "definition": "包括新生血管性青光眼、葡萄膜炎性青光眼等继发性闭角型青光眼，或角膜内皮计数过低无法耐受手术者。",
+        "source_pdf": "超声乳化白内障吸除人工晶状体植入联合房角分离及房角切开术适应证及禁忌证专家推荐意见(2025).pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "gene:myoc",
+        "target": "disease:monogenic_glaucoma",
+        "relation": "致病基因"
+      },
+      {
+        "source": "gene:cyp1b1",
+        "target": "disease:monogenic_glaucoma",
+        "relation": "致病基因 (PCG)"
+      },
+      {
+        "source": "drug:atropine_0.01",
+        "target": "disease:myopia",
+        "relation": "延缓进展"
+      },
+      {
+        "source": "standard:atropine_ph",
+        "target": "drug:atropine_0.01",
+        "relation": "制剂质量要求"
+      },
+      {
+        "source": "disease:cvi_children_cn",
+        "target": "symptom:visual_field_defect_cvi",
+        "relation": "常见症状"
+      },
+      {
+        "source": "disease:cvi_children_cn",
+        "target": "symptom:visual_agnosia",
+        "relation": "高级视觉功能障碍"
+      },
+      {
+        "source": "strategy:treat_and_extend_aflibercept",
+        "target": "drug:aflibercept",
+        "relation": "给药策略"
+      },
+      {
+        "source": "strategy:treat_and_extend_aflibercept",
+        "target": "disease:neovascular_amd",
+        "relation": "治疗方案"
+      },
+      {
+        "source": "criterion:te_extension",
+        "target": "strategy:treat_and_extend_aflibercept",
+        "relation": "决策依据"
+      },
+      {
+        "source": "surgery:phaco_gsl_gt",
+        "target": "disease:pacg_acute",
+        "relation": "手术治疗 (合并白内障)"
+      },
+      {
+        "source": "indication:phaco_gsl_gt_indication",
+        "target": "surgery:phaco_gsl_gt",
+        "relation": "筛选患者"
+      },
+      {
+        "source": "contraindication:phaco_gsl_gt_contra",
+        "target": "surgery:phaco_gsl_gt",
+        "relation": "排除患者"
+      }
+    ]
+  }

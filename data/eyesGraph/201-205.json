@@ -1,0 +1,167 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch35"
+    },
+    "nodes": [
+      {
+        "id": "standard:clinical_visual_electrophysiology_terms",
+        "label": "Standard",
+        "name": "临床视觉电生理学术语标准",
+        "definition": "基于ISCEV标准，结合中国临床实践制定的规范化术语体系，涵盖ERG、VEP、EOG等检查项目及其参数描述。",
+        "source_pdf": "中国临床视觉电生理学相关术语专家共识（2023年）.pdf"
+      },
+      {
+        "id": "diagnostic:flash_erg",
+        "label": "Diagnostic",
+        "name": "闪光视网膜电图 (Flash ERG)",
+        "definition": "使用闪光刺激记录的视网膜综合电反应，主要用于评估视网膜外层（光感受器）和中层（双极细胞）的功能。",
+        "source_pdf": "中国临床视觉电生理学相关术语专家共识（2023年）.pdf"
+      },
+      {
+        "id": "diagnostic:pattern_vep",
+        "label": "Diagnostic",
+        "name": "图形视觉诱发电位 (Pattern VEP)",
+        "definition": "使用棋盘格翻转刺激记录的皮层电位，主要反映视神经和视路的功能，对视神经炎诊断敏感。",
+        "source_pdf": "中国临床视觉电生理学相关术语专家共识（2023年）.pdf"
+      },
+      {
+        "id": "disease:immune_mediated_marginal_keratitis",
+        "label": "Disease",
+        "name": "免疫相关性边缘性角膜病",
+        "definition": "由自身免疫反应导致的角膜边缘部炎症和溃疡，包括蚕食性角膜溃疡(Mooren溃疡)和全身免疫病相关的边缘性角膜炎。",
+        "source_pdf": "中国免疫相关性边缘性角膜病临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "disease:mooren_ulcer",
+        "label": "Disease",
+        "name": "蚕食性角膜溃疡 (Mooren Ulcer)",
+        "definition": "一种特发性、慢性、进行性、疼痛性的边缘性角膜溃疡，无全身自身免疫性疾病伴随，可能与针对角膜抗原的自身免疫反应有关。",
+        "parent_id": "disease:immune_mediated_marginal_keratitis",
+        "source_pdf": "中国免疫相关性边缘性角膜病临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "treatment:conjunctival_resection",
+        "label": "Surgery",
+        "name": "结膜切除术 (角膜病)",
+        "definition": "切除溃疡邻近的球结膜，以阻断炎症介质和抗体来源，是治疗蚕食性角膜溃疡的有效辅助手术。",
+        "source_pdf": "中国免疫相关性边缘性角膜病临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "treatment:systemic_immunosuppression_mooren",
+        "label": "Treatment",
+        "name": "全身免疫抑制治疗 (Mooren)",
+        "definition": "对于双眼、难治性或复发性蚕食性角膜溃疡，需联合使用糖皮质激素和免疫抑制剂（如环磷酰胺、甲氨蝶呤）。",
+        "source_pdf": "中国免疫相关性边缘性角膜病临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "surgery:en_dcr",
+        "label": "Surgery",
+        "name": "内镜下泪囊鼻腔吻合术 (En-DCR)",
+        "definition": "在鼻内镜直视下造孔，将泪囊与鼻腔直接吻合，重建泪液引流通道，具有面部无瘢痕、创伤小等优点。",
+        "source_pdf": "中国内镜泪囊鼻腔吻合术治疗慢性泪囊炎专家共识（2020年） (1).pdf"
+      },
+      {
+        "id": "indication:chronic_dacryocystitis",
+        "label": "Indication",
+        "name": "慢性泪囊炎 (En-DCR适应证)",
+        "definition": "En-DCR的主要适应证，表现为长期溢脓、泪囊区肿物压出脓液，冲洗泪道不通。",
+        "source_pdf": "中国内镜泪囊鼻腔吻合术治疗慢性泪囊炎专家共识（2020年） (1).pdf"
+      },
+      {
+        "id": "technique:mucosal_flap_preservation",
+        "label": "Technique",
+        "name": "鼻黏膜瓣保留技术",
+        "definition": "在En-DCR中保留并利用鼻黏膜瓣覆盖骨窗边缘，可减少肉芽组织增生，提高手术成功率。",
+        "source_pdf": "中国内镜泪囊鼻腔吻合术治疗慢性泪囊炎专家共识（2020年） (1).pdf"
+      },
+      {
+        "id": "disease:lacrimal_gland_epithelial_tumor",
+        "label": "Disease",
+        "name": "泪腺上皮性肿瘤",
+        "definition": "源于泪腺导管或腺泡上皮的肿瘤，包括良性（如多形性腺瘤）和恶性（如腺样囊性癌），占眼眶占位性病变的10-15%。",
+        "source_pdf": "中国泪腺上皮性肿瘤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:pleomorphic_adenoma",
+        "label": "Disease",
+        "name": "多形性腺瘤 (泪腺)",
+        "definition": "最常见的泪腺良性上皮性肿瘤，生长缓慢，有完整包膜。**严禁术前切开活检**，以免肿瘤种植复发。",
+        "parent_id": "disease:lacrimal_gland_epithelial_tumor",
+        "source_pdf": "中国泪腺上皮性肿瘤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:adenoid_cystic_carcinoma",
+        "label": "Disease",
+        "name": "腺样囊性癌 (泪腺)",
+        "definition": "最常见的泪腺恶性上皮性肿瘤，具有嗜神经侵袭特性，常伴有疼痛，预后较差，易发生远处转移。",
+        "parent_id": "disease:lacrimal_gland_epithelial_tumor",
+        "source_pdf": "中国泪腺上皮性肿瘤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "surgery:lateral_orbitotomy",
+        "label": "Surgery",
+        "name": "外侧开眶术",
+        "definition": "切除泪腺肿瘤的常用手术入路，可充分暴露并完整切除肿瘤。",
+        "source_pdf": "中国泪腺上皮性肿瘤诊疗专家共识（2021年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "standard:clinical_visual_electrophysiology_terms",
+        "target": "diagnostic:flash_erg",
+        "relation": "规范定义"
+      },
+      {
+        "source": "standard:clinical_visual_electrophysiology_terms",
+        "target": "diagnostic:pattern_vep",
+        "relation": "规范定义"
+      },
+      {
+        "source": "disease:immune_mediated_marginal_keratitis",
+        "target": "disease:mooren_ulcer",
+        "relation": "包含"
+      },
+      {
+        "source": "disease:mooren_ulcer",
+        "target": "treatment:conjunctival_resection",
+        "relation": "手术治疗"
+      },
+      {
+        "source": "disease:mooren_ulcer",
+        "target": "treatment:systemic_immunosuppression_mooren",
+        "relation": "重症治疗"
+      },
+      {
+        "source": "surgery:en_dcr",
+        "target": "indication:chronic_dacryocystitis",
+        "relation": "首选微创治疗"
+      },
+      {
+        "source": "surgery:en_dcr",
+        "target": "technique:mucosal_flap_preservation",
+        "relation": "关键技术"
+      },
+      {
+        "source": "disease:lacrimal_gland_epithelial_tumor",
+        "target": "disease:pleomorphic_adenoma",
+        "relation": "常见良性类型"
+      },
+      {
+        "source": "disease:lacrimal_gland_epithelial_tumor",
+        "target": "disease:adenoid_cystic_carcinoma",
+        "relation": "常见恶性类型"
+      },
+      {
+        "source": "disease:pleomorphic_adenoma",
+        "target": "surgery:lateral_orbitotomy",
+        "relation": "完整切除术式"
+      },
+      {
+        "source": "disease:pleomorphic_adenoma",
+        "target": "diagnostic:impression_cytology",
+        "relation": "禁忌活检 (特别注明)"
+      }
+    ]
+  }

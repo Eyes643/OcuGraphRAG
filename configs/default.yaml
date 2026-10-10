@@ -1,0 +1,63 @@
+model:
+  base: "Qwen/Qwen2.5-7B-Instruct"
+  max_context: 4096
+  max_new_tokens: 1024
+
+embedding:
+  model: "BAAI/bge-m3"
+
+chunking:
+  length: 512
+  overlap: 64
+
+graph:
+  confidence_threshold: 0.85
+  entity_link_threshold: 0.75
+  bfs_max_depth: 4
+  max_paths_per_query: 50
+  path_length_penalty: 0.05
+
+retrieval:
+  dense_top_k: 20
+  graph_top_k: 10
+  top_b: 10
+
+rerank:
+  alpha: 0.35
+  beta: 0.30
+  gamma: 0.20
+  delta: 0.15
+  authority:
+    level_1: 1.0
+    level_2: 0.7
+    level_3: 0.4
+  endpoint_bonus: 0.1
+  rank_margin: 0.5
+
+peft:
+  lora_rank: 32
+  lora_alpha: 64
+  lora_dropout: 0.05
+  stage1:
+    batch_size: 16
+    learning_rate: 0.0002
+    epochs: 5
+    eta1: 0.3
+    eta2: 0.2
+  stage2:
+    batch_size: 16
+    learning_rate: 0.0002
+    epochs: 3
+    lambda1: 1.0
+    lambda2: 0.4
+    lambda3: 0.3
+    lambda4: 0.2
+    lambda5: 0.1
+  rho1: 1.0
+  rho2: 1.0
+
+seed: 42
+
+hardware:
+  gpu: "4xNVIDIA_A100_80GB"
+  python: "3.10.12"

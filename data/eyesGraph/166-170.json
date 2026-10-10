@@ -1,0 +1,166 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch28"
+    },
+    "nodes": [
+      {
+        "id": "surgery:pediatric_strabismus_surgery",
+        "label": "Surgery",
+        "name": "儿童斜视矫正术",
+        "definition": "通过调整眼外肌位置或强度来矫正眼位偏斜的手术，围手术期管理对预防并发症至关重要。",
+        "source_pdf": "中国儿童斜视围手术期管理专家共识（2025年）.pdf"
+      },
+      {
+        "id": "complication:oculocardiac_reflex",
+        "label": "Complication",
+        "name": "眼心反射 (OCR)",
+        "definition": "斜视手术中牵拉眼外肌引起的迷走神经反射，表现为心率减慢、心律失常甚至心脏骤停，需术中密切监测。",
+        "source_pdf": "中国儿童斜视围手术期管理专家共识（2025年）.pdf"
+      },
+      {
+        "id": "complication:ponv_pediatric",
+        "label": "Complication",
+        "name": "术后恶心呕吐 (PONV)",
+        "definition": "儿童斜视手术后最常见的并发症之一，发生率高，需预防性使用止吐药物（如昂丹司琼、地塞米松）。",
+        "source_pdf": "中国儿童斜视围手术期管理专家共识（2025年）.pdf"
+      },
+      {
+        "id": "risk:malignant_hyperthermia",
+        "label": "Risk Factor",
+        "name": "恶性高热",
+        "definition": "一种罕见但致死的麻醉并发症，斜视患儿（特别是伴有肌肉骨骼疾病者）风险相对较高，需备有丹曲林。",
+        "source_pdf": "中国儿童斜视围手术期管理专家共识（2025年）.pdf"
+      },
+      {
+        "id": "disease:pediatric_ocular_trauma",
+        "label": "Disease",
+        "name": "儿童眼外伤",
+        "definition": "儿童单眼致盲的首要原因，包括机械性眼外伤（开放性/闭合性）和非机械性眼外伤（化学/热烧伤等）。",
+        "source_pdf": "中国儿童眼外伤救治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "diagnostic:ots_score",
+        "label": "Diagnostic",
+        "name": "眼外伤评分 (OTS)",
+        "definition": "基于初诊视力及眼球破裂、眼内炎等风险因素的评分系统，用于预测眼外伤后的视力预后。",
+        "source_pdf": "中国儿童眼外伤救治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "surgery:primary_repair_trauma",
+        "label": "Surgery",
+        "name": "眼球破裂伤一期缝合",
+        "definition": "开放性眼外伤的首要治疗，原则是恢复眼球完整性，即使视力极差也应尽量保留眼球，除非无法修复。",
+        "source_pdf": "中国儿童眼外伤救治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "surgery:flak",
+        "label": "Surgery",
+        "name": "飞秒激光辅助角膜移植 (FLAK)",
+        "definition": "利用飞秒激光进行高精度的角膜切割（如蘑菇状、不规则状切口），用于穿透性或板层角膜移植，可提高愈合质量。",
+        "source_pdf": "中国飞秒激光辅助角膜移植手术专家共识（2022年）.pdf"
+      },
+      {
+        "id": "indication:keratoconus_flak",
+        "label": "Indication",
+        "name": "圆锥角膜 (FLAK适应症)",
+        "definition": "FLAK的最佳适应证之一，飞秒激光制作的复杂切口可增加植片与植床的接触面积，提高生物力学稳定性。",
+        "source_pdf": "中国飞秒激光辅助角膜移植手术专家共识（2022年）.pdf"
+      },
+      {
+        "id": "strategy:public_health_myopia",
+        "label": "Strategy",
+        "name": "近视防控公共卫生综合干预",
+        "definition": "包括建立视力健康档案、增加日间户外活动（每天2小时）、改善采光照明、减负及健康教育的综合行动。",
+        "source_pdf": "中国儿童青少年近视防控公共卫生综合干预行动专家共识.pdf"
+      },
+      {
+        "id": "intervention:666_strategy",
+        "label": "Intervention",
+        "name": "“666”防近视策略",
+        "definition": "共识提出的具体行为指导：6岁前建立档案，每天户外活动60分钟（校内）+60分钟（校外），每半年检查一次。",
+        "source_pdf": "中国儿童青少年近视防控公共卫生综合干预行动专家共识.pdf"
+      },
+      {
+        "id": "disease:amblyopia_china_2021",
+        "label": "Disease",
+        "name": "弱视 (2021中国共识)",
+        "definition": "视觉发育期内异常视觉经验引起的单眼或双眼最佳矫正视力下降，且眼部无器质性病变。",
+        "source_pdf": "中国儿童弱视防治专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:refractive_correction_amblyopia",
+        "label": "Treatment",
+        "name": "屈光矫正 (弱视基础)",
+        "definition": "弱视治疗的基础，对于屈光不正性弱视，单纯配镜治疗通常有效，需观察3-6个月后再决定是否遮盖。",
+        "source_pdf": "中国儿童弱视防治专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:penalization_therapy",
+        "label": "Treatment",
+        "name": "药物压抑疗法 (阿托品)",
+        "definition": "使用阿托品眼膏/凝胶使健眼调节麻痹，视力模糊，从而强迫使用弱视眼，适用于中低度弱视或依从性差的患儿。",
+        "source_pdf": "中国儿童弱视防治专家共识（2021年）.pdf"
+      },
+      {
+        "id": "criterion:amblyopia_cure",
+        "label": "Criterion",
+        "name": "弱视临床治愈标准",
+        "definition": "视力恢复正常（对应年龄组），双眼视力平衡，且随访3年视力保持稳定。",
+        "source_pdf": "中国儿童弱视防治专家共识（2021年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "surgery:pediatric_strabismus_surgery",
+        "target": "complication:oculocardiac_reflex",
+        "relation": "术中高风险"
+      },
+      {
+        "source": "surgery:pediatric_strabismus_surgery",
+        "target": "complication:ponv_pediatric",
+        "relation": "术后高发并发症"
+      },
+      {
+        "source": "surgery:pediatric_strabismus_surgery",
+        "target": "risk:malignant_hyperthermia",
+        "relation": "需警惕的麻醉风险"
+      },
+      {
+        "source": "disease:pediatric_ocular_trauma",
+        "target": "diagnostic:ots_score",
+        "relation": "预后评估工具"
+      },
+      {
+        "source": "disease:pediatric_ocular_trauma",
+        "target": "surgery:primary_repair_trauma",
+        "relation": "首要救治措施"
+      },
+      {
+        "source": "surgery:flak",
+        "target": "indication:keratoconus_flak",
+        "relation": "主要应用"
+      },
+      {
+        "source": "strategy:public_health_myopia",
+        "target": "intervention:666_strategy",
+        "relation": "核心行动内容"
+      },
+      {
+        "source": "disease:amblyopia_china_2021",
+        "target": "treatment:refractive_correction_amblyopia",
+        "relation": "基础治疗"
+      },
+      {
+        "source": "disease:amblyopia_china_2021",
+        "target": "treatment:penalization_therapy",
+        "relation": "替代遮盖疗法"
+      },
+      {
+        "source": "disease:amblyopia_china_2021",
+        "target": "criterion:amblyopia_cure",
+        "relation": "治疗终点"
+      }
+    ]
+  }

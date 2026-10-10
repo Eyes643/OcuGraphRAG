@@ -1,0 +1,178 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch30"
+    },
+    "nodes": [
+      {
+        "id": "guideline:dry_eye_treatment_2020",
+        "label": "Guideline",
+        "name": "中国干眼治疗专家共识 (2020年)",
+        "definition": "中国干眼诊疗体系的核心文件，强调根据严重程度和类型（水液缺乏/蒸发过强）进行个体化、综合治疗。",
+        "source_pdf": "中国干眼专家共识：治疗（2020年）.pdf"
+      },
+      {
+        "id": "treatment:physical_therapy_dry_eye",
+        "label": "Treatment",
+        "name": "物理治疗 (干眼)",
+        "definition": "包括睑板腺按摩、强脉冲光(IPL)、热脉动系统(LipiFlow)及熏蒸雾化，主要针对蒸发过强型干眼(MGD)。",
+        "source_pdf": "中国干眼专家共识：治疗（2020年）.pdf"
+      },
+      {
+        "id": "treatment:anti_inflammatory_dry_eye",
+        "label": "Treatment",
+        "name": "抗炎治疗 (干眼)",
+        "definition": "针对中重度干眼的炎症机制，使用低浓度糖皮质激素（短期）、环孢素A或他克莫司（长期）滴眼液。",
+        "source_pdf": "中国干眼专家共识：治疗（2020年）.pdf"
+      },
+      {
+        "id": "treatment:contact_lens_therapeutic",
+        "label": "Treatment",
+        "name": "治疗性角膜接触镜",
+        "definition": "如绷带镜或巩膜镜，用于缓解严重干眼引起的疼痛，促进持续性角膜上皮缺损愈合。",
+        "source_pdf": "中国干眼专家共识：治疗（2020年）.pdf"
+      },
+      {
+        "id": "disease:ocular_hypertension_china",
+        "label": "Disease",
+        "name": "高眼压症 (OHT 中国共识)",
+        "definition": "多次测量眼压>21mmHg，但无青光眼性视神经损害或视野缺损，房角开放。",
+        "source_pdf": "中国高眼压症诊断治疗和随访专家共识（2020年）.pdf"
+      },
+      {
+        "id": "risk_stratification:oht_risk",
+        "label": "Risk Stratification",
+        "name": "OHT 风险分层",
+        "definition": "根据眼压水平、中央角膜厚度(CCT)、年龄及垂直杯盘比等因素，将OHT患者分为低、中、高风险组。",
+        "source_pdf": "中国高眼压症诊断治疗和随访专家共识（2020年）.pdf"
+      },
+      {
+        "id": "indication:oht_treatment",
+        "label": "Indication",
+        "name": "OHT 治疗指征",
+        "definition": "高风险OHT（如眼压>30mmHg，或薄角膜伴中度眼压升高）需启动降压治疗，目标是降低眼压20%以上。",
+        "source_pdf": "中国高眼压症诊断治疗和随访专家共识（2020年）.pdf"
+      },
+      {
+        "id": "surgery:combined_phaco_trab",
+        "label": "Surgery",
+        "name": "超声乳化联合小梁切除术",
+        "definition": "经典的青光眼白内障联合手术，适用于药物难以控制眼压的合并白内障的青光眼患者。",
+        "source_pdf": "中国合并白内障的原发性青光眼手术治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "surgery:combined_phaco_migs",
+        "label": "Surgery",
+        "name": "超声乳化联合MIGS",
+        "definition": "联合微创青光眼手术（如房角切开、支架植入），适用于轻中度青光眼合并白内障，安全性优于传统联合手术。",
+        "source_pdf": "中国合并白内障的原发性青光眼手术治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:surgery_related_dry_eye",
+        "label": "Disease",
+        "name": "眼手术相关性干眼",
+        "definition": "由眼科手术（如角膜屈光手术、白内障手术、玻切手术）诱发或加重的干眼，涉及神经损伤、炎症及杯状细胞丢失。",
+        "source_pdf": "中国干眼专家共识：眼手术相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "mechanism:corneal_nerve_transection",
+        "label": "Mechanism",
+        "name": "角膜神经切断",
+        "definition": "LASIK等手术切断角膜知觉神经，导致瞬目反射减少和泪液分泌下降，是术后干眼的核心机制。",
+        "source_pdf": "中国干眼专家共识：眼手术相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "risk_factor:pre_op_mgd",
+        "label": "Risk Factor",
+        "name": "术前 MGD",
+        "definition": "术前存在的睑板腺功能障碍是白内障术后干眼加重的主要危险因素，需术前预处理。",
+        "source_pdf": "中国干眼专家共识：眼手术相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "disease:drug_related_dry_eye",
+        "label": "Disease",
+        "name": "药物相关性干眼",
+        "definition": "由全身或局部用药导致的干眼，是干眼的重要医源性类型。",
+        "source_pdf": "中国干眼专家共识：药物相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "drug:bak_toxicity",
+        "label": "Risk Factor",
+        "name": "苯扎氯铵 (BAK) 毒性",
+        "definition": "眼科制剂中最常用的防腐剂，长期使用可破坏泪膜脂质层、损伤角膜上皮及杯状细胞，导致药物性干眼。",
+        "source_pdf": "中国干眼专家共识：药物相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "drug:isotretinoin_effect",
+        "label": "Drug Side Effect",
+        "name": "异维A酸致干眼",
+        "definition": "全身使用异维A酸可引起严重的睑板腺萎缩和分泌减少，导致蒸发过强型干眼。",
+        "source_pdf": "中国干眼专家共识：药物相关性干眼（2021年）.pdf"
+      },
+      {
+        "id": "drug:antiglaucoma_drops_dry_eye",
+        "label": "Drug Side Effect",
+        "name": "抗青光眼药物致干眼",
+        "definition": "长期使用β受体阻滞剂、α受体激动剂或PG类药物（及其防腐剂）是青光眼患者干眼高发的主要原因。",
+        "source_pdf": "中国干眼专家共识：药物相关性干眼（2021年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "guideline:dry_eye_treatment_2020",
+        "target": "treatment:physical_therapy_dry_eye",
+        "relation": "推荐疗法"
+      },
+      {
+        "source": "guideline:dry_eye_treatment_2020",
+        "target": "treatment:anti_inflammatory_dry_eye",
+        "relation": "核心药物"
+      },
+      {
+        "source": "disease:ocular_hypertension_china",
+        "target": "risk_stratification:oht_risk",
+        "relation": "管理依据"
+      },
+      {
+        "source": "risk_stratification:oht_risk",
+        "target": "indication:oht_treatment",
+        "relation": "决定是否治疗"
+      },
+      {
+        "source": "surgery:combined_phaco_trab",
+        "target": "disease:poag_full",
+        "relation": "适用难治性病例"
+      },
+      {
+        "source": "surgery:combined_phaco_migs",
+        "target": "disease:poag_full",
+        "relation": "适用早期/轻度病例"
+      },
+      {
+        "source": "disease:surgery_related_dry_eye",
+        "target": "mechanism:corneal_nerve_transection",
+        "relation": "屈光手术病因"
+      },
+      {
+        "source": "disease:surgery_related_dry_eye",
+        "target": "risk_factor:pre_op_mgd",
+        "relation": "需排查风险"
+      },
+      {
+        "source": "disease:drug_related_dry_eye",
+        "target": "drug:bak_toxicity",
+        "relation": "主要局部诱因"
+      },
+      {
+        "source": "disease:drug_related_dry_eye",
+        "target": "drug:isotretinoin_effect",
+        "relation": "主要全身诱因"
+      },
+      {
+        "source": "disease:drug_related_dry_eye",
+        "target": "drug:antiglaucoma_drops_dry_eye",
+        "relation": "常见临床场景"
+      }
+    ]
+  }

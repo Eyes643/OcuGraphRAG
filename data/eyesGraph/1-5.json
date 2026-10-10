@@ -1,0 +1,287 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG"
+    },
+    "nodes": [
+      {
+        "id": "disease:blepharitis",
+        "label": "Disease",
+        "name": "睑缘炎",
+        "definition": "一种主要累及睑缘的慢性眼部炎症，是慢性眼部刺激的常见原因。",
+        "source_pdf": "Blepharitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:anterior_blepharitis",
+        "label": "Disease",
+        "name": "前睑缘炎",
+        "definition": "影响眼睑皮肤、睫毛根部和睫毛毛囊的炎症。",
+        "parent_id": "disease:blepharitis",
+        "source_pdf": "Blepharitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:posterior_blepharitis",
+        "label": "Disease",
+        "name": "后睑缘炎",
+        "definition": "影响睑板腺的炎症，通常与睑板腺功能障碍(MGD)有关。",
+        "parent_id": "disease:blepharitis",
+        "source_pdf": "Blepharitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "treatment:warm_compresses",
+        "label": "Treatment",
+        "name": "热敷",
+        "definition": "对眼睑进行热敷以软化分泌物并促进睑板腺油脂排出。",
+        "source_pdf": "Blepharitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "drug:doxycycline",
+        "label": "Drug",
+        "name": "多西环素",
+        "definition": "一种口服四环素类抗生素，用于治疗酒渣鼻相关的眼部病变或难治性睑缘炎。",
+        "source_pdf": "Blepharitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "pathogen:demodex",
+        "label": "Pathogen",
+        "name": "蠕形螨",
+        "definition": "一种寄生螨虫，常见于慢性睑缘炎患者的睫毛根部。",
+        "source_pdf": "Blepharitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:adult_strabismus",
+        "label": "Disease",
+        "name": "成人斜视",
+        "definition": "成人眼位排列不正，可能由儿童期斜视复发、外伤、神经系统疾病等引起。",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:thyroid_eye_disease",
+        "label": "Disease",
+        "name": "甲状腺相关眼病 (TED)",
+        "definition": "一种自身免疫性疾病，特征为眼眶及周围组织的充血和炎症，常导致限制性斜视。",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "symptom:diplopia",
+        "label": "Symptom",
+        "name": "复视",
+        "definition": "看物体时出现重影，是成人斜视最常见的症状之一。",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "treatment:strabismus_surgery",
+        "label": "Treatment",
+        "name": "斜视手术",
+        "definition": "通过调整眼外肌的位置或长度来矫正眼位。",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:amblyopia",
+        "label": "Disease",
+        "name": "弱视",
+        "definition": "通常发生在眼球结构正常的眼睛中，由于视觉发育期的异常视觉经验导致的单侧或双侧最佳矫正视力下降。",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:anisometropic_amblyopia",
+        "label": "Disease",
+        "name": "屈光参差性弱视",
+        "definition": "由于双眼屈光度数差异导致视网膜成像清晰度不一致而引起的弱视。",
+        "parent_id": "disease:amblyopia",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:strabismic_amblyopia",
+        "label": "Disease",
+        "name": "斜视性弱视",
+        "definition": "由恒定性斜视引起的弱视，大脑抑制偏斜眼的视觉输入。",
+        "parent_id": "disease:amblyopia",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "treatment:patching",
+        "label": "Treatment",
+        "name": "遮盖疗法",
+        "definition": "遮盖健眼以强迫使用弱视眼，是治疗弱视的标准方法。",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "drug:atropine_eye_drops",
+        "label": "Drug",
+        "name": "阿托品滴眼液",
+        "definition": "用于药物压抑疗法，通过模糊健眼视力来治疗弱视。",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:AMD",
+        "label": "Disease",
+        "name": "年龄相关性黄斑变性",
+        "definition": "一种累及黄斑区的视网膜疾病，主要特征包括玻璃膜疣、RPE异常、地图样萎缩或脉络膜新生血管。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "disease:neovascular_AMD",
+        "label": "Disease",
+        "name": "新生血管性AMD (湿性)",
+        "definition": "以脉络膜新生血管(MNV)生长为特征的晚期AMD，可导致渗出、出血和纤维化。",
+        "parent_id": "disease:AMD",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "disease:geographic_atrophy",
+        "label": "Disease",
+        "name": "地图样萎缩 (GA)",
+        "definition": "非新生血管性AMD的晚期形式，表现为RPE和脉络膜毛细血管的萎缩区域。",
+        "parent_id": "disease:AMD",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "risk_factor:smoking",
+        "label": "Risk Factor",
+        "name": "吸烟",
+        "definition": "吸烟是AMD进展的主要可改变风险因素。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "drug:anti_VEGF",
+        "label": "Drug",
+        "name": "抗VEGF药物",
+        "definition": "血管内皮生长因子抑制剂，用于玻璃体腔注射治疗新生血管性AMD。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "supplement:AREDS2",
+        "label": "Treatment",
+        "name": "AREDS2 配方补充剂",
+        "definition": "含抗氧化维生素、锌、叶黄素和玉米黄质的补充剂，用于降低中晚期AMD进展风险。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "disease:bacterial_keratitis",
+        "label": "Disease",
+        "name": "细菌性角膜炎",
+        "definition": "由细菌引起的角膜感染，可能导致视力丧失、角膜穿孔等严重后果。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "risk_factor:contact_lens",
+        "label": "Risk Factor",
+        "name": "隐形眼镜佩戴",
+        "definition": "是美国微生物性角膜炎的首要风险因素，尤其是过夜佩戴。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "pathogen:pseudomonas",
+        "label": "Pathogen",
+        "name": "铜绿假单胞菌",
+        "definition": "一种常见的革兰氏阴性菌，常引起隐形眼镜相关的严重角膜溃疡。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "drug:fluoroquinolones",
+        "label": "Drug",
+        "name": "氟喹诺酮类抗生素",
+        "definition": "如莫西沙星、加替沙星，常作为细菌性角膜炎的经验性治疗首选。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:blepharitis",
+        "target": "disease:anterior_blepharitis",
+        "relation": "包含子类"
+      },
+      {
+        "source": "disease:blepharitis",
+        "target": "disease:posterior_blepharitis",
+        "relation": "包含子类"
+      },
+      {
+        "source": "disease:blepharitis",
+        "target": "treatment:warm_compresses",
+        "relation": "治疗方式"
+      },
+      {
+        "source": "disease:posterior_blepharitis",
+        "target": "drug:doxycycline",
+        "relation": "治疗药物"
+      },
+      {
+        "source": "pathogen:demodex",
+        "target": "disease:blepharitis",
+        "relation": "致病因素"
+      },
+      {
+        "source": "disease:thyroid_eye_disease",
+        "target": "disease:adult_strabismus",
+        "relation": "导致"
+      },
+      {
+        "source": "disease:adult_strabismus",
+        "target": "symptom:diplopia",
+        "relation": "导致症状"
+      },
+      {
+        "source": "treatment:strabismus_surgery",
+        "target": "disease:adult_strabismus",
+        "relation": "治疗"
+      },
+      {
+        "source": "disease:anisometropic_amblyopia",
+        "target": "disease:amblyopia",
+        "relation": "是...的一种"
+      },
+      {
+        "source": "treatment:patching",
+        "target": "disease:amblyopia",
+        "relation": "治疗"
+      },
+      {
+        "source": "drug:atropine_eye_drops",
+        "target": "disease:amblyopia",
+        "relation": "药物治疗"
+      },
+      {
+        "source": "disease:neovascular_AMD",
+        "target": "disease:AMD",
+        "relation": "是...的一种"
+      },
+      {
+        "source": "risk_factor:smoking",
+        "target": "disease:AMD",
+        "relation": "加重风险"
+      },
+      {
+        "source": "drug:anti_VEGF",
+        "target": "disease:neovascular_AMD",
+        "relation": "首选治疗"
+      },
+      {
+        "source": "supplement:AREDS2",
+        "target": "disease:AMD",
+        "relation": "延缓进展"
+      },
+      {
+        "source": "risk_factor:contact_lens",
+        "target": "disease:bacterial_keratitis",
+        "relation": "主要风险因素"
+      },
+      {
+        "source": "pathogen:pseudomonas",
+        "target": "disease:bacterial_keratitis",
+        "relation": "致病菌"
+      },
+      {
+        "source": "drug:fluoroquinolones",
+        "target": "disease:bacterial_keratitis",
+        "relation": "治疗药物"
+      },
+      {
+        "source": "disease:geographic_atrophy",
+        "target": "disease:AMD",
+        "relation": "晚期表现"
+      }
+    ]
+  }

@@ -1,0 +1,178 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch22"
+    },
+    "nodes": [
+      {
+        "id": "procedure:pathology_specimen_submission",
+        "label": "Procedure",
+        "name": "眼科病理标本送检",
+        "definition": "将手术切除或活检的眼部组织按规范固定、包装并送至病理科进行检查的过程，是确诊眼部肿瘤及疑难炎症的关键。",
+        "source_pdf": "眼科病理标本送检专家共识（2024）.pdf"
+      },
+      {
+        "id": "standard:fixative_10_formalin",
+        "label": "Standard",
+        "name": "10%中性缓冲福尔马林",
+        "definition": "眼科病理标本首选的通用固定液，能有效保存组织形态和抗原性，固定液体积应为标本体积的5-10倍。",
+        "source_pdf": "眼科病理标本送检专家共识（2024）.pdf"
+      },
+      {
+        "id": "standard:specimen_orientation",
+        "label": "Standard",
+        "name": "标本标记与定位",
+        "definition": "对于眼睑、结膜等切除标本，需通过缝线或绘图明确标本的方位（如鼻侧、颞侧、上、下），以指导病理切片和切缘评估。",
+        "source_pdf": "眼科病理标本送检专家共识（2024）.pdf"
+      },
+      {
+        "id": "ethics:ai_informed_consent",
+        "label": "Ethics",
+        "name": "AI知情同意",
+        "definition": "在眼科AI临床应用中，必须向患者明确告知AI辅助诊断的性质、局限性及可能产生的风险，保障患者的知情权和选择权。",
+        "source_pdf": "眼科人工智能临床应用伦理专家共识(2023).pdf"
+      },
+      {
+        "id": "ethics:data_privacy_protection",
+        "label": "Ethics",
+        "name": "数据隐私保护",
+        "definition": "眼科AI研发和应用中，需对患者的眼底图像及临床数据进行去标识化处理，防止敏感个人信息泄露。",
+        "source_pdf": "眼科人工智能临床应用伦理专家共识(2023).pdf"
+      },
+      {
+        "id": "ethics:algorithmic_bias",
+        "label": "Ethics",
+        "name": "算法偏见 (Algorithmic Bias)",
+        "definition": "AI模型因训练数据代表性不足（如特定种族、年龄段缺失）而导致对某些人群诊断准确率下降的伦理问题。",
+        "source_pdf": "眼科人工智能临床应用伦理专家共识(2023).pdf"
+      },
+      {
+        "id": "education:microsurgery_wetlab",
+        "label": "Education",
+        "name": "显微手术湿实验室 (Wet Lab)",
+        "definition": "利用离体动物眼球或模拟眼进行显微手术技能训练的场所，是眼科住院医师培训的必修环节。",
+        "source_pdf": "眼科显微手术技能教学模式专家共识.pdf"
+      },
+      {
+        "id": "education:surgical_simulator",
+        "label": "Education",
+        "name": "手术模拟器 (Virtual Simulator)",
+        "definition": "基于虚拟现实(VR)技术的眼科手术训练系统（如Eyesi），可提供白内障、玻切等手术的沉浸式操作练习和量化评估。",
+        "source_pdf": "眼科显微手术技能教学模式专家共识.pdf"
+      },
+      {
+        "id": "education:stepwise_training",
+        "label": "Education",
+        "name": "分阶段手术培训",
+        "definition": "遵循从理论学习、模拟训练、动物眼练习到导师指导下临床手术的循序渐进教学模式。",
+        "source_pdf": "眼科显微手术技能教学模式专家共识.pdf"
+      },
+      {
+        "id": "surgery:submandibular_gland_transfer",
+        "label": "Surgery",
+        "name": "血管化自体颌下腺移植",
+        "definition": "将患者自体的颌下腺带血管蒂移植至颞窝，导管开口于结膜囊，利用颌下腺分泌液体替代泪液，治疗重症角结膜干燥症。",
+        "source_pdf": "血管化自体颌下腺移植治疗重症角结膜干燥症指南.pdf"
+      },
+      {
+        "id": "indication:severe_kcs",
+        "label": "Indication",
+        "name": "重症角结膜干燥症 (KCS)",
+        "definition": "Schirmer试验<1mm/5min，伴有严重角膜并发症（如角膜血管化、角膜溃疡），常规治疗无效的干眼患者。",
+        "source_pdf": "血管化自体颌下腺移植治疗重症角结膜干燥症指南.pdf"
+      },
+      {
+        "id": "complication:epiphora_post_transplant",
+        "label": "Complication",
+        "name": "移植后流泪过多",
+        "definition": "颌下腺移植术后常见的并发症，由于进食时腺体分泌增加引起（“鳄鱼泪”现象），可通过部分切除腺体或肉毒素注射缓解。",
+        "source_pdf": "血管化自体颌下腺移植治疗重症角结膜干燥症指南.pdf"
+      },
+      {
+        "id": "disease:oaml",
+        "label": "Disease",
+        "name": "眼附属器MALT淋巴瘤",
+        "definition": "发生于眼眶、结膜、泪腺或眼睑的结外边缘区黏膜相关淋巴组织淋巴瘤，是最常见的眼附属器淋巴瘤类型。",
+        "source_pdf": "眼附属器黏膜相关淋巴组织结外边缘区淋巴瘤诊治中国专家共识（2023版）.pdf"
+      },
+      {
+        "id": "diagnostic:immunohistochemistry_malt",
+        "label": "Diagnostic",
+        "name": "免疫组化 (MALT)",
+        "definition": "诊断OAML的关键，典型表型为CD20+, CD79a+, CD5-, CD10-, CD23-, Cyclin D1-。",
+        "source_pdf": "眼附属器黏膜相关淋巴组织结外边缘区淋巴瘤诊治中国专家共识（2023版）.pdf"
+      },
+      {
+        "id": "treatment:radiotherapy_oaml",
+        "label": "Treatment",
+        "name": "放射治疗 (OAML)",
+        "definition": "局限期眼附属器MALT淋巴瘤的首选治疗方法，通常给予24-30Gy的剂量，局部控制率高。",
+        "source_pdf": "眼附属器黏膜相关淋巴组织结外边缘区淋巴瘤诊治中国专家共识（2023版）.pdf"
+      },
+      {
+        "id": "diagnostic:pet_ct_oaml",
+        "label": "Diagnostic",
+        "name": "PET/CT (OAML分期)",
+        "definition": "用于评估淋巴瘤的全身受累情况及治疗反应，特别是在确定是否为局限期病变时具有重要价值。",
+        "source_pdf": "眼附属器黏膜相关淋巴组织结外边缘区淋巴瘤诊治中国专家共识（2023版）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "procedure:pathology_specimen_submission",
+        "target": "standard:fixative_10_formalin",
+        "relation": "使用标准固定液"
+      },
+      {
+        "source": "procedure:pathology_specimen_submission",
+        "target": "standard:specimen_orientation",
+        "relation": "关键操作步骤"
+      },
+      {
+        "source": "ethics:ai_informed_consent",
+        "target": "technology:ai_dr_screening",
+        "relation": "临床应用前提"
+      },
+      {
+        "source": "ethics:algorithmic_bias",
+        "target": "technology:ai_dr_screening",
+        "relation": "需评估的风险"
+      },
+      {
+        "source": "education:stepwise_training",
+        "target": "education:microsurgery_wetlab",
+        "relation": "包含环节"
+      },
+      {
+        "source": "education:stepwise_training",
+        "target": "education:surgical_simulator",
+        "relation": "包含环节"
+      },
+      {
+        "source": "surgery:submandibular_gland_transfer",
+        "target": "indication:severe_kcs",
+        "relation": "终极治疗手段"
+      },
+      {
+        "source": "surgery:submandibular_gland_transfer",
+        "target": "complication:epiphora_post_transplant",
+        "relation": "常见术后问题"
+      },
+      {
+        "source": "disease:oaml",
+        "target": "diagnostic:immunohistochemistry_malt",
+        "relation": "确诊依据"
+      },
+      {
+        "source": "disease:oaml",
+        "target": "treatment:radiotherapy_oaml",
+        "relation": "局限期首选"
+      },
+      {
+        "source": "disease:oaml",
+        "target": "diagnostic:pet_ct_oaml",
+        "relation": "分期检查"
+      }
+    ]
+  }

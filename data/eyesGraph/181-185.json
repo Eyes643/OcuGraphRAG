@@ -1,0 +1,135 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch31"
+    },
+    "nodes": [
+      {
+        "id": "technology:ai_glaucoma_screening_system",
+        "label": "Technology",
+        "name": "AI青光眼辅助筛查系统",
+        "definition": "基于眼底照相技术，利用深度学习算法自动识别视盘、视网膜神经纤维层等特征，输出青光眼风险评估的智能系统。",
+        "source_pdf": "中国基于眼底照相的人工智能青光眼辅助筛查系统规范化设计及应用指南（2020年）.pdf"
+      },
+      {
+        "id": "standard:ai_glaucoma_sensitivity",
+        "label": "Standard",
+        "name": "AI青光眼筛查灵敏度标准",
+        "definition": "指南建议AI系统的灵敏度应≥85%，特异度应≥85%，以确保筛查的有效性和安全性。",
+        "source_pdf": "中国基于眼底照相的人工智能青光眼辅助筛查系统规范化设计及应用指南（2020年）.pdf"
+      },
+      {
+        "id": "complication:dlk_refractive",
+        "label": "Complication",
+        "name": "弥漫性层间角膜炎 (DLK)",
+        "definition": "激光角膜屈光手术后角膜瓣下或基质层间的非感染性炎症，表现为沙粒状混浊，分4期，严重者可致角膜溶解。",
+        "source_pdf": "中国激光角膜屈光手术并发症防治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "treatment:corticosteroid_dlk",
+        "label": "Treatment",
+        "name": "糖皮质激素 (DLK治疗)",
+        "definition": "DLK的首选治疗，轻度局部点眼，重度需局部强效激素甚至结膜下注射或口服激素，必要时冲洗层间。",
+        "source_pdf": "中国激光角膜屈光手术并发症防治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "complication:post_refractive_ectasia_prevention",
+        "label": "Complication",
+        "name": "角膜扩张 (屈光术后)",
+        "definition": "术后角膜生物力学失代偿导致的进行性角膜变薄和突出，是屈光手术最严重的并发症之一，需严格术前筛查。",
+        "source_pdf": "中国激光角膜屈光手术并发症防治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "treatment:cxl_rescue",
+        "label": "Treatment",
+        "name": "角膜胶原交联术 (挽救性)",
+        "definition": "确诊屈光术后角膜扩张后的首选治疗，旨在增强角膜强度，阻止病情进一步恶化。",
+        "source_pdf": "中国激光角膜屈光手术并发症防治专家共识（2024年）.pdf"
+      },
+      {
+        "id": "rehabilitation:eccentric_viewing",
+        "label": "Rehabilitation",
+        "name": "旁中心注视训练 (EV)",
+        "definition": "针对黄斑中心凹受损患者，训练其使用视网膜上的首选视网膜位点(PRL)代替黄斑中心凹进行注视，以提高视功能。",
+        "source_pdf": "中国黄斑病变低视力患者康复训练的专家共识.pdf"
+      },
+      {
+        "id": "technique:biofeedback_training",
+        "label": "Technique",
+        "name": "生物反馈训练 (微视野)",
+        "definition": "利用微视野计的声光反馈功能，帮助患者稳定固视点，提高注视稳定性和读写能力。",
+        "source_pdf": "中国黄斑病变低视力患者康复训练的专家共识.pdf"
+      },
+      {
+        "id": "condition:nlp_trauma",
+        "label": "Condition",
+        "name": "无光感 (NLP) 眼外伤",
+        "definition": "眼外伤后视力丧失至无光感，既往常被视为眼球摘除指征，但现代观点认为部分患者通过积极治疗有望恢复视力。",
+        "source_pdf": "中国机械性眼外伤无光感眼救治专家共识（2020年）.pdf"
+      },
+      {
+        "id": "surgery:exploratory_vitrectomy_nlp",
+        "label": "Surgery",
+        "name": "探查性玻璃体切除术 (NLP眼)",
+        "definition": "对于眼球结构尚完整的NLP眼外伤，若不能排除视神经断裂，可考虑行探查性玻切术，以争取挽救视力。",
+        "source_pdf": "中国机械性眼外伤无光感眼救治专家共识（2020年）.pdf"
+      },
+      {
+        "id": "indication:primary_enucleation_contra",
+        "label": "Indication",
+        "name": "一期眼球摘除 (慎重)",
+        "definition": "共识强调，除非眼球结构完全破坏无法修复（如眼内容物脱失），否则不应仅因无光感而在急诊一期摘除眼球。",
+        "source_pdf": "中国机械性眼外伤无光感眼救治专家共识（2020年）.pdf"
+      },
+      {
+        "id": "complication:pressure_induced_stromal_keratitis",
+        "label": "Complication",
+        "name": "压力性基质角膜炎 (PISK)",
+        "definition": "LASIK术后因激素使用导致眼压升高，进而引起角膜基质水肿，常被误诊为DLK，需减停激素并降眼压。",
+        "source_pdf": "中国激光角膜屈光手术并发症防治专家共识（2024年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "technology:ai_glaucoma_screening_system",
+        "target": "standard:ai_glaucoma_sensitivity",
+        "relation": "性能要求"
+      },
+      {
+        "source": "complication:dlk_refractive",
+        "target": "treatment:corticosteroid_dlk",
+        "relation": "主要治疗"
+      },
+      {
+        "source": "complication:post_refractive_ectasia_prevention",
+        "target": "treatment:cxl_rescue",
+        "relation": "阻断进展"
+      },
+      {
+        "source": "disease:macular_degeneration_low_vision",
+        "target": "rehabilitation:eccentric_viewing",
+        "relation": "核心康复手段"
+      },
+      {
+        "source": "rehabilitation:eccentric_viewing",
+        "target": "technique:biofeedback_training",
+        "relation": "技术辅助"
+      },
+      {
+        "source": "condition:nlp_trauma",
+        "target": "surgery:exploratory_vitrectomy_nlp",
+        "relation": "挽救性治疗"
+      },
+      {
+        "source": "condition:nlp_trauma",
+        "target": "indication:primary_enucleation_contra",
+        "relation": "避免草率实施"
+      },
+      {
+        "source": "complication:pressure_induced_stromal_keratitis",
+        "target": "complication:dlk_refractive",
+        "relation": "重要鉴别诊断"
+      }
+    ]
+  }

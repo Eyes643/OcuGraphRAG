@@ -1,0 +1,211 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch40"
+    },
+    "nodes": [
+      {
+        "id": "service:ophthalmic_day_surgery",
+        "label": "Service Model",
+        "name": "眼科日间手术",
+        "definition": "患者在24小时内完成入院、手术和出院的医疗服务模式，适用于白内障、翼状胬肉、玻璃体腔注药及部分玻切手术。",
+        "source_pdf": "中国眼科日间手术管理专家共识（2021年）.pdf"
+      },
+      {
+        "id": "standard:day_surgery_discharge",
+        "label": "Standard",
+        "name": "日间手术出院评估标准 (PADSS)",
+        "definition": "采用麻醉后离院评分系统(PADSS)，评估生命体征、活动能力、恶心呕吐、疼痛及手术部位出血情况，总分≥9分方可出院。",
+        "source_pdf": "中国眼科日间手术管理专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:post_cataract_endophthalmitis",
+        "label": "Disease",
+        "name": "白内障术后感染性眼内炎",
+        "definition": "内眼手术后最严重的并发症，急性期（<6周）多由表皮葡萄球菌等革兰阳性菌引起，视力预后取决于致病菌毒力和治疗及时性。",
+        "source_pdf": "中国眼科手术后感染性眼内炎诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "treatment:intravitreal_vancomycin_ceftazidime",
+        "label": "Drug Regimen",
+        "name": "万古霉素+头孢他啶 (玻璃体腔注射)",
+        "definition": "细菌性眼内炎的经验性首选治疗方案，分别覆盖革兰阳性菌和革兰阴性菌，需分次、不同注射器注射。",
+        "source_pdf": "中国眼科手术后感染性眼内炎诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "treatment:vitrectomy_endophthalmitis",
+        "label": "Surgery",
+        "name": "玻璃体切除术 (眼内炎)",
+        "definition": "对于视力仅为光感或更差、病情进展迅速或药物治疗无效的眼内炎，应立即行完整玻切术以清除病原体和炎性介质。",
+        "source_pdf": "中国眼科手术后感染性眼内炎诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "disease:orbital_foreign_body",
+        "label": "Disease",
+        "name": "眼眶异物",
+        "definition": "异物穿透眼眶组织滞留，植物性异物易引起化脓性炎症和窦道，金属异物相对惰性，铜异物可引起无菌性化脓。",
+        "source_pdf": "中国眼眶异物诊断和治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "diagnostic:ct_orbital_fb",
+        "label": "Diagnostic",
+        "name": "眼眶CT (异物)",
+        "definition": "诊断眼眶异物的首选方法，可精确定位金属和高密度异物；对于木质异物，CT值可能类似空气或脂肪，需仔细辨别。",
+        "source_pdf": "中国眼眶异物诊断和治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:iofb",
+        "label": "Disease",
+        "name": "眼内异物 (IOFB)",
+        "definition": "异物穿通眼球壁滞留于眼内，常伴有眼球破裂、白内障、视网膜脱离及眼内炎，需急诊手术取出。",
+        "source_pdf": "中国眼内异物伤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "complication:siderosis_bulbi",
+        "label": "Complication",
+        "name": "眼球铁锈症",
+        "definition": "铁质异物长期存留导致的视网膜神经上皮毒性损害，表现为夜盲、视野缺损和ERG波幅下降。",
+        "source_pdf": "中国眼内异物伤诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:ocular_chemical_burn",
+        "label": "Disease",
+        "name": "眼化学烧伤",
+        "definition": "酸性或碱性物质造成的眼表损伤，碱烧伤穿透力强，后果通常比酸烧伤更严重。",
+        "source_pdf": "中国眼烧伤临床诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:immediate_irrigation",
+        "label": "Treatment",
+        "name": "即刻冲洗 (眼烧伤)",
+        "definition": "眼化学烧伤现场急救的最关键措施，应争分夺秒就地取材，冲洗至少30分钟或直至pH值恢复中性。",
+        "source_pdf": "中国眼烧伤临床诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:asc_citrate",
+        "label": "Drug",
+        "name": "维生素C + 柠檬酸盐",
+        "definition": "治疗重度碱烧伤的辅助药物，可改变房水pH值，抑制胶原酶活性，减少角膜溃疡和穿孔风险。",
+        "source_pdf": "中国眼烧伤临床诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "guideline:ocular_trauma_triage",
+        "label": "Guideline",
+        "name": "眼外伤急诊检伤分类",
+        "definition": "根据生命体征和眼伤严重程度将患者分为I级（濒危/眼球破裂）、II级（重症/眼内异物）、III级（轻症）进行分级救治。",
+        "source_pdf": "中国眼外伤急诊救治规范专家共识（2019年）.pdf"
+      },
+      {
+        "id": "treatment:tetanus_prophylaxis_eye",
+        "label": "Treatment",
+        "name": "破伤风预防 (眼外伤)",
+        "definition": "开放性眼外伤患者均应评估破伤风免疫状态，必要时注射破伤风抗毒素(TAT)或免疫球蛋白(TIG)。",
+        "source_pdf": "中国眼外伤急诊救治规范专家共识（2019年）.pdf"
+      },
+      {
+        "id": "disease:drug_induced_keratopathy",
+        "label": "Disease",
+        "name": "药源性角膜病变",
+        "definition": "由眼用药物（抗病毒药、氨基糖苷类、非甾体抗炎药）或防腐剂的毒性引起的角膜上皮病变、基质溶解甚至穿孔。",
+        "source_pdf": "中国药源性角膜病变诊断和治疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "symptom:hurricane_keratopathy",
+        "label": "Symptom",
+        "name": "飓风状角膜上皮病变",
+        "definition": "药源性角膜病变的特征性表现之一，角膜上皮呈旋涡状或轮辐状混浊，常与长期使用抗心律失常药（胺碘酮）或氯喹有关。",
+        "source_pdf": "中国药源性角膜病变诊断和治疗专家共识（2023年）.pdf"
+      },
+      {
+        "id": "surgery:gene_therapy_subretinal",
+        "label": "Surgery",
+        "name": "视网膜下注射基因治疗",
+        "definition": "通过玻切手术将病毒载体注射到视网膜神经上皮与色素上皮之间，需精准控制注射压力和体积，防止视网膜裂孔或黄斑孔。",
+        "source_pdf": "中国遗传性视网膜疾病基因治疗手术安全性管理和视功能评价指标设定专家共识.pdf"
+      },
+      {
+        "id": "diagnostic:mlmt",
+        "label": "Diagnostic",
+        "name": "多亮度移动性测试 (MLMT)",
+        "definition": "评估低视力患者（如IRD）在不同光照条件下通过障碍路线的能力，是基因治疗临床试验认可的功能性终点指标。",
+        "source_pdf": "中国遗传性视网膜疾病临床试验视觉功能评估及终点指标推荐专家共识.pdf"
+      },
+      {
+        "id": "diagnostic:fst",
+        "label": "Diagnostic",
+        "name": "全视野光敏感度阈值 (FST)",
+        "definition": "用于评估视力极差患者的全视网膜光敏感度，比传统视野检查更能反映严重IRD患者的治疗获益。",
+        "source_pdf": "中国遗传性视网膜疾病临床试验视觉功能评估及终点指标推荐专家共识.pdf"
+      },
+      {
+        "id": "procedure:eua_infant",
+        "label": "Procedure",
+        "name": "婴幼儿全麻下眼病检查 (EUA)",
+        "definition": "对不配合的婴幼儿进行全面眼部检查的标准流程，尤其适用于先天性青光眼（测眼压、角膜直径）和视网膜母细胞瘤的评估。",
+        "source_pdf": "中国婴幼儿全身麻醉下眼病检查专家共识（2022年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "service:ophthalmic_day_surgery",
+        "target": "standard:day_surgery_discharge",
+        "relation": "遵循出院标准"
+      },
+      {
+        "source": "disease:post_cataract_endophthalmitis",
+        "target": "treatment:intravitreal_vancomycin_ceftazidime",
+        "relation": "经验性治疗"
+      },
+      {
+        "source": "disease:post_cataract_endophthalmitis",
+        "target": "treatment:vitrectomy_endophthalmitis",
+        "relation": "重症挽救"
+      },
+      {
+        "source": "disease:orbital_foreign_body",
+        "target": "diagnostic:ct_orbital_fb",
+        "relation": "首选影像"
+      },
+      {
+        "source": "disease:iofb",
+        "target": "complication:siderosis_bulbi",
+        "relation": "长期并发症"
+      },
+      {
+        "source": "disease:ocular_chemical_burn",
+        "target": "treatment:immediate_irrigation",
+        "relation": "急救核心"
+      },
+      {
+        "source": "disease:ocular_chemical_burn",
+        "target": "treatment:asc_citrate",
+        "relation": "抗溃疡治疗"
+      },
+      {
+        "source": "guideline:ocular_trauma_triage",
+        "target": "treatment:tetanus_prophylaxis_eye",
+        "relation": "常规处置"
+      },
+      {
+        "source": "disease:drug_induced_keratopathy",
+        "target": "symptom:hurricane_keratopathy",
+        "relation": "特征性体征"
+      },
+      {
+        "source": "disease:retinitis_pigmentosa",
+        "target": "surgery:gene_therapy_subretinal",
+        "relation": "新兴治疗手段"
+      },
+      {
+        "source": "disease:retinitis_pigmentosa",
+        "target": "diagnostic:mlmt",
+        "relation": "疗效评估指标"
+      },
+      {
+        "source": "procedure:eua_infant",
+        "target": "disease:retinoblastoma_china",
+        "relation": "必需检查手段"
+      }
+    ]
+  }

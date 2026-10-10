@@ -1,0 +1,169 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch23"
+    },
+    "nodes": [
+      {
+        "id": "service:one_stop_ivi_china",
+        "label": "Service Model",
+        "name": "一站式玻璃体腔注药模式",
+        "definition": "通过优化流程，实现眼底病患者在一次就诊中完成挂号、检查、诊断及注药治疗的诊疗模式，旨在提高依从性并降低“失访”率。",
+        "source_pdf": "一站式玻璃体腔注药模式的建立与管理专家共识.pdf"
+      },
+      {
+        "id": "role:day_ward_management",
+        "label": "Service Model",
+        "name": "日间病房管理 (注药)",
+        "definition": "一站式模式的核心载体，要求具备完善的术前评估、术中操作及术后观察流程，实现“非住院”化的高效治疗。",
+        "source_pdf": "一站式玻璃体腔注药模式的建立与管理专家共识.pdf"
+      },
+      {
+        "id": "surgery:icl_implantation",
+        "label": "Surgery",
+        "name": "有晶状体眼后房型人工晶状体植入术 (ICL)",
+        "definition": "一种保留自然晶状体的屈光手术，将ICL植入后房（虹膜与晶状体之间），主要用于矫正高度近视及散光。",
+        "source_pdf": "有晶状体眼后房型人工晶状体植入术术前检查操作规范专家共识(2023).pdf"
+      },
+      {
+        "id": "diagnostic:ubm_icl",
+        "label": "Diagnostic",
+        "name": "超声生物显微镜 (UBM) - ICL术前",
+        "definition": "ICL术前必须检查，用于评估睫状沟形态、测量沟-沟直径(STS)及排除睫状体囊肿等禁忌证。",
+        "source_pdf": "有晶状体眼后房型人工晶状体植入术术前检查操作规范专家共识(2023).pdf"
+      },
+      {
+        "id": "diagnostic:ecd_icl",
+        "label": "Diagnostic",
+        "name": "角膜内皮细胞计数 (ECD)",
+        "definition": "ICL术前关键安全指标，通常要求ECD≥2000个/mm²，术后需定期监测内皮丢失率。",
+        "source_pdf": "有晶状体眼后房型人工晶状体植入术术前检查操作规范专家共识(2023).pdf"
+      },
+      {
+        "id": "diagnostic:wtw_measurement",
+        "label": "Diagnostic",
+        "name": "白到白距离 (WTW)",
+        "definition": "角膜水平直径测量，是ICL晶体尺寸选择的重要参考依据，可通过IOLMaster或Pentacam测量。",
+        "source_pdf": "有晶状体眼后房型人工晶状体植入术术前检查操作规范专家共识(2023).pdf"
+      },
+      {
+        "id": "disease:pss_china_guideline",
+        "label": "Disease",
+        "name": "原发性干燥综合征 (pSS)",
+        "definition": "一种以淋巴细胞增殖和进行性外分泌腺损伤为特征的慢性系统性自身免疫病，眼部表现为干燥性角结膜炎。",
+        "source_pdf": "原发性干燥综合征诊疗规范.pdf"
+      },
+      {
+        "id": "diagnostic:labial_biopsy",
+        "label": "Diagnostic",
+        "name": "唇腺病理活检",
+        "definition": "诊断pSS的金标准之一，阳性标准为灶性淋巴细胞浸润（≥1个灶/4mm²）。",
+        "source_pdf": "原发性干燥综合征诊疗规范.pdf"
+      },
+      {
+        "id": "diagnostic:anti_ssa",
+        "label": "Diagnostic",
+        "name": "抗SSA抗体",
+        "definition": "pSS诊断中最具特异性的自身抗体，是2016年ACR/EULAR分类标准的核心指标。",
+        "source_pdf": "原发性干燥综合征诊疗规范.pdf"
+      },
+      {
+        "id": "standard:ophthalmic_emr_structure",
+        "label": "Standard",
+        "name": "眼科电子病历结构化",
+        "definition": "要求眼科EMR具备专科特有的结构化数据元（如视力、眼压、专科体征绘图），而非简单的文本录入。",
+        "source_pdf": "眼科专科门诊电子病历专家共识(2024).pdf"
+      },
+      {
+        "id": "function:device_integration",
+        "label": "Function",
+        "name": "设备集成 (Device Integration)",
+        "definition": "眼科EMR应能直接从检查设备（如OCT、验光仪）获取图像和数值数据，避免人工转录错误。",
+        "source_pdf": "眼科专科门诊电子病历专家共识(2024).pdf"
+      },
+      {
+        "id": "surgery:combined_phacovitrectomy_strategy",
+        "label": "Surgery",
+        "name": "眼前后节联合手术",
+        "definition": "即白内障超声乳化联合玻璃体切除术，适用于同时患有白内障和需要手术的玻璃体视网膜疾病（如PDR、黄斑裂孔）的患者。",
+        "source_pdf": "眼前后节联合手术时机及人工晶状体植入等屈光策略专家共识(2025).pdf"
+      },
+      {
+        "id": "strategy:iol_calculation_combined",
+        "label": "Treatment Strategy",
+        "name": "联合手术IOL度数计算",
+        "definition": "需考虑硅油填充引起的屈光漂移、眼轴测量误差（如黄斑水肿影响）及术后有效晶体位置(ELP)的预测难度。",
+        "source_pdf": "眼前后节联合手术时机及人工晶状体植入等屈光策略专家共识(2025).pdf"
+      },
+      {
+        "id": "contraindication:multifocal_iol_combined",
+        "label": "Contraindication",
+        "name": "多焦点IOL (联合手术)",
+        "definition": "对于眼底病变可能影响对比敏感度或视功能的患者（如严重DR、黄斑病变），通常不建议在联合手术中植入多焦点IOL。",
+        "source_pdf": "眼前后节联合手术时机及人工晶状体植入等屈光策略专家共识(2025).pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "service:one_stop_ivi_china",
+        "target": "role:day_ward_management",
+        "relation": "依托模式"
+      },
+      {
+        "source": "service:one_stop_ivi_china",
+        "target": "disease:neovascular_amd",
+        "relation": "主要服务对象"
+      },
+      {
+        "source": "diagnostic:ubm_icl",
+        "target": "surgery:icl_implantation",
+        "relation": "必查项目"
+      },
+      {
+        "source": "diagnostic:ecd_icl",
+        "target": "surgery:icl_implantation",
+        "relation": "安全性指标"
+      },
+      {
+        "source": "diagnostic:wtw_measurement",
+        "target": "surgery:icl_implantation",
+        "relation": "晶体定径依据"
+      },
+      {
+        "source": "disease:pss_china_guideline",
+        "target": "diagnostic:labial_biopsy",
+        "relation": "确诊依据"
+      },
+      {
+        "source": "disease:pss_china_guideline",
+        "target": "diagnostic:anti_ssa",
+        "relation": "血清学标志"
+      },
+      {
+        "source": "disease:pss_china_guideline",
+        "target": "disease:dry_eye_syndrome",
+        "relation": "眼部表现"
+      },
+      {
+        "source": "standard:ophthalmic_emr_structure",
+        "target": "function:device_integration",
+        "relation": "关键功能要求"
+      },
+      {
+        "source": "surgery:combined_phacovitrectomy_strategy",
+        "target": "strategy:iol_calculation_combined",
+        "relation": "核心难点"
+      },
+      {
+        "source": "surgery:combined_phacovitrectomy_strategy",
+        "target": "contraindication:multifocal_iol_combined",
+        "relation": "慎用情况"
+      },
+      {
+        "source": "surgery:combined_phacovitrectomy_strategy",
+        "target": "disease:pdr",
+        "relation": "常见适应症"
+      }
+    ]
+  }

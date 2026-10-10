@@ -1,0 +1,406 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Full"
+    },
+    "nodes": [
+      {
+        "id": "disease:adult_strabismus",
+        "label": "Disease",
+        "name": "成人斜视",
+        "definition": "一种眼位排列不正的疾病，可能由儿童期未治愈、复发或成人期获得性病变（如外伤、神经疾病）引起。",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:strabismus_fixus",
+        "label": "Disease",
+        "name": "固定性斜视 (Heavy Eye Syndrome)",
+        "definition": "一种获得性发散不足及其严重的变体，通常与高度近视和眼球后葡萄肿导致的眼外肌路径移位有关。",
+        "parent_id": "disease:adult_strabismus",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:sagging_eye_syndrome",
+        "label": "Disease",
+        "name": "眼球下垂综合征 (Sagging Eye Syndrome)",
+        "definition": "由连接上直肌和外直肌的结缔组织带退化引起，导致外直肌下移，引起小角度内斜视和复视，常见于老年人。",
+        "parent_id": "disease:adult_strabismus",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:thyroid_eye_disease_strabismus",
+        "label": "Disease",
+        "name": "甲状腺相关眼病性斜视",
+        "definition": "由甲状腺眼病引起的限制性斜视，常表现为下直肌和内直肌受累导致的复视。",
+        "parent_id": "disease:adult_strabismus",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:cranial_nerve_palsy_4",
+        "label": "Disease",
+        "name": "第四颅神经麻痹 (滑车神经麻痹)",
+        "definition": "导致上斜肌无力，表现为垂直复视和代偿性头位（向健侧倾斜）。",
+        "parent_id": "disease:adult_strabismus",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:cranial_nerve_palsy_6",
+        "label": "Disease",
+        "name": "第六颅神经麻痹 (外展神经麻痹)",
+        "definition": "导致外直肌无力，表现为水平复视，远距离注视时加重。",
+        "parent_id": "disease:adult_strabismus",
+        "source_pdf": "Adult Strabismus Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:amblyopia",
+        "label": "Disease",
+        "name": "弱视",
+        "definition": "一种单侧或双侧的最佳矫正视力下降，通常发生在眼球结构正常的情况下，由视觉发育期的异常视觉经验引起。",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:anisometropic_amblyopia",
+        "label": "Disease",
+        "name": "屈光参差性弱视",
+        "definition": "由于双眼屈光度数差异（如远视、散光）导致视网膜成像清晰度不一致而引起的弱视。",
+        "parent_id": "disease:amblyopia",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:strabismic_amblyopia",
+        "label": "Disease",
+        "name": "斜视性弱视",
+        "definition": "由恒定性斜视引起的弱视，大脑为了避免复视而抑制偏斜眼的视觉输入。",
+        "parent_id": "disease:amblyopia",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:deprivation_amblyopia",
+        "label": "Disease",
+        "name": "形觉剥夺性弱视",
+        "definition": "由视觉轴的物理遮挡（如先天性白内障、上睑下垂）引起的严重弱视。",
+        "parent_id": "disease:amblyopia",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "treatment:patching",
+        "label": "Treatment",
+        "name": "遮盖疗法",
+        "definition": "遮盖健眼以强迫使用弱视眼，是治疗弱视的标准方法。",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "treatment:atropine_penalization",
+        "label": "Treatment",
+        "name": "阿托品压抑疗法",
+        "definition": "使用阿托品眼药水模糊健眼视力，作为遮盖疗法的替代方案。",
+        "source_pdf": "Amblyopia Preferred Practice Pattern 2022.pdf"
+      },
+      {
+        "id": "disease:amd",
+        "label": "Disease",
+        "name": "年龄相关性黄斑变性 (AMD)",
+        "definition": "一种累及黄斑区的获得性视网膜疾病，是发达国家老年人不可逆视力丧失的主要原因。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "disease:dry_amd",
+        "label": "Disease",
+        "name": "非新生血管性 AMD (干性)",
+        "definition": "以玻璃膜疣（Drusen）和RPE异常为特征，晚期可发展为地图样萎缩(Geographic Atrophy)。",
+        "parent_id": "disease:amd",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "disease:neovascular_amd",
+        "label": "Disease",
+        "name": "新生血管性 AMD (湿性)",
+        "definition": "以脉络膜新生血管(MNV)生长为特征，导致渗出、出血、视网膜下积液和纤维化。",
+        "parent_id": "disease:amd",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "risk_factor:smoking_amd",
+        "label": "Risk Factor",
+        "name": "吸烟",
+        "definition": "吸烟是AMD发展和恶化的主要可改变风险因素。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "supplement:areds2",
+        "label": "Treatment",
+        "name": "AREDS2 配方补充剂",
+        "definition": "包含维生素C、维生素E、锌、铜、叶黄素和玉米黄质的补充剂，用于降低中晚期AMD进展风险。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "drug:anti_vegf",
+        "label": "Treatment",
+        "name": "抗VEGF药物",
+        "definition": "血管内皮生长因子抑制剂（如雷珠单抗、阿柏西普、贝伐珠单抗），玻璃体腔注射是湿性AMD的一线治疗。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "drug:complement_inhibitors",
+        "label": "Treatment",
+        "name": "补体抑制剂 (如Pegcetacoplan)",
+        "definition": "用于治疗AMD地图样萎缩(GA)的新型药物，可减缓萎缩病灶的扩大。",
+        "source_pdf": "Age-Related Macular Degeneration Preferred Practice Pattern 2024.pdf"
+      },
+      {
+        "id": "disease:bacterial_keratitis",
+        "label": "Disease",
+        "name": "细菌性角膜炎",
+        "definition": "由细菌感染引起的角膜炎症，可能导致角膜溃疡、穿孔和视力丧失。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "risk_factor:contact_lens",
+        "label": "Risk Factor",
+        "name": "隐形眼镜佩戴",
+        "definition": "是微生物性角膜炎的主要风险因素，特别是过夜佩戴。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "pathogen:pseudomonas_aeruginosa",
+        "label": "Pathogen",
+        "name": "铜绿假单胞菌",
+        "definition": "一种常见的革兰氏阴性菌，常引起隐形眼镜相关的严重角膜溃疡，进展迅速。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "drug:fluoroquinolones",
+        "label": "Drug",
+        "name": "氟喹诺酮类抗生素",
+        "definition": "广谱抗生素（如莫西沙星、加替沙星），常作为细菌性角膜炎的经验性治疗首选。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "drug:fortified_antibiotics",
+        "label": "Drug",
+        "name": "强化抗生素滴眼液",
+        "definition": "高浓度的抗生素配方（如强化万古霉素、强化妥布霉素），用于治疗严重或视力威胁性的角膜溃疡。",
+        "source_pdf": "Bacterial Keratitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:corneal_edema",
+        "label": "Disease",
+        "name": "角膜水肿",
+        "definition": "角膜内液体过多积聚，通常由内皮功能障碍（如Fuchs营养不良）或眼内压升高引起。",
+        "source_pdf": "Corneal Edema and Opacification Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:fuchs_dystrophy",
+        "label": "Disease",
+        "name": "Fuchs 角膜内皮营养不良",
+        "definition": "一种导致角膜内皮细胞逐渐丧失的遗传性疾病，是角膜移植的常见原因。",
+        "source_pdf": "Corneal Edema and Opacification Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "treatment:dsek_dmek",
+        "label": "Treatment",
+        "name": "内皮角膜移植术 (DSAEK/DMEK)",
+        "definition": "选择性替换角膜后层（内皮层）的手术，用于治疗内皮功能衰竭引起的角膜水肿。",
+        "source_pdf": "Corneal Edema and Opacification Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:corneal_opacification",
+        "label": "Disease",
+        "name": "角膜混浊",
+        "definition": "角膜透明度丧失，由瘢痕、沉积物、水肿或感染引起。",
+        "source_pdf": "Corneal Edema and Opacification Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:cataract",
+        "label": "Disease",
+        "name": "白内障",
+        "definition": "晶状体光学质量下降导致的混浊，通常与衰老相关。",
+        "source_pdf": "Cataract in the Adult Eye Preferred Practice Pattern 2021.pdf"
+      },
+      {
+        "id": "treatment:phacoemulsification",
+        "label": "Treatment",
+        "name": "超声乳化术",
+        "definition": "目前最常用的白内障摘除手术，通过小切口粉碎并吸出混浊的晶状体。",
+        "source_pdf": "Cataract in the Adult Eye Preferred Practice Pattern 2021.pdf"
+      },
+      {
+        "id": "treatment:intracameral_antibiotics",
+        "label": "Treatment",
+        "name": "前房内注射抗生素",
+        "definition": "白内障手术结束时在眼内直接注射抗生素（如头孢呋辛、莫西沙星），可显著降低眼内炎风险。",
+        "source_pdf": "Cataract in the Adult Eye Preferred Practice Pattern 2021.pdf"
+      },
+      {
+        "id": "complication:endophthalmitis",
+        "label": "Complication",
+        "name": "感染性眼内炎",
+        "definition": "白内障手术后罕见但严重的并发症，表现为视力下降、疼痛和眼内炎症。",
+        "source_pdf": "Cataract in the Adult Eye Preferred Practice Pattern 2021.pdf"
+      },
+      {
+        "id": "complication:pco",
+        "label": "Complication",
+        "name": "后囊膜混浊 (PCO)",
+        "definition": "白内障术后常见的并发症，由残留的晶状体上皮细胞增殖引起，可通过YAG激光治疗。",
+        "source_pdf": "Cataract in the Adult Eye Preferred Practice Pattern 2021.pdf"
+      },
+      {
+        "id": "disease:corneal_ectasia",
+        "label": "Disease",
+        "name": "角膜扩张",
+        "definition": "一种以角膜进行性变陡和变薄为特征的疾病，包括圆锥角膜和屈光手术后扩张。",
+        "source_pdf": "Corneal Ectasia Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:keratoconus",
+        "label": "Disease",
+        "name": "圆锥角膜",
+        "definition": "最常见的角膜扩张类型，通常双侧发病，导致不规则散光和视力下降。",
+        "parent_id": "disease:corneal_ectasia",
+        "source_pdf": "Corneal Ectasia Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "risk_factor:eye_rubbing",
+        "label": "Risk Factor",
+        "name": "揉眼",
+        "definition": "与角膜扩张（尤其是圆锥角膜）进展密切相关的机械性风险因素。",
+        "source_pdf": "Corneal Ectasia Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "treatment:corneal_crosslinking",
+        "label": "Treatment",
+        "name": "角膜交联术 (CXL)",
+        "definition": "使用紫外线A和核黄素增强角膜生物力学强度，用于阻止圆锥角膜的进展。",
+        "source_pdf": "Corneal Ectasia Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:conjunctivitis",
+        "label": "Disease",
+        "name": "结膜炎",
+        "definition": "结膜的炎症，可由感染（病毒、细菌）或非感染（过敏、毒性）因素引起。",
+        "source_pdf": "Conjunctivitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:adenoviral_conjunctivitis",
+        "label": "Disease",
+        "name": "腺病毒结膜炎",
+        "definition": "一种高度传染性的病毒性结膜炎，常称为“红眼病”，可伴有耳前淋巴结肿大。",
+        "parent_id": "disease:conjunctivitis",
+        "source_pdf": "Conjunctivitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "disease:allergic_conjunctivitis",
+        "label": "Disease",
+        "name": "过敏性结膜炎",
+        "definition": "由过敏原引起的结膜炎症，主要症状为瘙痒。",
+        "parent_id": "disease:conjunctivitis",
+        "source_pdf": "Conjunctivitis Preferred Practice Pattern 2023.pdf"
+      },
+      {
+        "id": "treatment:povidone_iodine",
+        "label": "Treatment",
+        "name": "聚维酮碘",
+        "definition": "一种广谱抗菌剂，用于术前消毒和某些感染性结膜炎的治疗。",
+        "source_pdf": "Conjunctivitis Preferred Practice Pattern 2023.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "risk_factor:contact_lens",
+        "target": "disease:bacterial_keratitis",
+        "relation": "主要风险因素"
+      },
+      {
+        "source": "pathogen:pseudomonas_aeruginosa",
+        "target": "disease:bacterial_keratitis",
+        "relation": "致病菌"
+      },
+      {
+        "source": "drug:fluoroquinolones",
+        "target": "disease:bacterial_keratitis",
+        "relation": "一线治疗"
+      },
+      {
+        "source": "treatment:dsek_dmek",
+        "target": "disease:corneal_edema",
+        "relation": "手术治疗"
+      },
+      {
+        "source": "disease:fuchs_dystrophy",
+        "target": "disease:corneal_edema",
+        "relation": "导致"
+      },
+      {
+        "source": "disease:thyroid_eye_disease_strabismus",
+        "target": "disease:adult_strabismus",
+        "relation": "子类型"
+      },
+      {
+        "source": "risk_factor:smoking_amd",
+        "target": "disease:amd",
+        "relation": "增加风险"
+      },
+      {
+        "source": "supplement:areds2",
+        "target": "disease:amd",
+        "relation": "延缓进展"
+      },
+      {
+        "source": "drug:anti_vegf",
+        "target": "disease:neovascular_amd",
+        "relation": "首选治疗"
+      },
+      {
+        "source": "drug:complement_inhibitors",
+        "target": "disease:amd",
+        "relation": "治疗地图样萎缩"
+      },
+      {
+        "source": "treatment:patching",
+        "target": "disease:amblyopia",
+        "relation": "治疗"
+      },
+      {
+        "source": "treatment:atropine_penalization",
+        "target": "disease:amblyopia",
+        "relation": "治疗"
+      },
+      {
+        "source": "treatment:phacoemulsification",
+        "target": "disease:cataract",
+        "relation": "手术治疗"
+      },
+      {
+        "source": "treatment:intracameral_antibiotics",
+        "target": "complication:endophthalmitis",
+        "relation": "预防"
+      },
+      {
+        "source": "risk_factor:eye_rubbing",
+        "target": "disease:keratoconus",
+        "relation": "加重病情"
+      },
+      {
+        "source": "treatment:corneal_crosslinking",
+        "target": "disease:keratoconus",
+        "relation": "阻止进展"
+      },
+      {
+        "source": "disease:adenoviral_conjunctivitis",
+        "target": "disease:conjunctivitis",
+        "relation": "常见类型"
+      },
+      {
+        "source": "treatment:povidone_iodine",
+        "target": "disease:adenoviral_conjunctivitis",
+        "relation": "降低传播风险"
+      },
+      {
+        "source": "disease:cranial_nerve_palsy_6",
+        "target": "disease:adult_strabismus",
+        "relation": "导致"
+      }
+    ]
+  }

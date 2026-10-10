@@ -1,0 +1,222 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Expert-Consensus-KG-Batch14"
+    },
+    "nodes": [
+      {
+        "id": "disease:igg4_rod_ophthalmic",
+        "label": "Disease",
+        "name": "IgG4相关眼病 (IgG4-ROD)",
+        "definition": "一种免疫介导的慢性纤维炎症性疾病，常累及泪腺、眼外肌和眼眶软组织，特征为肿大、纤维化和血清IgG4升高。",
+        "source_pdf": "IgG4相关眼病诊治专家共识（2024版）.pdf"
+      },
+      {
+        "id": "pathology:storiform_fibrosis",
+        "label": "Pathology",
+        "name": "席纹状纤维化",
+        "definition": "IgG4-ROD的特征性组织病理学表现之一，指胶原纤维呈车轮状或席纹状排列。",
+        "source_pdf": "IgG4相关眼病诊治专家共识（2024版）.pdf"
+      },
+      {
+        "id": "pathology:obliterative_phlebitis",
+        "label": "Pathology",
+        "name": "闭塞性静脉炎",
+        "definition": "IgG4-ROD的另一关键病理特征，表现为静脉管腔被炎性细胞浸润和纤维化组织阻塞。",
+        "source_pdf": "IgG4相关眼病诊治专家共识（2024版）.pdf"
+      },
+      {
+        "id": "diagnostic:serum_igg4",
+        "label": "Diagnostic",
+        "name": "血清IgG4检测",
+        "definition": "诊断IgG4-ROD的重要血清学指标，通常以>1350 mg/L (135 mg/dL) 为界值，但需结合临床和病理。",
+        "source_pdf": "IgG4相关眼病诊治专家共识（2024版）.pdf"
+      },
+      {
+        "id": "treatment:glucocorticoids_igg4",
+        "label": "Treatment",
+        "name": "糖皮质激素 (IgG4-ROD)",
+        "definition": "IgG4相关眼病的一线诱导缓解治疗药物，通常反应良好，但易复发。",
+        "source_pdf": "IgG4相关眼病诊治专家共识（2024版）.pdf"
+      },
+      {
+        "id": "drug:rituximab_igg4",
+        "label": "Drug",
+        "name": "利妥昔单抗 (Rituximab)",
+        "definition": "抗CD20单克隆抗体，用于治疗难治性或复发性IgG4-ROD，可精确清除B细胞。",
+        "source_pdf": "IgG4相关眼病诊治专家共识（2024版）.pdf"
+      },
+      {
+        "id": "disease:lca",
+        "label": "Disease",
+        "name": "Leber先天黑矇 (LCA)",
+        "definition": "一组严重的早发性遗传性视网膜营养不良，特征为出生时或出生后不久严重的视力丧失、眼球震颤和瞳孔对光反应微弱。",
+        "source_pdf": "Leber先天黑矇诊疗的中国专家共识(2023).pdf"
+      },
+      {
+        "id": "symptom:oculodigital_sign",
+        "label": "Symptom",
+        "name": "眼指征 (Franceschetti征)",
+        "definition": "LCA患儿特征性的行为表现，即频繁用拳头或手指按压眼球，可能导致眼窝深陷或圆锥角膜。",
+        "source_pdf": "Leber先天黑矇诊疗的中国专家共识(2023).pdf"
+      },
+      {
+        "id": "gene:rpe65",
+        "label": "Genetic",
+        "name": "RPE65 基因",
+        "definition": "编码视网膜色素上皮特异性蛋白65kDa，其突变导致的LCA约占5%-16%，是目前唯一可用基因疗法治疗的类型。",
+        "source_pdf": "Leber先天黑矇诊疗的中国专家共识(2023).pdf"
+      },
+      {
+        "id": "drug:voretigene_neparvovec",
+        "label": "Drug",
+        "name": "Voretigene neparvovec (Luxturna)",
+        "definition": "一种腺相关病毒(AAV)载体的基因治疗药物，用于治疗RPE65双等位基因突变相关的视网膜营养不良。",
+        "source_pdf": "Leber先天黑矇诊疗的中国专家共识(2023).pdf"
+      },
+      {
+        "id": "disease:xlrs",
+        "label": "Disease",
+        "name": "X连锁视网膜劈裂症 (XLRS)",
+        "definition": "一种X连锁隐性遗传性黄斑病变，主要累及男性，特征为黄斑中心凹劈裂（轮辐状）和周边视网膜劈裂。",
+        "source_pdf": "X连锁视网膜劈裂症临床诊疗的中国专家共识(2025).pdf"
+      },
+      {
+        "id": "gene:rs1",
+        "label": "Genetic",
+        "name": "RS1 基因",
+        "definition": "位于Xp22.13，编码Retinoschisin蛋白，该蛋白对维持视网膜细胞间的粘附至关重要，其突变导致XLRS。",
+        "source_pdf": "X连锁视网膜劈裂症临床诊疗的中国专家共识(2025).pdf"
+      },
+      {
+        "id": "diagnostic:erg_negative_wave",
+        "label": "Diagnostic",
+        "name": "负波形ERG",
+        "definition": "视网膜电图特征性表现，a波正常而b波幅值显著下降（b/a < 1），提示病变位于光感受器后的内层视网膜。",
+        "source_pdf": "X连锁视网膜劈裂症临床诊疗的中国专家共识(2025).pdf"
+      },
+      {
+        "id": "drug:cai_xlrs",
+        "label": "Drug",
+        "name": "碳酸酐酶抑制剂 (CAIs)",
+        "definition": "如多佐胺或乙酰唑胺，用于减轻XLRS患者的黄斑囊样改变，可能改善部分视力。",
+        "source_pdf": "X连锁视网膜劈裂症临床诊疗的中国专家共识(2025).pdf"
+      },
+      {
+        "id": "standard:optic_neuritis_2022",
+        "label": "Standard",
+        "name": "2022 视神经炎诊断与分类标准",
+        "definition": "柳叶刀神经病学发布的国际共识，强调根据抗体状态（AQP4, MOG）和病因对视神经炎进行精准分类。",
+        "source_pdf": "2022视神经炎诊断和分类国际标准解读.pdf"
+      },
+      {
+        "id": "disease:mog_on",
+        "label": "Disease",
+        "name": "MOG抗体相关视神经炎 (MOG-ON)",
+        "definition": "由抗髓鞘少突胶质细胞糖蛋白(MOG)抗体介导的视神经炎，常伴视盘水肿，激素治疗敏感但易复发。",
+        "parent_id": "disease:don",
+        "source_pdf": "2022视神经炎诊断和分类国际标准解读.pdf"
+      },
+      {
+        "id": "disease:crion",
+        "label": "Disease",
+        "name": "慢性复发性炎症性视神经病变 (CRION)",
+        "definition": "一种血清阴性、激素依赖性的复发性视神经炎，需排除MS、NMOSD和MOGAD后方可诊断。",
+        "source_pdf": "2022视神经炎诊断和分类国际标准解读.pdf"
+      },
+      {
+        "id": "procedure:ct_dacryocystography",
+        "label": "Procedure",
+        "name": "CT泪道造影 (CT-DCG)",
+        "definition": "结合泪道插管造影与CT扫描技术，可同时显示泪道管腔形态及周围骨质结构，优于传统X线造影。",
+        "source_pdf": "CT泪道造影检查与评估专家共识.pdf"
+      },
+      {
+        "id": "indication:ct_dcg_tumor",
+        "label": "Indication",
+        "name": "泪道/邻近组织肿瘤评估",
+        "definition": "CT-DCG的绝对适应症，用于评估肿瘤对泪道系统的压迫、浸润或骨质破坏情况。",
+        "source_pdf": "CT泪道造影检查与评估专家共识.pdf"
+      },
+      {
+        "id": "indication:ct_dcg_trauma",
+        "label": "Indication",
+        "name": "复杂泪道外伤评估",
+        "definition": "用于颌面部外伤后评估泪道断裂位置、异物存留及骨折情况，指导手术方案。",
+        "source_pdf": "CT泪道造影检查与评估专家共识.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:igg4_rod_ophthalmic",
+        "target": "pathology:storiform_fibrosis",
+        "relation": "确诊病理特征"
+      },
+      {
+        "source": "disease:igg4_rod_ophthalmic",
+        "target": "diagnostic:serum_igg4",
+        "relation": "辅助诊断"
+      },
+      {
+        "source": "treatment:glucocorticoids_igg4",
+        "target": "disease:igg4_rod_ophthalmic",
+        "relation": "一线治疗"
+      },
+      {
+        "source": "disease:lca",
+        "target": "gene:rpe65",
+        "relation": "致病基因之一"
+      },
+      {
+        "source": "disease:lca",
+        "target": "symptom:oculodigital_sign",
+        "relation": "常见体征"
+      },
+      {
+        "source": "drug:voretigene_neparvovec",
+        "target": "gene:rpe65",
+        "relation": "靶向治疗"
+      },
+      {
+        "source": "disease:xlrs",
+        "target": "gene:rs1",
+        "relation": "致病基因"
+      },
+      {
+        "source": "disease:xlrs",
+        "target": "diagnostic:erg_negative_wave",
+        "relation": "特征性诊断指标"
+      },
+      {
+        "source": "drug:cai_xlrs",
+        "target": "disease:xlrs",
+        "relation": "治疗黄斑劈裂"
+      },
+      {
+        "source": "standard:optic_neuritis_2022",
+        "target": "disease:mog_on",
+        "relation": "纳入新分类"
+      },
+      {
+        "source": "disease:crion",
+        "target": "diagnostic:aqp4_antibody",
+        "relation": "需排除阴性"
+      },
+      {
+        "source": "procedure:ct_dacryocystography",
+        "target": "indication:ct_dcg_tumor",
+        "relation": "首选检查"
+      },
+      {
+        "source": "procedure:ct_dacryocystography",
+        "target": "indication:ct_dcg_trauma",
+        "relation": "首选检查"
+      },
+      {
+        "source": "disease:nmosd_on",
+        "target": "standard:optic_neuritis_2022",
+        "relation": "重点分类对象"
+      }
+    ]
+  }

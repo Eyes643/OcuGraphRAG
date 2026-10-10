@@ -1,0 +1,178 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch18"
+    },
+    "nodes": [
+      {
+        "id": "disease:limbal_stem_cell_deficiency",
+        "label": "Disease",
+        "name": "角膜缘干细胞缺乏 (LSCD)",
+        "definition": "角膜缘干细胞数量减少或功能障碍，导致角膜上皮稳态失衡，特征为结膜化、新生血管化和持续性上皮缺损。",
+        "source_pdf": "解读角膜缘干细胞缺乏诊疗的国际共识.pdf"
+      },
+      {
+        "id": "diagnostic:impression_cytology",
+        "label": "Diagnostic",
+        "name": "印迹细胞学检查",
+        "definition": "诊断LSCD的金标准之一，通过检测角膜表面是否存在结膜杯状细胞来确诊。",
+        "source_pdf": "解读角膜缘干细胞缺乏诊疗的国际共识.pdf"
+      },
+      {
+        "id": "diagnostic:in_vivo_confocal_microscopy",
+        "label": "Diagnostic",
+        "name": "活体共聚焦显微镜 (IVCM)",
+        "definition": "用于LSCD的无创诊断，可观察到角膜基底上皮细胞形态改变（如细胞增大、核浆比减小）和结膜化特征。",
+        "source_pdf": "解读角膜缘干细胞缺乏诊疗的国际共识.pdf"
+      },
+      {
+        "id": "treatment:limbal_transplantation",
+        "label": "Surgery",
+        "name": "角膜缘移植术",
+        "definition": "治疗重度LSCD的主要手段，包括自体（如CLAU）和异体（如KLAL, lr-CLAL）来源的干细胞移植。",
+        "source_pdf": "解读角膜缘干细胞缺乏诊疗的国际共识.pdf"
+      },
+      {
+        "id": "disease:presbyopia_personalized",
+        "label": "Disease",
+        "name": "老视 (个性化诊疗)",
+        "definition": "随着年龄增长，晶状体调节能力下降导致的近视力障碍，需根据患者生活方式、职业需求及眼部条件制定个性化矫正方案。",
+        "source_pdf": "老视临床个性化诊疗专家共识（2025）.pdf"
+      },
+      {
+        "id": "treatment:presbyopia_laser_surgery",
+        "label": "Surgery",
+        "name": "老视激光角膜屈光手术",
+        "definition": "通过激光改变角膜形态以增加景深（如PresbyMAX）或通过单眼视设计（Monovision）来矫正老视。",
+        "source_pdf": "老视临床个性化诊疗专家共识（2025）.pdf"
+      },
+      {
+        "id": "treatment:presbyopia_iol",
+        "label": "Surgery",
+        "name": "老视矫正型人工晶状体 (PC-IOL)",
+        "definition": "包括多焦点、扩展景深(EDOF)及调节型IOL，用于白内障手术或屈光性晶状体置换术中解决老视问题。",
+        "source_pdf": "老视临床个性化诊疗专家共识（2025）.pdf"
+      },
+      {
+        "id": "diagnostic:mferg",
+        "label": "Diagnostic",
+        "name": "多焦视网膜电图 (mfERG)",
+        "definition": "一种同时记录视网膜多个不同部位功能反应的电生理技术，能绘制视网膜功能地形图。",
+        "source_pdf": "临床多焦视网膜电图标准.pdf"
+      },
+      {
+        "id": "indication:mferg_maculopathy",
+        "label": "Indication",
+        "name": "黄斑病变功能评估",
+        "definition": "mfERG的主要适应症，用于检测年龄相关性黄斑变性、氯喹毒性视网膜病变等引起的局部视网膜功能损害。",
+        "source_pdf": "临床多焦视网膜电图标准.pdf"
+      },
+      {
+        "id": "technology:ai_dr_screening",
+        "label": "Technology",
+        "name": "糖尿病视网膜病变AI筛查系统",
+        "definition": "基于深度学习算法，自动分析眼底照片以识别DR病变（如微血管瘤、出血）并进行分级的辅助诊断系统。",
+        "source_pdf": "基于眼底照相的糖尿病视网膜病变人工智能筛查系统应用指南.pdf"
+      },
+      {
+        "id": "standard:ai_sensitivity",
+        "label": "Standard",
+        "name": "AI筛查敏感性要求",
+        "definition": "指南建议AI系统用于DR筛查时，其检测可转诊DR的敏感性应不低于90%，特异性不低于85%。",
+        "source_pdf": "基于眼底照相的糖尿病视网膜病变人工智能筛查系统应用指南.pdf"
+      },
+      {
+        "id": "disease:acanthamoeba_keratitis",
+        "label": "Disease",
+        "name": "棘阿米巴角膜炎 (AK)",
+        "definition": "由棘阿米巴原虫感染引起的严重角膜炎，常与佩戴隐形眼镜或角膜接触污染水源有关，致盲率高。",
+        "source_pdf": "棘阿米巴角膜炎诊断与治疗专家共识(2023).pdf"
+      },
+      {
+        "id": "symptom:radial_keratoneuritis",
+        "label": "Symptom",
+        "name": "放射状角膜神经炎",
+        "definition": "AK的特征性体征，表现为沿角膜神经分布的放射状浸润，常伴有剧烈眼痛。",
+        "source_pdf": "棘阿米巴角膜炎诊断与治疗专家共识(2023).pdf"
+      },
+      {
+        "id": "drug:phmb",
+        "label": "Drug",
+        "name": "聚六亚甲基双胍 (PHMB)",
+        "definition": "一种阳离子防腐剂，0.02%滴眼液是治疗棘阿米巴角膜炎的一线药物，对滋养体和包囊均有效。",
+        "source_pdf": "棘阿米巴角膜炎诊断与治疗专家共识(2023).pdf"
+      },
+      {
+        "id": "drug:chlorhexidine_ak",
+        "label": "Drug",
+        "name": "氯己定 (Chlorhexidine)",
+        "definition": "0.02%滴眼液，常与PHMB或芳香脒类药物联合使用治疗AK。",
+        "source_pdf": "棘阿米巴角膜炎诊断与治疗专家共识(2023).pdf"
+      },
+      {
+        "id": "diagnostic:confocal_ak",
+        "label": "Diagnostic",
+        "name": "共聚焦显微镜 (AK诊断)",
+        "definition": "可直接观察到角膜基质中的高反光双壁包囊或滋养体，是AK早期快速诊断的重要手段。",
+        "source_pdf": "棘阿米巴角膜炎诊断与治疗专家共识(2023).pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:limbal_stem_cell_deficiency",
+        "target": "diagnostic:impression_cytology",
+        "relation": "确诊检查"
+      },
+      {
+        "source": "disease:limbal_stem_cell_deficiency",
+        "target": "diagnostic:in_vivo_confocal_microscopy",
+        "relation": "无创诊断"
+      },
+      {
+        "source": "disease:limbal_stem_cell_deficiency",
+        "target": "treatment:limbal_transplantation",
+        "relation": "手术治疗"
+      },
+      {
+        "source": "disease:presbyopia_personalized",
+        "target": "treatment:presbyopia_iol",
+        "relation": "晶状体手术方案"
+      },
+      {
+        "source": "disease:presbyopia_personalized",
+        "target": "treatment:presbyopia_laser_surgery",
+        "relation": "角膜手术方案"
+      },
+      {
+        "source": "diagnostic:mferg",
+        "target": "indication:mferg_maculopathy",
+        "relation": "主要应用领域"
+      },
+      {
+        "source": "technology:ai_dr_screening",
+        "target": "standard:ai_sensitivity",
+        "relation": "性能指标"
+      },
+      {
+        "source": "disease:acanthamoeba_keratitis",
+        "target": "symptom:radial_keratoneuritis",
+        "relation": "特征性体征"
+      },
+      {
+        "source": "disease:acanthamoeba_keratitis",
+        "target": "drug:phmb",
+        "relation": "一线治疗"
+      },
+      {
+        "source": "disease:acanthamoeba_keratitis",
+        "target": "drug:chlorhexidine_ak",
+        "relation": "一线治疗"
+      },
+      {
+        "source": "disease:acanthamoeba_keratitis",
+        "target": "diagnostic:confocal_ak",
+        "relation": "活体诊断工具"
+      }
+    ]
+  }

@@ -1,0 +1,397 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "name": "Ophthalmology-Clinical-Guidelines-KG-Enhanced"
+  },
+  "nodes": [
+    {
+      "id": "disease:dry_eye_disease",
+      "label": "Disease",
+      "name": "干眼病 (DED)",
+      "definition": "一种累及眼表的泪膜多因素疾病，特征为泪膜稳态丧失，伴有眼部症状，病因包括泪膜不稳定、高渗透压、眼表炎症及神经感觉异常。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "disease:aqueous_deficient_ded",
+      "label": "Disease",
+      "name": "水液缺乏型干眼 (ADDE)",
+      "definition": "由于泪腺分泌泪液量减少导致的干眼，包括干燥综合征性和非干燥综合征性。",
+      "parent_id": "disease:dry_eye_disease",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "disease:evaporative_ded",
+      "label": "Disease",
+      "name": "蒸发过强型干眼 (EDE)",
+      "definition": "由于睑板腺功能障碍等原因导致泪液蒸发过快引起的干眼。",
+      "parent_id": "disease:dry_eye_disease",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "disease:meibomian_gland_dysfunction",
+      "label": "Disease",
+      "name": "睑板腺功能障碍 (MGD)",
+      "definition": "睑板腺的慢性、弥漫性异常，通常以终末导管阻塞和/或腺体分泌物以此为特征，是蒸发过强型干眼的主要原因。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "disease:sjogren_syndrome",
+      "label": "Disease",
+      "name": "干燥综合征",
+      "definition": "一种全身性自身免疫病，导致外分泌腺（如泪腺、唾液腺）淋巴细胞浸润和破坏，引起严重干眼。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "disease:neuropathic_ocular_pain",
+      "label": "Disease",
+      "name": "神经性眼痛 (NOP)",
+      "definition": "由躯体感觉神经系统的损伤或疾病引起的疼痛，表现为眼部症状与临床体征不匹配（症状重而体征轻）。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "diagnostic:tear_osmolarity",
+      "label": "Diagnostic",
+      "name": "泪液渗透压测试",
+      "definition": "测量泪膜盐浓度的测试，高渗透压是干眼病的核心机制之一，也是诊断干眼的客观指标。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "diagnostic:mmp9_test",
+      "label": "Diagnostic",
+      "name": "MMP-9 测试",
+      "definition": "检测泪液中基质金属蛋白酶-9（一种炎症标志物）的即时检测方法，用于评估眼表炎症。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "drug:cyclosporine_opht",
+      "label": "Drug",
+      "name": "环孢素滴眼液 (0.05%, 0.09%)",
+      "definition": "一种免疫调节剂，通过抑制T细胞活化和炎症细胞因子产生来治疗干眼，可增加泪液分泌。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "drug:lifitegrast",
+      "label": "Drug",
+      "name": "立他司特 (Lifitegrast 5%)",
+      "definition": "一种淋巴细胞功能相关抗原-1 (LFA-1) 拮抗剂，阻断LFA-1与ICAM-1的结合，抑制T细胞介导的炎症。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "drug:varenicline_nasal",
+      "label": "Drug",
+      "name": "伐尼克兰鼻喷雾剂",
+      "definition": "一种烟碱型乙酰胆碱受体激动剂，通过激活三叉神经副交感神经通路促进天然泪液生成。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "treatment:thermal_pulsation",
+      "label": "Treatment",
+      "name": "热脉动系统治疗",
+      "definition": "一种通过同时对眼睑进行加热和脉动压力按摩来疏通睑板腺的物理治疗方法。",
+      "source_pdf": "Dry Eye Syndrome PPP.pdf"
+    },
+    {
+      "id": "disease:diabetic_retinopathy",
+      "label": "Disease",
+      "name": "糖尿病视网膜病变 (DR)",
+      "definition": "糖尿病特有的微血管并发症，表现为视网膜微血管瘤、出血、渗出等，是工作年龄人群致盲的主要原因。",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "disease:npdr_severe",
+      "label": "Disease",
+      "name": "重度非增殖性糖尿病视网膜病变",
+      "definition": "符合4-2-1规则之一：4个象限有严重出血/微血管瘤，或2个象限有静脉串珠，或1个象限有视网膜内微血管异常(IRMA)。",
+      "parent_id": "disease:diabetic_retinopathy",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "disease:pdr_high_risk",
+      "label": "Disease",
+      "name": "高危增殖性糖尿病视网膜病变",
+      "definition": "特征为视盘新生血管(NVD)大于1/4-1/3视盘面积，或伴有玻璃体积血的任何程度新生血管。",
+      "parent_id": "disease:diabetic_retinopathy",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "disease:ci_dme",
+      "label": "Disease",
+      "name": "累及中心的糖尿病黄斑水肿 (CI-DME)",
+      "definition": "视网膜增厚或硬性渗出累及黄斑中心凹1mm范围内，是导致视力下降的主要原因。",
+      "parent_id": "disease:diabetic_retinopathy",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "drug:aflibercept",
+      "label": "Drug",
+      "name": "阿柏西普 (Aflibercept)",
+      "definition": "一种融合蛋白，可结合VEGF-A、VEGF-B和PLGF，用于治疗DME和DR。",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "drug:faricimab",
+      "label": "Drug",
+      "name": "法瑞西单抗 (Faricimab)",
+      "definition": "一种双特异性抗体，同时靶向VEGF-A和Ang-2，用于治疗DME，旨在延长治疗间隔。",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "drug:dexamethasone_implant",
+      "label": "Drug",
+      "name": "地塞米松玻璃体内植入剂 (Ozurdex)",
+      "definition": "一种皮质类固醇缓释植入剂，用于治疗DME，尤其适用于假晶状体眼或抗VEGF反应不佳者。",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "drug:fenofibrate",
+      "label": "Drug",
+      "name": "非诺贝特",
+      "definition": "一种口服降脂药，研究表明其可能减缓糖尿病视网膜病变的进展，独立于其降脂作用。",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "treatment:prp",
+      "label": "Treatment",
+      "name": "全视网膜光凝 (PRP)",
+      "definition": "通过激光破坏周边缺氧视网膜，减少VEGF产生，促进新生血管消退，是高危PDR的标准治疗。",
+      "source_pdf": "Diabetic Retinopathy PPP_8.4.25.pdf"
+    },
+    {
+      "id": "disease:idiopathic_erm",
+      "label": "Disease",
+      "name": "特发性视网膜前膜 (ERM)",
+      "definition": "黄斑区视网膜内表面形成的无血管纤维细胞膜，可能导致视力下降和视物变形。",
+      "source_pdf": "Idiopathic Epiretinal Membrane and Vitreomacular Traction PPP.pdf"
+    },
+    {
+      "id": "disease:vmt",
+      "label": "Disease",
+      "name": "玻璃体黄斑牵引 (VMT)",
+      "definition": "玻璃体皮质未能完全从黄斑区脱离，残留的粘连对黄斑产生持续牵引力，导致解剖结构改变（如囊样水肿）。",
+      "source_pdf": "Idiopathic Epiretinal Membrane and Vitreomacular Traction PPP.pdf"
+    },
+    {
+      "id": "symptom:metamorphopsia",
+      "label": "Symptom",
+      "name": "视物变形 (Metamorphopsia)",
+      "definition": "视觉扭曲症状，直线看起来弯曲或波浪状，是ERM和VMT的常见症状。",
+      "source_pdf": "Idiopathic Epiretinal Membrane and Vitreomacular Traction PPP.pdf"
+    },
+    {
+      "id": "treatment:ppv_peeling",
+      "label": "Treatment",
+      "name": "玻璃体切除联合膜剥除术",
+      "definition": "手术切除玻璃体并剥除视网膜前膜，通常也剥除内界膜 (ILM) 以降低复发率。",
+      "source_pdf": "Idiopathic Epiretinal Membrane and Vitreomacular Traction PPP.pdf"
+    },
+    {
+      "id": "diagnostic:oct_biomarker",
+      "label": "Diagnostic",
+      "name": "OCT生物标志物",
+      "definition": "如椭圆体带 (EZ) 的完整性，是预测ERM手术后视力恢复的重要预后指标。",
+      "source_pdf": "Idiopathic Epiretinal Membrane and Vitreomacular Traction PPP.pdf"
+    },
+    {
+      "id": "disease:infantile_esotropia",
+      "label": "Disease",
+      "name": "婴儿内斜视",
+      "definition": "出生后6个月内发病的恒定性大角度内斜视，常伴有交叉注视和隐性眼球震颤。",
+      "source_pdf": "Esotropia and Exotropia PPP.pdf"
+    },
+    {
+      "id": "disease:accommodative_esotropia",
+      "label": "Disease",
+      "name": "调节性内斜视",
+      "definition": "通常在2-3岁发病，由未矫正的远视引起过度调节性集合导致的内斜视。",
+      "source_pdf": "Esotropia and Exotropia PPP.pdf"
+    },
+    {
+      "id": "disease:intermittent_exotropia",
+      "label": "Disease",
+      "name": "间歇性外斜视",
+      "definition": "儿童期最常见的外斜视，眼位在正位和外斜之间波动，常在疲劳或走神时显现。",
+      "source_pdf": "Esotropia and Exotropia PPP.pdf"
+    },
+    {
+      "id": "disease:convergence_insufficiency",
+      "label": "Disease",
+      "name": "集合不足",
+      "definition": "一种双眼视觉异常，特征为近距离工作时视疲劳，看近外斜视度数大于看远，集合近点退后。",
+      "source_pdf": "Esotropia and Exotropia PPP.pdf"
+    },
+    {
+      "id": "treatment:bilateral_lateral_rectus_recession",
+      "label": "Treatment",
+      "name": "双侧外直肌后徙术",
+      "definition": "治疗间歇性外斜视的常用手术方法，尤其适用于看远斜视度数大于或等于看近的病例。",
+      "source_pdf": "Esotropia and Exotropia PPP.pdf"
+    },
+    {
+      "id": "treatment:pencil_pushups",
+      "label": "Treatment",
+      "name": "集合训练 (如笔尖逼近法)",
+      "definition": "用于治疗集合不足的非手术疗法，旨在提高融合性集合幅度。",
+      "source_pdf": "Esotropia and Exotropia PPP.pdf"
+    },
+    {
+      "id": "disease:idiopathic_macular_hole",
+      "label": "Disease",
+      "name": "特发性黄斑裂孔 (IMH)",
+      "definition": "黄斑中心凹的全层视网膜缺损，主要由玻璃体黄斑牵引引起，多见于老年女性。",
+      "source_pdf": "Idiopathic Macular Hole PPP.pdf"
+    },
+    {
+      "id": "disease:macular_hole_stage2",
+      "label": "Disease",
+      "name": "2期黄斑裂孔",
+      "definition": "全层视网膜缺损，孔径小于400微米，通常有玻璃体牵引。",
+      "parent_id": "disease:idiopathic_macular_hole",
+      "source_pdf": "Idiopathic Macular Hole PPP.pdf"
+    },
+    {
+      "id": "disease:macular_hole_stage3",
+      "label": "Disease",
+      "name": "3期黄斑裂孔",
+      "definition": "全层裂孔直径大于等于400微米，伴有玻璃体后脱离，但无Weiss环。",
+      "parent_id": "disease:idiopathic_macular_hole",
+      "source_pdf": "Idiopathic Macular Hole PPP.pdf"
+    },
+    {
+      "id": "treatment:inverted_ilm_flap",
+      "label": "Treatment",
+      "name": "内界膜 (ILM) 翻转覆盖术",
+      "definition": "一种手术技术，将剥离的ILM瓣翻转覆盖于裂孔上，用于提高大孔径或难治性黄斑裂孔的闭合率。",
+      "source_pdf": "Idiopathic Macular Hole PPP.pdf"
+    },
+    {
+      "id": "treatment:face_down_positioning",
+      "label": "Treatment",
+      "name": "术后俯卧位",
+      "definition": "黄斑裂孔手术后要求的体位，利用气泡顶压裂孔以促进闭合，尤其是对于大于400微米的裂孔。",
+      "source_pdf": "Idiopathic Macular Hole PPP.pdf"
+    }
+  ],
+  "links": [
+    {
+      "source": "disease:meibomian_gland_dysfunction",
+      "target": "disease:evaporative_ded",
+      "relation": "主要病因"
+    },
+    {
+      "source": "drug:cyclosporine_opht",
+      "target": "disease:dry_eye_disease",
+      "relation": "抗炎治疗"
+    },
+    {
+      "source": "drug:lifitegrast",
+      "target": "disease:dry_eye_disease",
+      "relation": "抗炎治疗"
+    },
+    {
+      "source": "drug:varenicline_nasal",
+      "target": "disease:dry_eye_disease",
+      "relation": "促进泪液分泌"
+    },
+    {
+      "source": "diagnostic:tear_osmolarity",
+      "target": "disease:dry_eye_disease",
+      "relation": "诊断指标"
+    },
+    {
+      "source": "disease:sjogren_syndrome",
+      "target": "disease:aqueous_deficient_ded",
+      "relation": "导致"
+    },
+    {
+      "source": "disease:npdr_severe",
+      "target": "disease:pdr_high_risk",
+      "relation": "进展为"
+    },
+    {
+      "source": "disease:ci_dme",
+      "target": "disease:diabetic_retinopathy",
+      "relation": "主要视力丧失原因"
+    },
+    {
+      "source": "drug:aflibercept",
+      "target": "disease:ci_dme",
+      "relation": "一线治疗"
+    },
+    {
+      "source": "drug:faricimab",
+      "target": "disease:ci_dme",
+      "relation": "延长治疗间隔"
+    },
+    {
+      "source": "drug:dexamethasone_implant",
+      "target": "disease:ci_dme",
+      "relation": "二线/替代治疗"
+    },
+    {
+      "source": "treatment:prp",
+      "target": "disease:pdr_high_risk",
+      "relation": "降低视力丧失风险"
+    },
+    {
+      "source": "drug:fenofibrate",
+      "target": "disease:diabetic_retinopathy",
+      "relation": "减缓进展"
+    },
+    {
+      "source": "disease:vmt",
+      "target": "disease:idiopathic_erm",
+      "relation": "常见并发"
+    },
+    {
+      "source": "disease:vmt",
+      "target": "disease:idiopathic_macular_hole",
+      "relation": "致病机制"
+    },
+    {
+      "source": "disease:vmt",
+      "target": "symptom:metamorphopsia",
+      "relation": "引起"
+    },
+    {
+      "source": "treatment:ppv_peeling",
+      "target": "disease:idiopathic_erm",
+      "relation": "手术治疗"
+    },
+    {
+      "source": "diagnostic:oct_biomarker",
+      "target": "treatment:ppv_peeling",
+      "relation": "预测预后"
+    },
+    {
+      "source": "disease:accommodative_esotropia",
+      "target": "disease:infantile_esotropia",
+      "relation": "需鉴别诊断"
+    },
+    {
+      "source": "treatment:bilateral_lateral_rectus_recession",
+      "target": "disease:intermittent_exotropia",
+      "relation": "手术治疗"
+    },
+    {
+      "source": "treatment:pencil_pushups",
+      "target": "disease:convergence_insufficiency",
+      "relation": "非手术治疗"
+    },
+    {
+      "source": "disease:macular_hole_stage2",
+      "target": "disease:macular_hole_stage3",
+      "relation": "进展"
+    },
+    {
+      "source": "treatment:inverted_ilm_flap",
+      "target": "disease:idiopathic_macular_hole",
+      "relation": "提高大孔闭合率"
+    },
+    {
+      "source": "treatment:face_down_positioning",
+      "target": "disease:idiopathic_macular_hole",
+      "relation": "术后辅助治疗"
+    }
+  ]
+}

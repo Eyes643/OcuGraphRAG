@@ -1,0 +1,176 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch24"
+    },
+    "nodes": [
+      {
+        "id": "guideline:rop_prevention_oxygen",
+        "label": "Guideline",
+        "name": "早产儿治疗用氧和视网膜病变防治指南",
+        "definition": "卫生部委托制定的规范，强调严格控制早产儿用氧指征和浓度，以降低ROP发生率，并规定了筛查标准。",
+        "source_pdf": "早产儿治疗用氧和视网膜病变防治指南.pdf"
+      },
+      {
+        "id": "risk_factor:unmonitored_oxygen",
+        "label": "Risk Factor",
+        "name": "不规范用氧",
+        "definition": "早产儿视网膜病变的主要危险因素之一，指长时间、高浓度或大幅波动的吸氧治疗。",
+        "source_pdf": "早产儿治疗用氧和视网膜病变防治指南.pdf"
+      },
+      {
+        "id": "standard:rop_screening_china",
+        "label": "Standard",
+        "name": "中国ROP筛查标准",
+        "definition": "出生体重<2000g，或胎龄<32周的早产儿；以及体重>2000g或胎龄>32周但有严重合并症的高危儿。",
+        "source_pdf": "早产儿治疗用氧和视网膜病变防治指南.pdf"
+      },
+      {
+        "id": "disease:fuchs_uveitis_syndrome",
+        "label": "Disease",
+        "name": "Fuchs葡萄膜炎综合征 (FUS)",
+        "definition": "一种慢性、非肉芽肿性前葡萄膜炎，特征为角膜后弥漫性星状沉着物(KP)、虹膜脱色素（异色）和玻璃体混浊。",
+        "source_pdf": "中国Fuchs葡萄膜炎综合征临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "symptom:heterochromia_iridis",
+        "label": "Symptom",
+        "name": "虹膜异色",
+        "definition": "FUS的特征性体征，患眼虹膜色素脱失使其颜色浅于健眼（在深色虹膜人种中表现为原有纹理模糊）。",
+        "source_pdf": "中国Fuchs葡萄膜炎综合征临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "symptom:amsler_sign",
+        "label": "Symptom",
+        "name": "Amsler征 (前房出血)",
+        "definition": "FUS患者在行前房穿刺或白内障手术时，前房角易发生丝状出血（阿姆斯特勒征），具有诊断提示意义。",
+        "source_pdf": "中国Fuchs葡萄膜炎综合征临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "diagnostic:rubella_virus_detection",
+        "label": "Diagnostic",
+        "name": "风疹病毒检测 (房水)",
+        "definition": "房水中检测出风疹病毒(RV)抗体或核酸是确诊FUS的重要依据，提示其与病毒感染相关。",
+        "source_pdf": "中国Fuchs葡萄膜炎综合征临床诊疗专家共识（2022年）.pdf"
+      },
+      {
+        "id": "disease:meige_syndrome",
+        "label": "Disease",
+        "name": "Meige综合征",
+        "definition": "一种节段性肌张力障碍，主要表现为双侧眼睑痉挛伴口下颌肌张力障碍，严重影响患者生活质量。",
+        "source_pdf": "中国Meige综合征诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "treatment:botulinum_toxin_meige",
+        "label": "Treatment",
+        "name": "肉毒毒素注射 (Meige)",
+        "definition": "Meige综合征的一线治疗方法，通过局部注射A型肉毒毒素缓解眼睑痉挛和口下颌肌张力障碍。",
+        "source_pdf": "中国Meige综合征诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "surgery:dbs_meige",
+        "label": "Surgery",
+        "name": "脑深部电刺激术 (DBS)",
+        "definition": "对于药物和肉毒毒素治疗无效的难治性Meige综合征，可考虑苍白球内侧部(GPi)或丘脑底核(STN)的DBS手术。",
+        "source_pdf": "中国Meige综合征诊断和治疗专家共识（2025年）.pdf"
+      },
+      {
+        "id": "treatment:anti_vegf_rop_china",
+        "label": "Treatment",
+        "name": "抗VEGF治疗 (ROP共识)",
+        "definition": "中国专家共识推荐用于治疗急进型ROP (A-ROP) 及I区ROP，相比激光更能保存视网膜结构和视野。",
+        "source_pdf": "早产儿视网膜病变玻璃体腔注射抗血管内皮生长因子药物治疗的专家共识.pdf"
+      },
+      {
+        "id": "drug:conbercept_rop",
+        "label": "Drug",
+        "name": "康柏西普 (ROP适应症)",
+        "definition": "中国自主研发的抗VEGF药物，专家共识指出其可用于ROP治疗，推荐剂量通常为成人剂量的一半（0.25mg）。",
+        "source_pdf": "早产儿视网膜病变玻璃体腔注射抗血管内皮生长因子药物治疗的专家共识.pdf"
+      },
+      {
+        "id": "risk:rop_recurrence_post_injection",
+        "label": "Risk Factor",
+        "name": "注射后ROP复发",
+        "definition": "抗VEGF治疗ROP后，血管化可能未完成，存在晚期复发风险，需随访至矫正胎龄50-60周或视网膜完全血管化。",
+        "source_pdf": "早产儿视网膜病变玻璃体腔注射抗血管内皮生长因子药物治疗的专家共识.pdf"
+      },
+      {
+        "id": "surgery:vitrectomy_rop_stage4_5",
+        "label": "Surgery",
+        "name": "玻璃体切除术 (4/5期ROP)",
+        "definition": "针对发生视网膜脱离的晚期ROP（4期或5期），需进行微创玻璃体切除术以复位视网膜，保留视功能。",
+        "source_pdf": "早产儿视网膜病变治疗规范专家共识.pdf"
+      },
+      {
+        "id": "treatment:laser_rop_standard",
+        "label": "Treatment",
+        "name": "视网膜光凝 (ROP标准)",
+        "definition": "对于阈值期ROP或1型ROP，激光光凝仍是经典且确切的治疗手段，旨在破坏无血管区，促使病变消退。",
+        "source_pdf": "早产儿视网膜病变治疗规范专家共识.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "guideline:rop_prevention_oxygen",
+        "target": "risk_factor:unmonitored_oxygen",
+        "relation": "旨在控制"
+      },
+      {
+        "source": "standard:rop_screening_china",
+        "target": "disease:retinopathy_of_prematurity",
+        "relation": "早期发现手段"
+      },
+      {
+        "source": "disease:fuchs_uveitis_syndrome",
+        "target": "symptom:heterochromia_iridis",
+        "relation": "特征性表现"
+      },
+      {
+        "source": "disease:fuchs_uveitis_syndrome",
+        "target": "diagnostic:rubella_virus_detection",
+        "relation": "病因诊断"
+      },
+      {
+        "source": "disease:fuchs_uveitis_syndrome",
+        "target": "symptom:amsler_sign",
+        "relation": "手术风险征象"
+      },
+      {
+        "source": "disease:meige_syndrome",
+        "target": "treatment:botulinum_toxin_meige",
+        "relation": "首选治疗"
+      },
+      {
+        "source": "treatment:botulinum_toxin_meige",
+        "target": "surgery:dbs_meige",
+        "relation": "无效时考虑"
+      },
+      {
+        "source": "treatment:anti_vegf_rop_china",
+        "target": "disease:aggressive_rop",
+        "relation": "首选推荐"
+      },
+      {
+        "source": "drug:conbercept_rop",
+        "target": "treatment:anti_vegf_rop_china",
+        "relation": "药物选择"
+      },
+      {
+        "source": "treatment:anti_vegf_rop_china",
+        "target": "risk:rop_recurrence_post_injection",
+        "relation": "需长期监测"
+      },
+      {
+        "source": "disease:rop_stage_4_5",
+        "target": "surgery:vitrectomy_rop_stage4_5",
+        "relation": "挽救性治疗"
+      },
+      {
+        "source": "treatment:laser_rop_standard",
+        "target": "disease:type_1_rop",
+        "relation": "确切治疗手段"
+      }
+    ]
+  }

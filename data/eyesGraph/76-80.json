@@ -1,0 +1,207 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch12"
+    },
+    "nodes": [
+      {
+        "id": "treatment:autologous_serum_drops",
+        "label": "Treatment",
+        "name": "自体血清滴眼液 (ASE)",
+        "definition": "由患者自身血液制备的滴眼液，含有类似泪液的生长因子（如EGF, TGF-β）和维生素，用于治疗常规疗法无效的严重眼表疾病。",
+        "source_pdf": "Serum-Eye-Drops-Guideline.pdf"
+      },
+      {
+        "id": "treatment:allogeneic_serum_drops",
+        "label": "Treatment",
+        "name": "同种异体血清滴眼液",
+        "definition": "来源于健康献血者的血清滴眼液，用于无法采血（如贫血、血管状况差）或自体血清含有害炎症因子的患者。",
+        "source_pdf": "Serum-Eye-Drops-Guideline.pdf"
+      },
+      {
+        "id": "disease:persistent_epithelial_defect",
+        "label": "Disease",
+        "name": "持续性角膜上皮缺损 (PED)",
+        "definition": "角膜上皮未能按预期愈合的缺损，若常规治疗失败，是血清滴眼液的主要适应症之一。",
+        "source_pdf": "Serum-Eye-Drops-Guideline.pdf"
+      },
+      {
+        "id": "disease:neurotrophic_keratopathy",
+        "label": "Disease",
+        "name": "神经营养性角膜病变",
+        "definition": "由于角膜感觉神经受损导致的上皮愈合障碍，血清滴眼液可通过提供神经生长因子促进神经再生。",
+        "source_pdf": "Serum-Eye-Drops-Guideline.pdf"
+      },
+      {
+        "id": "surgery:adult_strabismus_surgery",
+        "label": "Surgery",
+        "name": "成人斜视手术",
+        "definition": "针对成人的眼外肌手术，不仅具有重建双眼视功能的潜力，还具有显著的心理社会效益，不应被视为“整容手术”。",
+        "source_pdf": "Strabismus-surgery-for-adults-in-the-United-Kingdom-indications-evidence-base-and-benefits-Copy.pdf"
+      },
+      {
+        "id": "symptom:diplopia_adult",
+        "label": "Symptom",
+        "name": "复视 (成人)",
+        "definition": "成人斜视常见且致残的症状，导致无法驾驶、阅读困难和定向障碍，是手术的绝对指征。",
+        "source_pdf": "Strabismus-surgery-for-adults-in-the-United-Kingdom-indications-evidence-base-and-benefits-Copy.pdf"
+      },
+      {
+        "id": "symptom:visual_confusion",
+        "label": "Symptom",
+        "name": "视觉混淆 (Visual Confusion)",
+        "definition": "双眼将不同图像投射到视网膜对应点，导致两个不同的图像在同一空间位置重叠，是斜视的一种感知障碍。",
+        "source_pdf": "Strabismus-surgery-for-adults-in-the-United-Kingdom-indications-evidence-base-and-benefits-Copy.pdf"
+      },
+      {
+        "id": "symptom:abnormal_head_posture",
+        "label": "Symptom",
+        "name": "代偿头位 (AHP)",
+        "definition": "患者为消除复视或获得双眼视而采取的异常头部姿势（如歪头、转脸），长期可导致颈部肌肉骨骼问题。",
+        "source_pdf": "Strabismus-surgery-for-adults-in-the-United-Kingdom-indications-evidence-base-and-benefits-Copy.pdf"
+      },
+      {
+        "id": "facility:ophthalmic_theatre",
+        "label": "Facility",
+        "name": "眼科专用手术室",
+        "definition": "专门设计用于眼科显微手术的环境，需满足特定的空气交换率和清洁标准，通常不需要层流。",
+        "source_pdf": "Theatre-facilities-equipment-Copy.pdf"
+      },
+      {
+        "id": "standard:air_change_rate",
+        "label": "Standard",
+        "name": "换气次数标准 (15-20次/小时)",
+        "definition": "常规眼科手术室推荐的最低换气标准，用于稀释和去除空气中的微生物和颗粒物。",
+        "source_pdf": "Theatre-facilities-equipment-Copy.pdf"
+      },
+      {
+        "id": "device:operating_microscope",
+        "label": "Device",
+        "name": "眼科手术显微镜",
+        "definition": "眼科手术室的核心设备，需具备同轴照明、高分辨率光学系统和备用灯泡系统。",
+        "source_pdf": "Theatre-facilities-equipment-Copy.pdf"
+      },
+      {
+        "id": "service:community_ophthalmology",
+        "label": "Service Model",
+        "name": "社区眼科服务",
+        "definition": "在医院以外的社区环境中提供的眼科护理，旨在分流医院压力，处理低风险和慢性眼病。",
+        "source_pdf": "Primary-Eye-Care-Community-Ophthalmology-and-General-Ophthalmology-2019.pdf"
+      },
+      {
+        "id": "service:mecs_scheme",
+        "label": "Service Model",
+        "name": "轻微眼病服务 (MECS)",
+        "definition": "由经认证的社区视光师提供的免费NHS服务，处理如红眼、闪光感、干眼等非紧急状况。",
+        "source_pdf": "Primary-Eye-Care-Community-Ophthalmology-and-General-Ophthalmology-2019.pdf"
+      },
+      {
+        "id": "disease:rvo_guideline_2022",
+        "label": "Disease",
+        "name": "视网膜静脉阻塞 (2022指南)",
+        "definition": "视网膜血管疾病，2022版指南强调了抗VEGF治疗的早期启动和长期维持的重要性。",
+        "source_pdf": "Retinal-Vein-Occlusion-Guidelines-2022.pdf"
+      },
+      {
+        "id": "drug:aflibercept_rvo_2022",
+        "label": "Drug",
+        "name": "阿柏西普 (RVO治疗)",
+        "definition": "一线抗VEGF药物，推荐起始每月注射，视力和解剖结构稳定后可采用“治疗并延长(T&E)”方案。",
+        "source_pdf": "Retinal-Vein-Occlusion-Guidelines-2022.pdf"
+      },
+      {
+        "id": "drug:ranibizumab_rvo_2022",
+        "label": "Drug",
+        "name": "雷珠单抗 (RVO治疗)",
+        "definition": "一线抗VEGF药物，通常需要每月监测，并根据病情活动性进行按需治疗(PRN)或T&E。",
+        "source_pdf": "Retinal-Vein-Occlusion-Guidelines-2022.pdf"
+      },
+      {
+        "id": "complication:neovascular_glaucoma_rvo",
+        "label": "Complication",
+        "name": "新生血管性青光眼 (NVG)",
+        "definition": "缺血性RVO（尤其是CRVO）的严重并发症，通常发生在阻塞后100天内，需密切监测虹膜新生血管。",
+        "source_pdf": "Retinal-Vein-Occlusion-Guidelines-2022.pdf"
+      },
+      {
+        "id": "strategy:rvo_follow_up",
+        "label": "Strategy",
+        "name": "RVO 随访策略",
+        "definition": "对于未治疗的CRVO，最初6个月应每月随访以监测前节新生血管；对于BRVO，随访可适当放宽。",
+        "source_pdf": "Retinal-Vein-Occlusion-Guidelines-2022.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:persistent_epithelial_defect",
+        "target": "treatment:autologous_serum_drops",
+        "relation": "有效治疗"
+      },
+      {
+        "source": "disease:neurotrophic_keratopathy",
+        "target": "treatment:autologous_serum_drops",
+        "relation": "促进神经再生"
+      },
+      {
+        "source": "treatment:autologous_serum_drops",
+        "target": "treatment:allogeneic_serum_drops",
+        "relation": "无法制备时的替代"
+      },
+      {
+        "source": "surgery:adult_strabismus_surgery",
+        "target": "symptom:diplopia_adult",
+        "relation": "消除/缓解"
+      },
+      {
+        "source": "surgery:adult_strabismus_surgery",
+        "target": "symptom:visual_confusion",
+        "relation": "缓解"
+      },
+      {
+        "source": "surgery:adult_strabismus_surgery",
+        "target": "symptom:abnormal_head_posture",
+        "relation": "矫正"
+      },
+      {
+        "source": "facility:ophthalmic_theatre",
+        "target": "standard:air_change_rate",
+        "relation": "需符合标准"
+      },
+      {
+        "source": "facility:ophthalmic_theatre",
+        "target": "device:operating_microscope",
+        "relation": "核心配置"
+      },
+      {
+        "source": "service:community_ophthalmology",
+        "target": "service:mecs_scheme",
+        "relation": "包含"
+      },
+      {
+        "source": "disease:rvo_guideline_2022",
+        "target": "drug:aflibercept_rvo_2022",
+        "relation": "推荐一线药物"
+      },
+      {
+        "source": "disease:rvo_guideline_2022",
+        "target": "drug:ranibizumab_rvo_2022",
+        "relation": "推荐一线药物"
+      },
+      {
+        "source": "disease:rvo_guideline_2022",
+        "target": "drug:dexamethasone_implant",
+        "relation": "二线/特定情况药物"
+      },
+      {
+        "source": "disease:rvo_guideline_2022",
+        "target": "complication:neovascular_glaucoma_rvo",
+        "relation": "主要致盲风险"
+      },
+      {
+        "source": "strategy:rvo_follow_up",
+        "target": "complication:neovascular_glaucoma_rvo",
+        "relation": "旨在早期发现"
+      }
+    ]
+  }

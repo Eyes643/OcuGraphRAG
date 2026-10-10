@@ -1,0 +1,152 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch10"
+    },
+    "nodes": [
+      {
+        "id": "disease:childhood_nystagmus",
+        "label": "Disease",
+        "name": "儿童眼球震颤",
+        "definition": "一种儿童期出现的眼球不自主节律性摆动，分为婴儿特发性眼球震颤(INS)和获得性眼球震颤等。",
+        "source_pdf": "Managing-Nystagmus-in-Childhood.pdf"
+      },
+      {
+        "id": "diagnostic:electrodiagnostics",
+        "label": "Diagnostic",
+        "name": "视觉电生理检查 (VEP/ERG)",
+        "definition": "儿童眼球震颤的关键诊断工具，用于区分视网膜疾病（如锥体营养不良）和视神经疾病（如视神经发育不全）。",
+        "source_pdf": "Managing-Nystagmus-in-Childhood.pdf"
+      },
+      {
+        "id": "disease:foveal_hypoplasia",
+        "label": "Pathology",
+        "name": "黄斑中心凹发育不全",
+        "definition": "通过手持式OCT可检测到的解剖异常，常与白化病或PAX6基因突变相关，是眼球震颤的常见原因。",
+        "source_pdf": "Managing-Nystagmus-in-Childhood.pdf"
+      },
+      {
+        "id": "condition:acquired_nystagmus",
+        "label": "Condition",
+        "name": "获得性眼球震颤",
+        "definition": "出生后晚期出现的眼球震颤，常伴有视物振动感(Oscillopsia)，需紧急神经影像学检查以排除颅内肿瘤。",
+        "source_pdf": "Managing-Nystagmus-in-Childhood.pdf"
+      },
+      {
+        "id": "event:endophthalmitis_outbreak",
+        "label": "Safety Event",
+        "name": "术后眼内炎爆发 (Outbreak)",
+        "definition": "定义为短期内出现2例及以上相关联的术后眼内炎病例，或发病率显著高于基线水平。",
+        "source_pdf": "Managing-an-outbreak-of-postoperative-endophthalmitis-Final-2022.pdf"
+      },
+      {
+        "id": "condition:tass",
+        "label": "Condition",
+        "name": "毒性眼前节综合征 (TASS)",
+        "definition": "一种无菌性术后急性炎症，通常由手术器械残留物或药物防腐剂引起，需与感染性眼内炎鉴别。",
+        "source_pdf": "Managing-an-outbreak-of-postoperative-endophthalmitis-Final-2022.pdf"
+      },
+      {
+        "id": "protocol:incident_management_team",
+        "label": "Protocol",
+        "name": "事故管理小组 (IMT)",
+        "definition": "在发生眼内炎爆发时必须立即组建的多学科团队，负责调查原因（如培养、PCR检测）并决定是否暂停手术。",
+        "source_pdf": "Managing-an-outbreak-of-postoperative-endophthalmitis-Final-2022.pdf"
+      },
+      {
+        "id": "role:ophthalmic_imaging_practitioner",
+        "label": "Role",
+        "name": "眼科影像技师",
+        "definition": "专门从事眼科图像采集（如OCT、眼底照相）的专业人员，是虚拟诊所高效运行的关键。",
+        "source_pdf": "Ophthalmic-Imaging-March-2021.pdf"
+      },
+      {
+        "id": "standard:dicom_ophthalmology",
+        "label": "Standard",
+        "name": "DICOM 标准 (眼科)",
+        "definition": "医学数字成像和通信标准，确保不同设备拍摄的眼科图像（如OCT、视野）能被整合到电子病历中。",
+        "source_pdf": "Ophthalmic-Imaging-March-2021.pdf"
+      },
+      {
+        "id": "risk_stratification:follow_up_r1",
+        "label": "Risk Stratification",
+        "name": "复诊风险等级 R1 (极高风险)",
+        "definition": "指如果复诊延误，患者面临不可逆视力丧失或严重伤害的风险（如活动性湿性AMD、未控制的青光眼）。",
+        "source_pdf": "Measuring-follow-up-timeliness-and-risk-for-performance-reporting-improvement-actions-and-targeting-failsafe-procedures-in-England.pdf"
+      },
+      {
+        "id": "metric:hospital_initiated_postponement",
+        "label": "Metric",
+        "name": "医院发起的推迟 (HIP)",
+        "definition": "衡量眼科服务压力的指标，指由医院方取消或推迟预约，可能导致高风险患者的视力预后恶化。",
+        "source_pdf": "Measuring-follow-up-timeliness-and-risk-for-performance-reporting-improvement-actions-and-targeting-failsafe-procedures-in-England.pdf"
+      },
+      {
+        "id": "guideline:nice_ng81_summary",
+        "label": "Guideline",
+        "name": "NICE NG81 (青光眼管理摘要)",
+        "definition": "强调选择性激光小梁成形术(SLT)作为新诊断开角型青光眼和高眼压症的一线治疗，因其具有成本效益。",
+        "source_pdf": "Management-of-Open-Angle-Closure-Glaucoma-Exec-Summary-2.pdf"
+      },
+      {
+        "id": "strategy:lifetime_monitoring_glaucoma",
+        "label": "Strategy",
+        "name": "终身监测策略",
+        "definition": "青光眼作为慢性病，需要根据风险分层制定终身复诊计划，并在病情稳定时考虑延长复诊间隔或出院至社区监测。",
+        "source_pdf": "Management-of-Open-Angle-Closure-Glaucoma-Exec-Summary-2.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:childhood_nystagmus",
+        "target": "diagnostic:electrodiagnostics",
+        "relation": "鉴别诊断金标准"
+      },
+      {
+        "source": "condition:acquired_nystagmus",
+        "target": "disease:childhood_nystagmus",
+        "relation": "需紧急排除颅内病变"
+      },
+      {
+        "source": "disease:foveal_hypoplasia",
+        "target": "disease:childhood_nystagmus",
+        "relation": "常见解剖异常"
+      },
+      {
+        "source": "event:endophthalmitis_outbreak",
+        "target": "protocol:incident_management_team",
+        "relation": "触发启动"
+      },
+      {
+        "source": "condition:tass",
+        "target": "event:endophthalmitis_outbreak",
+        "relation": "重要鉴别诊断"
+      },
+      {
+        "source": "role:ophthalmic_imaging_practitioner",
+        "target": "standard:dicom_ophthalmology",
+        "relation": "需遵循"
+      },
+      {
+        "source": "metric:hospital_initiated_postponement",
+        "target": "risk_stratification:follow_up_r1",
+        "relation": "需优先避免"
+      },
+      {
+        "source": "guideline:nice_ng81_summary",
+        "target": "treatment:slt_primary",
+        "relation": "推荐一线使用"
+      },
+      {
+        "source": "strategy:lifetime_monitoring_glaucoma",
+        "target": "service:virtual_glaucoma_clinic",
+        "relation": "利用其进行长期管理"
+      },
+      {
+        "source": "protocol:incident_management_team",
+        "target": "drug:povidone_iodine_5",
+        "relation": "核查是否规范使用"
+      }
+    ]
+  }

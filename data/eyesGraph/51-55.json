@@ -1,0 +1,199 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Service-and-Specialized-Care-KG-Batch7"
+    },
+    "nodes": [
+      {
+        "id": "condition:exposure_keratopathy_icu",
+        "label": "Condition",
+        "name": "暴露性角膜病变 (ICU环境)",
+        "definition": "重症监护患者因镇静、昏迷或肌肉松弛导致眼睑闭合不全，进而引起的角膜上皮干燥、缺损甚至溃疡。",
+        "source_pdf": "Eye-Care-in-the-Intensive-Care-Unit-2020.pdf"
+      },
+      {
+        "id": "symptom:lagophthalmos",
+        "label": "Symptom",
+        "name": "眼睑闭合不全 (Lagophthalmos)",
+        "definition": "眼睑无法完全闭合的状态，在ICU接受镇静或机械通气的患者中发生率极高，是角膜损伤的主要原因。",
+        "source_pdf": "Eye-Care-in-the-Intensive-Care-Unit-2020.pdf"
+      },
+      {
+        "id": "symptom:chemosis_icu",
+        "label": "Symptom",
+        "name": "结膜水肿 (Chemosis)",
+        "definition": "球结膜的肿胀，在ICU患者中常见，可能导致眼睑无法闭合，加重角膜暴露风险。",
+        "source_pdf": "Eye-Care-in-the-Intensive-Care-Unit-2020.pdf"
+      },
+      {
+        "id": "treatment:moisture_chamber",
+        "label": "Treatment",
+        "name": "湿房保护 (聚乙烯薄膜)",
+        "definition": "使用聚乙烯薄膜（如保鲜膜）覆盖眼部以形成密闭湿房，保持角膜湿润，是ICU预防暴露性角膜炎的有效方法。",
+        "source_pdf": "Eye-Care-in-the-Intensive-Care-Unit-2020.pdf"
+      },
+      {
+        "id": "role:unregistered_hcp",
+        "label": "Role",
+        "name": "非注册医疗从业者 (UHCP)",
+        "definition": "指未在专业监管机构注册的医疗辅助人员（如医疗助理），在特定培训和授权下可执行滴眼药操作。",
+        "source_pdf": "Eye-Drops-Instillation-by-Unregistered-Health-Care-Professionals-for-use-within-NHS-Ophthalmic-Services.pdf"
+      },
+      {
+        "id": "protocol:delegation_framework",
+        "label": "Protocol",
+        "name": "滴眼药授权框架",
+        "definition": "一套标准化的流程，规定了注册医师如何安全地将滴眼药任务授权给非注册人员，包括能力评估和监督机制。",
+        "source_pdf": "Eye-Drops-Instillation-by-Unregistered-Health-Care-Professionals-for-use-within-NHS-Ophthalmic-Services.pdf"
+      },
+      {
+        "id": "drug:mydriatics_cycloplegics",
+        "label": "Drug",
+        "name": "散瞳剂与睫状肌麻痹剂",
+        "definition": "如托吡卡胺、环戊通，用于扩大瞳孔以便检查眼底，非注册人员使用需特别注意禁忌症（如窄房角）。",
+        "source_pdf": "Eye-Drops-Instillation-by-Unregistered-Health-Care-Professionals-for-use-within-NHS-Ophthalmic-Services.pdf"
+      },
+      {
+        "id": "disease:inherited_retinal_dystrophies",
+        "label": "Disease",
+        "name": "遗传性视网膜营养不良 (IRDs)",
+        "definition": "一组具有高度遗传异质性的致盲性眼病，是眼科基因组学服务的主要目标疾病群。",
+        "source_pdf": "Genomics-Services.pdf"
+      },
+      {
+        "id": "procedure:whole_genome_sequencing",
+        "label": "Procedure",
+        "name": "全基因组测序 (WGS)",
+        "definition": "对个体全部基因组进行测序，用于诊断疑难遗传性眼病，特别是当靶向基因面板测试阴性时。",
+        "source_pdf": "Genomics-Services.pdf"
+      },
+      {
+        "id": "service:genetic_counselling",
+        "label": "Service Model",
+        "name": "遗传咨询",
+        "definition": "由专业人员向患者及其家属解释遗传测试结果、疾病遗传模式及再生育风险的过程。",
+        "source_pdf": "Genomics-Services.pdf"
+      },
+      {
+        "id": "service:mainstreaming_genomics",
+        "label": "Service Model",
+        "name": "基因组学主流化 (Mainstreaming)",
+        "definition": "将基因测试的申请和结果告知整合到常规眼科临床路径中，而非仅由遗传学家处理。",
+        "source_pdf": "Genomics-Services.pdf"
+      },
+      {
+        "id": "service:emergency_eye_care",
+        "label": "Service Model",
+        "name": "急诊眼科服务 (EECS)",
+        "definition": "专门处理突发眼部问题（如红眼、视力骤降、眼痛）的服务体系，旨在分流医院急诊压力。",
+        "source_pdf": "Emergency-Eye-Care-Commissioning-Guidance.pdf"
+      },
+      {
+        "id": "service:mecs",
+        "label": "Service Model",
+        "name": "轻微眼病服务 (MECS)",
+        "definition": "社区视光师主导的服务，用于评估和管理低风险的急性眼部状况（如结膜炎、干眼加重）。",
+        "source_pdf": "Emergency-Eye-Care-Commissioning-Guidance.pdf"
+      },
+      {
+        "id": "process:triage_red_amber_green",
+        "label": "Process",
+        "name": "红-黄-绿分诊系统",
+        "definition": "根据症状紧迫性将患者分类：红色（需立即就医，如视网膜动脉阻塞）、琥珀色（24小时内，如视网膜脱离症状）、绿色（常规预约）。",
+        "source_pdf": "Emergency-Eye-Care-Commissioning-Guidance.pdf"
+      },
+      {
+        "id": "symptom:red_flag_symptoms",
+        "label": "Symptom",
+        "name": "眼科红旗征 (Red Flags)",
+        "definition": "提示严重眼病的警示症状，如中重度眼痛、显著视力下降、畏光、视野缺损或复视。",
+        "source_pdf": "Emergency-Eye-Care-Commissioning-Guidance.pdf"
+      },
+      {
+        "id": "classification:nhs_dr_grading",
+        "label": "Classification",
+        "name": "NHS 糖尿病视网膜病变分级",
+        "definition": "英国国家筛查项目使用的分级系统：R0(无), R1(背景期), R2(前增殖期), R3(增殖期); M0(无黄斑病变), M1(黄斑病变)。",
+        "source_pdf": "diabetic-retinopathy-management-and-monitoring-pdf-66143953240261.pdf"
+      },
+      {
+        "id": "disease:dmo_cso",
+        "label": "Disease",
+        "name": "临床显著黄斑水肿 (CSMO)",
+        "definition": "即中心受累的糖尿病黄斑水肿，定义为距中心凹500微米内的视网膜增厚或硬性渗出。",
+        "source_pdf": "diabetic-retinopathy-management-and-monitoring-pdf-66143953240261.pdf"
+      },
+      {
+        "id": "treatment:fluocinolone_implant",
+        "label": "Treatment",
+        "name": "氟轻松植入剂 (Iluvien)",
+        "definition": "一种长效皮质类固醇玻璃体植入剂，用于治疗对一线疗法反应不佳的慢性糖尿病黄斑水肿。",
+        "source_pdf": "diabetic-retinopathy-management-and-monitoring-pdf-66143953240261.pdf"
+      },
+      {
+        "id": "service:failsafe_mechanisms",
+        "label": "Service Model",
+        "name": "故障安全机制 (Failsafe)",
+        "definition": "确保所有糖尿病视网膜病变筛查阳性患者都能被追踪并按时转诊至医院眼科的系统流程。",
+        "source_pdf": "diabetic-retinopathy-management-and-monitoring-pdf-66143953240261.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "symptom:lagophthalmos",
+        "target": "condition:exposure_keratopathy_icu",
+        "relation": "主要致病原因"
+      },
+      {
+        "source": "treatment:moisture_chamber",
+        "target": "condition:exposure_keratopathy_icu",
+        "relation": "预防与治疗"
+      },
+      {
+        "source": "role:unregistered_hcp",
+        "target": "drug:mydriatics_cycloplegics",
+        "relation": "经授权可执行"
+      },
+      {
+        "source": "disease:inherited_retinal_dystrophies",
+        "target": "procedure:whole_genome_sequencing",
+        "relation": "诊断手段"
+      },
+      {
+        "source": "procedure:whole_genome_sequencing",
+        "target": "service:genetic_counselling",
+        "relation": "结果需配合"
+      },
+      {
+        "source": "symptom:red_flag_symptoms",
+        "target": "service:emergency_eye_care",
+        "relation": "立即转诊指征"
+      },
+      {
+        "source": "service:mecs",
+        "target": "service:emergency_eye_care",
+        "relation": "分流低风险患者"
+      },
+      {
+        "source": "classification:nhs_dr_grading",
+        "target": "disease:dmo_cso",
+        "relation": "包含 M1 级"
+      },
+      {
+        "source": "treatment:fluocinolone_implant",
+        "target": "disease:dmo_cso",
+        "relation": "二线/慢性期治疗"
+      },
+      {
+        "source": "symptom:chemosis_icu",
+        "target": "symptom:lagophthalmos",
+        "relation": "加重"
+      },
+      {
+        "source": "protocol:delegation_framework",
+        "target": "role:unregistered_hcp",
+        "relation": "规范行为"
+      }
+    ]
+  }

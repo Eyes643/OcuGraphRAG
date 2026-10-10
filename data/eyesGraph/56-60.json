@@ -1,0 +1,223 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch8"
+    },
+    "nodes": [
+      {
+        "id": "model:high_flow_cataract_surgery",
+        "label": "Service Model",
+        "name": "高流量白内障手术 (High Flow Cataract Surgery)",
+        "definition": "一种标准化的手术服务模式，旨在通过优化流程、减少非增值时间，在不牺牲安全的前提下提高低复杂性白内障手术的效率（通常每份手术名单≥6台）。",
+        "source_pdf": "High-Flow-Cataract-Surgery_V2.pdf"
+      },
+      {
+        "id": "criteria:low_complexity_patient",
+        "label": "Patient Criteria",
+        "name": "低复杂性患者标准",
+        "definition": "适合高流量手术的患者特征：能够平躺、配合度高、瞳孔散大良好、无致密核或显著眼部合并症（如假性剥脱、小瞳孔）。",
+        "source_pdf": "High-Flow-Cataract-Surgery_V2.pdf"
+      },
+      {
+        "id": "drug:hydroxychloroquine",
+        "label": "Drug",
+        "name": "羟氯喹 (HCQ)",
+        "definition": "一种用于治疗风湿性疾病（如SLE、类风湿关节炎）的药物，长期使用具有剂量依赖性的视网膜毒性风险。",
+        "source_pdf": "Hydroxychloroquine-and-Chloroquine-Retinopathy-Monitoring-Guideline.pdf"
+      },
+      {
+        "id": "disease:hcq_retinopathy",
+        "label": "Disease",
+        "name": "羟氯喹视网膜病变",
+        "definition": "由羟氯喹累积毒性引起的双眼感光细胞损伤，典型表现为旁中心凹或中心凹周围的“牛眼征”黄斑病变，具有不可逆性。",
+        "source_pdf": "Hydroxychloroquine-and-Chloroquine-Retinopathy-Monitoring-Guideline.pdf"
+      },
+      {
+        "id": "risk_factor:hcq_dose_limit",
+        "label": "Risk Factor",
+        "name": "剂量风险阈值 (>5mg/kg/天)",
+        "definition": "当羟氯喹日剂量超过5mg/kg（按实际体重计算）时，视网膜毒性风险显著增加。",
+        "source_pdf": "Hydroxychloroquine-and-Chloroquine-Retinopathy-Monitoring-Guideline.pdf"
+      },
+      {
+        "id": "risk_factor:tamoxifen_use",
+        "label": "Risk Factor",
+        "name": "他莫昔芬合用",
+        "definition": "同时服用他莫昔芬会使羟氯喹视网膜病变的风险增加约5倍。",
+        "source_pdf": "Hydroxychloroquine-and-Chloroquine-Retinopathy-Monitoring-Guideline.pdf"
+      },
+      {
+        "id": "diagnostic:hcq_screening_baseline",
+        "label": "Diagnostic",
+        "name": "HCQ基线筛查",
+        "definition": "在开始用药后12个月内进行的眼科检查，旨在记录眼底基础状态并排除既存视网膜病变。",
+        "source_pdf": "Hydroxychloroquine-and-Chloroquine-Retinopathy-Monitoring-Guideline.pdf"
+      },
+      {
+        "id": "diagnostic:hcq_screening_annual",
+        "label": "Diagnostic",
+        "name": "HCQ年度监测",
+        "definition": "无其他风险因素者在用药5年后开始，高风险者在用药1年后开始，每年进行SD-OCT和宽视野眼底自发荧光(FAF)检查。",
+        "source_pdf": "Hydroxychloroquine-and-Chloroquine-Retinopathy-Monitoring-Guideline.pdf"
+      },
+      {
+        "id": "procedure:isbcs",
+        "label": "Surgery",
+        "name": "立即双侧序贯白内障手术 (ISBCS)",
+        "definition": "在同一次就诊中，完成一只眼的手术后，立即更换全套无菌器械和耗材进行第二只眼的手术。",
+        "source_pdf": "Immediate-Sequential-Bilateral-Cataract-Surgery-Guidance.pdf"
+      },
+      {
+        "id": "protocol:isbcs_separation",
+        "label": "Protocol",
+        "name": "完全无菌隔离原则",
+        "definition": "ISBCS的核心安全要求：双眼手术必须视为两个完全独立的程序，使用不同批号的药物、液体和器械，重新铺单和手消毒，以杜绝双眼同时眼内炎。",
+        "source_pdf": "Immediate-Sequential-Bilateral-Cataract-Surgery-Guidance.pdf"
+      },
+      {
+        "id": "indication:isbcs_general_anesthesia",
+        "label": "Indication",
+        "name": "ISBCS适应症 (全麻患者)",
+        "definition": "对于需要全身麻醉且健康状况较差的患者，ISBCS可避免两次全麻的风险，具有明确的医疗指征。",
+        "source_pdf": "Immediate-Sequential-Bilateral-Cataract-Surgery-Guidance.pdf"
+      },
+      {
+        "id": "guideline:nice_ng81",
+        "label": "Guideline",
+        "name": "NICE青光眼指南 (NG81)",
+        "definition": "英国国家卫生与临床优化研究所发布的关于青光眼诊断和管理的指南，强调基于风险的分层管理。",
+        "source_pdf": "Glaucoma-Commissioning-Guide-Long-June-2016-Final.pdf"
+      },
+      {
+        "id": "disease:ocular_hypertension_risk",
+        "label": "Risk Stratification",
+        "name": "高眼压症 (OHT) 风险分层",
+        "definition": "根据眼压水平和角膜中央厚度(CCT)将OHT分为低、中、高风险，指导治疗决策（如是否启动前列腺素类似物治疗）。",
+        "source_pdf": "Glaucoma-Commissioning-Guide-Long-June-2016-Final.pdf"
+      },
+      {
+        "id": "service:glaucoma_referral_refinement",
+        "label": "Service Model",
+        "name": "青光眼转诊优化 (GRR)",
+        "definition": "一种社区服务模式，通过复查眼压和视野，过滤掉假阳性转诊，减少不必要的医院就诊（假阳性率可高达30-40%）。",
+        "source_pdf": "Glaucoma-Commissioning-Guide-Long-June-2016-Final.pdf"
+      },
+      {
+        "id": "disease:rvo_macular_edema",
+        "label": "Disease",
+        "name": "RVO相关黄斑水肿",
+        "definition": "视网膜静脉阻塞（CRVO或BRVO）导致血-视网膜屏障破坏，液体积聚在黄斑区，是视力下降的主要原因。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      },
+      {
+        "id": "disease:ischemic_crvo",
+        "label": "Disease",
+        "name": "缺血性视网膜中央静脉阻塞",
+        "definition": "视网膜无灌注区面积≥10个视盘面积的CRVO，发生新生血管性青光眼和视网膜新生血管的风险极高。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      },
+      {
+        "id": "drug:ranibizumab_rvo",
+        "label": "Drug",
+        "name": "雷珠单抗 (Ranibizumab)",
+        "definition": "抗VEGF药物，在BRAVO和CRUISE研究中证实能显著改善RVO黄斑水肿患者的视力。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      },
+      {
+        "id": "drug:aflibercept_rvo",
+        "label": "Drug",
+        "name": "阿柏西普 (Aflibercept)",
+        "definition": "抗VEGF药物，在GALILEO/COPERNICUS (CRVO) 和 VIBRANT (BRVO) 研究中证实有效，通常采用每月注射后按需治疗(PRN)或治疗并延长(T&E)策略。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      },
+      {
+        "id": "drug:dexamethasone_implant",
+        "label": "Drug",
+        "name": "地塞米松玻璃体内植入剂 (Ozurdex)",
+        "definition": "长效皮质类固醇，用于治疗RVO黄斑水肿，特别适合近期有心血管事件不宜使用抗VEGF或不愿频繁注射的患者。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      },
+      {
+        "id": "treatment:grid_laser_brvo",
+        "label": "Treatment",
+        "name": "格栅样光凝 (BRVO)",
+        "definition": "对于BRVO引起的黄斑水肿，如抗VEGF治疗无效，可考虑格栅样激光；但不推荐用于CRVO。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      },
+      {
+        "id": "risk_factor:systemic_rvo",
+        "label": "Risk Factor",
+        "name": "RVO全身风险因素",
+        "definition": "高血压、高脂血症、糖尿病和青光眼是RVO的主要风险因素，年轻患者需筛查凝血异常（如高同型半胱氨酸血症）。",
+        "source_pdf": "Guidelines for the Management of Retinal Vein Occlusion by the European Society of Retina Specialists (EURETINA)(科研通-ablesci.com).pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "model:high_flow_cataract_surgery",
+        "target": "criteria:low_complexity_patient",
+        "relation": "筛选目标人群"
+      },
+      {
+        "source": "drug:hydroxychloroquine",
+        "target": "disease:hcq_retinopathy",
+        "relation": "长期使用导致"
+      },
+      {
+        "source": "risk_factor:hcq_dose_limit",
+        "target": "disease:hcq_retinopathy",
+        "relation": "主要风险指标"
+      },
+      {
+        "source": "risk_factor:tamoxifen_use",
+        "target": "disease:hcq_retinopathy",
+        "relation": "协同增加风险"
+      },
+      {
+        "source": "diagnostic:hcq_screening_annual",
+        "target": "disease:hcq_retinopathy",
+        "relation": "早期检测手段"
+      },
+      {
+        "source": "procedure:isbcs",
+        "target": "protocol:isbcs_separation",
+        "relation": "必须遵循"
+      },
+      {
+        "source": "indication:isbcs_general_anesthesia",
+        "target": "procedure:isbcs",
+        "relation": "强烈推荐"
+      },
+      {
+        "source": "service:glaucoma_referral_refinement",
+        "target": "disease:ocular_hypertension_risk",
+        "relation": "基于此进行分流"
+      },
+      {
+        "source": "disease:rvo_macular_edema",
+        "target": "drug:ranibizumab_rvo",
+        "relation": "一线治疗"
+      },
+      {
+        "source": "disease:rvo_macular_edema",
+        "target": "drug:aflibercept_rvo",
+        "relation": "一线治疗"
+      },
+      {
+        "source": "disease:rvo_macular_edema",
+        "target": "drug:dexamethasone_implant",
+        "relation": "二线/特定人群治疗"
+      },
+      {
+        "source": "disease:ischemic_crvo",
+        "target": "treatment:grid_laser_brvo",
+        "relation": "无效/不推荐"
+      },
+      {
+        "source": "risk_factor:systemic_rvo",
+        "target": "disease:rvo_macular_edema",
+        "relation": "需协同管理"
+      }
+    ]
+  }

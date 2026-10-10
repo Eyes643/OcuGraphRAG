@@ -1,0 +1,187 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch15"
+    },
+    "nodes": [
+      {
+        "id": "disease:behcets_uveitis",
+        "label": "Disease",
+        "name": "白塞葡萄膜炎 (BU)",
+        "definition": "白塞病最常见的眼部表现，常为双眼复发性全葡萄膜炎伴视网膜血管炎，是我国常见的致盲性眼病。",
+        "source_pdf": "白塞葡萄膜炎的诊治建议.pdf"
+      },
+      {
+        "id": "drug:infliximab_bu",
+        "label": "Drug",
+        "name": "英夫利西单抗 (Infliximab)",
+        "definition": "TNF-α抑制剂，中国专家共识推荐用于难治性或累及黄斑的白塞葡萄膜炎，起效快。",
+        "source_pdf": "白塞葡萄膜炎的诊治建议.pdf"
+      },
+      {
+        "id": "drug:adalimumab_bu",
+        "label": "Drug",
+        "name": "阿达木单抗 (Adalimumab)",
+        "definition": "全人源TNF-α单克隆抗体，推荐作为白塞葡萄膜炎的一线生物制剂治疗，尤其是对传统免疫抑制剂不耐受者。",
+        "source_pdf": "白塞葡萄膜炎的诊治建议.pdf"
+      },
+      {
+        "id": "drug:interferon_alpha2a",
+        "label": "Drug",
+        "name": "干扰素α-2a",
+        "definition": "用于治疗难治性白塞葡萄膜炎，具有免疫调节作用，但这方面国内应用经验相对较少但有效。",
+        "source_pdf": "白塞葡萄膜炎的诊治建议.pdf"
+      },
+      {
+        "id": "procedure:ivi_service",
+        "label": "Service Model",
+        "name": "玻璃体腔注射药学服务",
+        "definition": "临床药师参与的IVI全流程管理，包括适应症审核、超说明书用药评估、患者教育及随访。",
+        "source_pdf": "玻璃体腔注射药物的药学服务专家共识.pdf"
+      },
+      {
+        "id": "drug:conbercept",
+        "label": "Drug",
+        "name": "康柏西普 (Conbercept)",
+        "definition": "中国自主研发的抗VEGF融合蛋白，用于治疗nAMD、DME、RVO-ME及CNV，半衰期较长。",
+        "source_pdf": "玻璃体腔注射药物的药学服务专家共识.pdf"
+      },
+      {
+        "id": "drug:brolucizumab",
+        "label": "Drug",
+        "name": "布罗利珠单抗 (Brolucizumab)",
+        "definition": "新一代单链抗体片段抗VEGF药物，分子量小，渗透性强，但需注意眼内炎症风险。",
+        "source_pdf": "玻璃体腔注射药物的药学服务专家共识.pdf"
+      },
+      {
+        "id": "drug:faricimab",
+        "label": "Drug",
+        "name": "法瑞西单抗 (Faricimab)",
+        "definition": "双特异性抗体（抗VEGF-A和抗Ang-2），用于延长治疗间隔，减少注射次数。",
+        "source_pdf": "玻璃体腔注射药物的药学服务专家共识.pdf"
+      },
+      {
+        "id": "surgery:ppv_t2dm",
+        "label": "Surgery",
+        "name": "2型糖尿病视网膜病变玻切术",
+        "definition": "针对PDR严重并发症的手术治疗，旨在清除积血、解除牵引、复位视网膜。",
+        "source_pdf": "玻璃体切割手术治疗2型糖尿病视网膜病变专家共识.pdf"
+      },
+      {
+        "id": "indication:severe_vh_ppv",
+        "label": "Indication",
+        "name": "严重玻璃体积血 (手术指征)",
+        "definition": "玻璃体积血量大导致视力严重下降，且观察1个月以上无吸收迹象（1型糖尿病观察时间可更短）。",
+        "source_pdf": "玻璃体切割手术治疗2型糖尿病视网膜病变专家共识.pdf"
+      },
+      {
+        "id": "indication:trd_macula_ppv",
+        "label": "Indication",
+        "name": "累及黄斑的牵引性视网膜脱离",
+        "definition": "PDR纤维增殖膜牵拉导致黄斑脱离，是PPV的绝对手术指征，需尽早手术。",
+        "source_pdf": "玻璃体切割手术治疗2型糖尿病视网膜病变专家共识.pdf"
+      },
+      {
+        "id": "treatment:pre_op_antivegf",
+        "label": "Treatment",
+        "name": "术前抗VEGF注射",
+        "definition": "对于新生血管膜充血明显的PDR患者，推荐术前3-7天行抗VEGF注射，以减少术中出血。",
+        "source_pdf": "玻璃体切割手术治疗2型糖尿病视网膜病变专家共识.pdf"
+      },
+      {
+        "id": "disease:vitreoretinal_lymphoma",
+        "label": "Disease",
+        "name": "玻璃体视网膜淋巴瘤 (VRL)",
+        "definition": "最常见的眼内淋巴瘤，多为弥漫大B细胞淋巴瘤(DLBCL)，常伪装成慢性葡萄膜炎（伪装综合征）。",
+        "source_pdf": "玻璃体视网膜淋巴瘤诊断及推荐治疗中国专家共识(2024年版).pdf"
+      },
+      {
+        "id": "diagnostic:il10_il6_ratio",
+        "label": "Diagnostic",
+        "name": "IL-10/IL-6 比值",
+        "definition": "玻璃体液或房水中IL-10水平显著升高且IL-10/IL-6 > 1，高度提示VRL诊断。",
+        "source_pdf": "玻璃体视网膜淋巴瘤诊断及推荐治疗中国专家共识(2024年版).pdf"
+      },
+      {
+        "id": "diagnostic:myd88_mutation",
+        "label": "Diagnostic",
+        "name": "MYD88 L265P 突变",
+        "definition": "VRL患者玻璃体标本中检出率极高的基因突变（>60%-80%），是重要的分子诊断标志物。",
+        "source_pdf": "玻璃体视网膜淋巴瘤诊断及推荐治疗中国专家共识(2024年版).pdf"
+      },
+      {
+        "id": "drug:mtx_intravitreal",
+        "label": "Drug",
+        "name": "甲氨蝶呤 (玻璃体腔注射)",
+        "definition": "治疗VRL的局部化疗首选方案，通常采用诱导期（每周2次）+ 巩固期 + 维持期的方案。",
+        "source_pdf": "玻璃体视网膜淋巴瘤诊断及推荐治疗中国专家共识(2024年版).pdf"
+      },
+      {
+        "id": "disease:aids_cmv_retinitis",
+        "label": "Disease",
+        "name": "艾滋病合并CMV视网膜炎",
+        "definition": "艾滋病晚期最常见的机会性眼部感染，主要发生于CD4+ T淋巴细胞计数 < 50个/µL的患者。",
+        "source_pdf": "艾滋病合并巨细胞病毒视网膜炎诊治浙江省专家共识.pdf"
+      },
+      {
+        "id": "drug:ganciclovir_implant",
+        "label": "Drug",
+        "name": "更昔洛韦 (眼内植入/注射)",
+        "definition": "CMV视网膜炎的局部治疗金标准，需配合全身抗病毒治疗（HAART）以控制系统性感染。",
+        "source_pdf": "艾滋病合并巨细胞病毒视网膜炎诊治浙江省专家共识.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:behcets_uveitis",
+        "target": "drug:adalimumab_bu",
+        "relation": "一线生物制剂"
+      },
+      {
+        "source": "disease:behcets_uveitis",
+        "target": "drug:infliximab_bu",
+        "relation": "难治性病例推荐"
+      },
+      {
+        "source": "procedure:ivi_service",
+        "target": "drug:conbercept",
+        "relation": "管理药物之一"
+      },
+      {
+        "source": "disease:vitreoretinal_lymphoma",
+        "target": "diagnostic:il10_il6_ratio",
+        "relation": "关键生化指标"
+      },
+      {
+        "source": "disease:vitreoretinal_lymphoma",
+        "target": "diagnostic:myd88_mutation",
+        "relation": "分子诊断标志"
+      },
+      {
+        "source": "disease:vitreoretinal_lymphoma",
+        "target": "drug:mtx_intravitreal",
+        "relation": "局部化疗首选"
+      },
+      {
+        "source": "surgery:ppv_t2dm",
+        "target": "indication:severe_vh_ppv",
+        "relation": "主要适应症"
+      },
+      {
+        "source": "surgery:ppv_t2dm",
+        "target": "indication:trd_macula_ppv",
+        "relation": "绝对手术指征"
+      },
+      {
+        "source": "surgery:ppv_t2dm",
+        "target": "treatment:pre_op_antivegf",
+        "relation": "术前辅助治疗"
+      },
+      {
+        "source": "disease:aids_cmv_retinitis",
+        "target": "drug:ganciclovir_implant",
+        "relation": "局部治疗核心"
+      }
+    ]
+  }

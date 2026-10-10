@@ -1,0 +1,172 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch32"
+    },
+    "nodes": [
+      {
+        "id": "disease:tao_china_2022",
+        "label": "Disease",
+        "name": "甲状腺相关眼病 (TAO 中国指南)",
+        "definition": "一种与甲状腺疾病密切相关的器官特异性自身免疫性眼眶病，是成人最常见的眼眶病，严重者可致盲。",
+        "source_pdf": "中国甲状腺相关眼病诊断和治疗指南（2022年）.pdf"
+      },
+      {
+        "id": "classification:eugogo_severity",
+        "label": "Classification",
+        "name": "EUGOGO严重程度分级",
+        "definition": "将TAO分为轻度、中重度、极重度（威胁视力），是指导分级治疗的核心依据。",
+        "source_pdf": "中国甲状腺相关眼病诊断和治疗指南（2022年）.pdf"
+      },
+      {
+        "id": "treatment:gc_pulse_therapy",
+        "label": "Treatment",
+        "name": "糖皮质激素冲击治疗 (TAO)",
+        "definition": "中重度活动性TAO的一线治疗，通常采用甲泼尼龙静脉滴注，总剂量不超过8.0g以预防肝毒性。",
+        "source_pdf": "中国甲状腺相关眼病诊断和治疗指南（2022年）.pdf"
+      },
+      {
+        "id": "treatment:orbital_radiotherapy",
+        "label": "Treatment",
+        "name": "眼眶放射治疗",
+        "definition": "用于中重度活动性TAO的二线治疗，常与激素联合使用，但在糖尿病视网膜病变患者中慎用。",
+        "source_pdf": "中国甲状腺相关眼病诊断和治疗指南（2022年）.pdf"
+      },
+      {
+        "id": "treatment:teprotumumab",
+        "label": "Drug",
+        "name": "替妥木单抗 (Teprotumumab)",
+        "definition": "胰岛素样生长因子-1受体(IGF-1R)抑制剂，能显著改善突眼和复视，是TAO治疗的突破性生物制剂。",
+        "source_pdf": "中国甲状腺相关眼病诊断和治疗指南（2022年）.pdf"
+      },
+      {
+        "id": "disease:pseudoexfoliation_syndrome_china",
+        "label": "Disease",
+        "name": "假性剥脱综合征 (PEX)",
+        "definition": "一种全身性弹性纤维病变，眼部特征为瞳孔缘和晶状体前囊表面的灰白色剥脱物质，易导致继发性青光眼和白内障手术并发症。",
+        "source_pdf": "中国假性剥脱综合征眼病临床诊疗专家共识(2025).pdf"
+      },
+      {
+        "id": "disease:pex_glaucoma",
+        "label": "Disease",
+        "name": "假性剥脱性青光眼 (PXG)",
+        "definition": "由PEX引起的继发性开角型或闭角型青光眼，特点是眼压波动大、药物控制难、视神经损害进展快。",
+        "parent_id": "disease:pseudoexfoliation_syndrome_china",
+        "source_pdf": "中国假性剥脱综合征眼病临床诊疗专家共识(2025).pdf"
+      },
+      {
+        "id": "risk_factor:zonular_weakness",
+        "label": "Risk Factor",
+        "name": "悬韧带脆弱/断裂",
+        "definition": "PEX患者白内障手术中的高危因素，易导致晶状体半脱位、玻璃体脱出和人工晶体位置异常。",
+        "source_pdf": "中国假性剥脱综合征眼病临床诊疗专家共识(2025).pdf"
+      },
+      {
+        "id": "treatment:amniotic_membrane_transplantation",
+        "label": "Surgery",
+        "name": "羊膜移植术 (AMT)",
+        "definition": "利用羊膜的抗炎、抗纤维化和促进上皮化特性，治疗难治性眼表疾病（如角膜溃疡、翼状胬肉、化学伤）。",
+        "source_pdf": "中国角膜和眼表疾病治疗中羊膜应用专家共识（2023年）.pdf"
+      },
+      {
+        "id": "indication:persistent_epithelial_defect_amt",
+        "label": "Indication",
+        "name": "持续性角膜上皮缺损 (AMT适应症)",
+        "definition": "经药物治疗2周以上未愈合的上皮缺损，AMT可作为基底膜替代物促进愈合。",
+        "source_pdf": "中国角膜和眼表疾病治疗中羊膜应用专家共识（2023年）.pdf"
+      },
+      {
+        "id": "technique:inlay_technique",
+        "label": "Technique",
+        "name": "羊膜填充技术 (Inlay)",
+        "definition": "将羊膜裁剪成与溃疡大小一致，植入基质缺损区，旨在促进基质修复，羊膜最终被整合吸收。",
+        "source_pdf": "中国角膜和眼表疾病治疗中羊膜应用专家共识（2023年）.pdf"
+      },
+      {
+        "id": "technique:onlay_technique",
+        "label": "Technique",
+        "name": "羊膜覆盖技术 (Onlay)",
+        "definition": "将羊膜覆盖于整个角膜表面（作为生物绷带），旨在减轻炎症、保护新生上皮，羊膜最终会脱落。",
+        "source_pdf": "中国角膜和眼表疾病治疗中羊膜应用专家共识（2023年）.pdf"
+      },
+      {
+        "id": "guideline:refractive_medication_2024",
+        "label": "Guideline",
+        "name": "激光角膜屈光手术围手术期用药共识 (2024年)",
+        "definition": "针对SMILE、FS-LASIK及表层手术的围手术期用药规范，强调激素的合理递减、人工泪液的长期使用及感染预防。",
+        "source_pdf": "中国激光角膜屈光手术围手术期用药专家共识（2024年）.pdf"
+      },
+      {
+        "id": "drug:topical_corticosteroid_taper",
+        "label": "Drug Regimen",
+        "name": "糖皮质激素递减方案",
+        "definition": "屈光术后（特别是表层手术）必须遵循的用药原则，以预防Haze形成并避免眼压升高。",
+        "source_pdf": "中国激光角膜屈光手术围手术期用药专家共识（2024年）.pdf"
+      },
+      {
+        "id": "drug:artificial_tears_preservative_free",
+        "label": "Drug",
+        "name": "无防腐剂人工泪液 (术后)",
+        "definition": "屈光术后推荐长期（3-6个月）使用，以缓解干眼症状并促进神经修复，优选玻璃酸钠或羧甲基纤维素钠。",
+        "source_pdf": "中国激光角膜屈光手术围手术期用药专家共识（2024年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:tao_china_2022",
+        "target": "classification:eugogo_severity",
+        "relation": "采用分级标准"
+      },
+      {
+        "source": "classification:eugogo_severity",
+        "target": "treatment:gc_pulse_therapy",
+        "relation": "中重度一线治疗"
+      },
+      {
+        "source": "classification:eugogo_severity",
+        "target": "treatment:teprotumumab",
+        "relation": "靶向治疗新选"
+      },
+      {
+        "source": "disease:pseudoexfoliation_syndrome_china",
+        "target": "disease:pex_glaucoma",
+        "relation": "严重并发症"
+      },
+      {
+        "source": "disease:pseudoexfoliation_syndrome_china",
+        "target": "risk_factor:zonular_weakness",
+        "relation": "手术高危因素"
+      },
+      {
+        "source": "disease:pex_glaucoma",
+        "target": "surgery:migs",
+        "relation": "微创手术选择"
+      },
+      {
+        "source": "treatment:amniotic_membrane_transplantation",
+        "target": "technique:inlay_technique",
+        "relation": "手术技巧之一"
+      },
+      {
+        "source": "treatment:amniotic_membrane_transplantation",
+        "target": "technique:onlay_technique",
+        "relation": "手术技巧之二"
+      },
+      {
+        "source": "indication:persistent_epithelial_defect_amt",
+        "target": "treatment:amniotic_membrane_transplantation",
+        "relation": "主要适应症"
+      },
+      {
+        "source": "guideline:refractive_medication_2024",
+        "target": "drug:topical_corticosteroid_taper",
+        "relation": "核心用药原则"
+      },
+      {
+        "source": "guideline:refractive_medication_2024",
+        "target": "drug:artificial_tears_preservative_free",
+        "relation": "基础护理药物"
+      }
+    ]
+  }

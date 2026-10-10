@@ -1,0 +1,147 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Clinical-Guidelines-KG-Batch13"
+    },
+    "nodes": [
+      {
+        "id": "disease:type_1_rop",
+        "label": "Disease",
+        "name": "1型早产儿视网膜病变 (Type 1 ROP)",
+        "definition": "需立即治疗的高危ROP，定义为：I区任何分期伴Plus病变、I区3期无Plus病变、或II区2/3期伴Plus病变。",
+        "parent_id": "disease:retinopathy_of_prematurity",
+        "source_pdf": "Treating-Retinopathy-of-Prematurity-in-the-UK.pdf"
+      },
+      {
+        "id": "disease:aggressive_rop",
+        "label": "Disease",
+        "name": "侵袭性ROP (A-ROP)",
+        "definition": "以前称为AP-ROP，一种进展迅速、严重且常位于后极部的ROP形式，甚至可能不经过经典的1-3期进展直接导致视网膜脱离。",
+        "parent_id": "disease:retinopathy_of_prematurity",
+        "source_pdf": "Treating-Retinopathy-of-Prematurity-in-the-UK.pdf"
+      },
+      {
+        "id": "treatment:diode_laser_rop",
+        "label": "Treatment",
+        "name": "二极管激光光凝 (ROP)",
+        "definition": "治疗1型ROP的金标准，旨在破坏无血管区视网膜以减少VEGF产生，要求在诊断后48-72小时内进行。",
+        "source_pdf": "Treating-Retinopathy-of-Prematurity-in-the-UK.pdf"
+      },
+      {
+        "id": "drug:anti_vegf_rop",
+        "label": "Drug",
+        "name": "抗VEGF治疗 (ROP)",
+        "definition": "用于I区ROP（特别是A-ROP）的一线或辅助治疗，相比激光更能保存周边视野，但需更长时间的随访以防复发。",
+        "source_pdf": "Treating-Retinopathy-of-Prematurity-in-the-UK.pdf"
+      },
+      {
+        "id": "standard:rop_treatment_timing",
+        "label": "Standard",
+        "name": "ROP治疗时限标准",
+        "definition": "所有确诊为1型ROP的婴儿必须在48小时内（最迟不超过72小时）接受治疗，以防止视网膜脱离。",
+        "source_pdf": "Treating-Retinopathy-of-Prematurity-in-the-UK.pdf"
+      },
+      {
+        "id": "service:virtual_clinic_standards",
+        "label": "Service Model",
+        "name": "虚拟诊所临床治理标准",
+        "definition": "虚拟青光眼诊所必须具备的质量控制体系，包括标准化的数据采集协议、定期的顾问医生审查和患者安全保障机制。",
+        "source_pdf": "Virtual-Glaucoma-Clinics.pdf"
+      },
+      {
+        "id": "criteria:virtual_clinic_inclusion",
+        "label": "Criteria",
+        "name": "虚拟诊所准入标准",
+        "definition": "适合进入虚拟诊所的患者特征：病情稳定（低/中风险）、能够配合进行标准化检查（如视野、OCT）、无合并症干扰。",
+        "source_pdf": "Virtual-Glaucoma-Clinics.pdf"
+      },
+      {
+        "id": "role:virtual_clinic_reviewer",
+        "label": "Role",
+        "name": "虚拟诊所审查员",
+        "definition": "负责异步审查技术人员采集的临床数据并做出管理决定（如放电、继续监测、转诊）的临床医生或高级视光师。",
+        "source_pdf": "Virtual-Glaucoma-Clinics.pdf"
+      },
+      {
+        "id": "pathway:vision_screening_diagnostic",
+        "label": "Pathway",
+        "name": "视力筛查诊断路径",
+        "definition": "从学校视力筛查（4-5岁）未通过到医院确诊的标准化流程，旨在区分假阳性和需要治疗的弱视/屈光不正。",
+        "source_pdf": "Vision-Screening-Diagnostic-Pathway.pdf"
+      },
+      {
+        "id": "diagnostic:cycloplegic_refraction_child",
+        "label": "Diagnostic",
+        "name": "睫状肌麻痹验光 (儿童)",
+        "definition": "筛查未通过儿童诊断路径中的核心步骤，用于准确测量远视、散光和屈光参差，排除调节因素干扰。",
+        "source_pdf": "Vision-Screening-Diagnostic-Pathway.pdf"
+      },
+      {
+        "id": "criterion:screening_fail_referral",
+        "label": "Criterion",
+        "name": "筛查未通过转诊标准",
+        "definition": "通常定义为单眼或双眼视力低于0.20 logMAR（或Snellen 6/9.5），需转诊至由视轴矫正师主导的诊断诊所。",
+        "source_pdf": "Vision-Screening-Diagnostic-Pathway.pdf"
+      },
+      {
+        "id": "outcome:false_positive_screening",
+        "label": "Outcome",
+        "name": "筛查假阳性",
+        "definition": "筛查时视力低下但在诊断性检查中视力正常且无屈光不正的儿童，可直接出院。",
+        "source_pdf": "Vision-Screening-Diagnostic-Pathway.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:type_1_rop",
+        "target": "treatment:diode_laser_rop",
+        "relation": "金标准治疗"
+      },
+      {
+        "source": "disease:type_1_rop",
+        "target": "standard:rop_treatment_timing",
+        "relation": "需遵循时限"
+      },
+      {
+        "source": "disease:aggressive_rop",
+        "target": "drug:anti_vegf_rop",
+        "relation": "推荐治疗选项"
+      },
+      {
+        "source": "service:virtual_glaucoma_clinic",
+        "target": "service:virtual_clinic_standards",
+        "relation": "必须遵循"
+      },
+      {
+        "source": "criteria:virtual_clinic_inclusion",
+        "target": "service:virtual_glaucoma_clinic",
+        "relation": "筛选患者"
+      },
+      {
+        "source": "role:virtual_clinic_reviewer",
+        "target": "service:virtual_glaucoma_clinic",
+        "relation": "核心决策者"
+      },
+      {
+        "source": "service:school_vision_screening_program",
+        "target": "pathway:vision_screening_diagnostic",
+        "relation": "后续衔接"
+      },
+      {
+        "source": "pathway:vision_screening_diagnostic",
+        "target": "diagnostic:cycloplegic_refraction_child",
+        "relation": "金标准诊断测试"
+      },
+      {
+        "source": "criterion:screening_fail_referral",
+        "target": "pathway:vision_screening_diagnostic",
+        "relation": "触发进入路径"
+      },
+      {
+        "source": "outcome:false_positive_screening",
+        "target": "pathway:vision_screening_diagnostic",
+        "relation": "可能的评估结果"
+      }
+    ]
+  }

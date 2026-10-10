@@ -1,0 +1,166 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "name": "Ophthalmology-Chinese-Expert-Consensus-KG-Batch33"
+    },
+    "nodes": [
+      {
+        "id": "disease:refractive_surgery_dry_eye",
+        "label": "Disease",
+        "name": "角膜屈光手术相关干眼",
+        "definition": "激光角膜屈光手术后最常见的并发症，主要机制包括角膜神经切断导致的神经反射环路阻断、术中杯状细胞损伤及术后炎症反应。",
+        "source_pdf": "中国角膜屈光手术围手术期干眼诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "risk_factor:refractive_surgery_dry_eye_risk",
+        "label": "Risk Factor",
+        "name": "屈光术后干眼危险因素",
+        "definition": "包括术前已存在的干眼、长期配戴隐形眼镜、女性、高龄、高度近视、糖尿病及自身免疫性疾病。",
+        "source_pdf": "中国角膜屈光手术围手术期干眼诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "treatment:artificial_tears_pf",
+        "label": "Treatment",
+        "name": "无防腐剂人工泪液 (围手术期)",
+        "definition": "屈光手术围手术期干眼治疗的基础，首选无防腐剂剂型（如玻璃酸钠、羧甲基纤维素钠）以减少角膜毒性，促进修复。",
+        "source_pdf": "中国角膜屈光手术围手术期干眼诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "drug:diquafosol_sodium",
+        "label": "Drug",
+        "name": "地夸磷索钠滴眼液",
+        "definition": "P2Y2受体激动剂，通过促进粘蛋白和水液分泌治疗干眼，适用于屈光术后黏蛋白缺乏型干眼。",
+        "source_pdf": "中国角膜屈光手术围手术期干眼诊疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:clar",
+        "label": "Disease",
+        "name": "接触镜不良反应 (CLAR)",
+        "definition": "配戴接触镜（隐形眼镜）过程中引起的眼部解剖结构或生理功能异常，包括感染性和非感染性炎症、缺氧性损害等。",
+        "source_pdf": "中国接触镜不良反应诊断和治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:gpc",
+        "label": "Disease",
+        "name": "巨乳头性结膜炎 (GPC)",
+        "definition": "一种接触镜相关的变态反应性结膜炎，特征为上睑结膜出现直径>0.3mm的巨大乳头，伴瘙痒和黏液分泌。",
+        "parent_id": "disease:clar",
+        "source_pdf": "中国接触镜不良反应诊断和治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:clare",
+        "label": "Disease",
+        "name": "接触镜急性红眼 (CLARE)",
+        "definition": "一种非感染性炎症反应，通常由革兰阴性菌内毒素引起，表现为单眼急性充血、疼痛，角膜浸润但不伴上皮缺损。",
+        "parent_id": "disease:clar",
+        "source_pdf": "中国接触镜不良反应诊断和治疗专家共识（2021年）.pdf"
+      },
+      {
+        "id": "disease:clade",
+        "label": "Disease",
+        "name": "接触镜相关性干眼 (CLADE)",
+        "definition": "配戴接触镜后出现的干眼症状和体征，或原有干眼加重，是导致患者停戴接触镜的主要原因。",
+        "source_pdf": "中国接触镜相关性干眼诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "mechanism:lid_wiper_epitheliopathy",
+        "label": "Mechanism",
+        "name": "雨刷器效应 (LWE)",
+        "definition": "眼睑边缘（刷擦区）与接触镜表面摩擦增加导致的上皮损伤，是CLADE的重要体征。",
+        "source_pdf": "中国接触镜相关性干眼诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "strategy:cl_material_optimization",
+        "label": "Treatment Strategy",
+        "name": "接触镜材料优化",
+        "definition": "对于CLADE患者，建议更换为低含水量、高保湿性材料（如硅水凝胶、水梯镜片）或日抛型镜片。",
+        "source_pdf": "中国接触镜相关性干眼诊疗专家共识（2024年）.pdf"
+      },
+      {
+        "id": "surgery:dsaek",
+        "label": "Surgery",
+        "name": "角膜后弹力层剥除内皮移植术 (DSAEK)",
+        "definition": "移植带有薄层后基质、后弹力层和内皮细胞的角膜植片，适用于角膜内皮功能失代偿，操作相对容易，是目前主流术式。",
+        "source_pdf": "中国角膜内皮移植术专家共识（2024年）.pdf"
+      },
+      {
+        "id": "surgery:dmek",
+        "label": "Surgery",
+        "name": "角膜后弹力层内皮移植术 (DMEK)",
+        "definition": "仅移植后弹力层和内皮细胞，不含基质，术后视力恢复更好，排斥率更低，但手术难度大，对植片制备要求高。",
+        "source_pdf": "中国角膜内皮移植术专家共识（2024年）.pdf"
+      },
+      {
+        "id": "indication:fecd",
+        "label": "Indication",
+        "name": "Fuchs角膜内皮营养不良",
+        "definition": "角膜内皮移植术的最佳适应证，尤其是当病变主要累及内皮层且基质及上皮相对健康时。",
+        "source_pdf": "中国角膜内皮移植术专家共识（2024年）.pdf"
+      },
+      {
+        "id": "complication:graft_detachment",
+        "label": "Complication",
+        "name": "植片脱位 (Graft Detachment)",
+        "definition": "角膜内皮移植术后最常见的并发症，通常需通过前房注气（Re-bubbling）使植片复位。",
+        "source_pdf": "中国角膜内皮移植术专家共识（2024年）.pdf"
+      }
+    ],
+    "links": [
+      {
+        "source": "disease:refractive_surgery_dry_eye",
+        "target": "risk_factor:refractive_surgery_dry_eye_risk",
+        "relation": "受其影响"
+      },
+      {
+        "source": "treatment:artificial_tears_pf",
+        "target": "disease:refractive_surgery_dry_eye",
+        "relation": "全程应用"
+      },
+      {
+        "source": "drug:diquafosol_sodium",
+        "target": "disease:refractive_surgery_dry_eye",
+        "relation": "针对性治疗"
+      },
+      {
+        "source": "disease:gpc",
+        "target": "disease:clar",
+        "relation": "过敏性类型"
+      },
+      {
+        "source": "disease:clare",
+        "target": "disease:clar",
+        "relation": "炎症性类型"
+      },
+      {
+        "source": "disease:clade",
+        "target": "mechanism:lid_wiper_epitheliopathy",
+        "relation": "特征性机制"
+      },
+      {
+        "source": "strategy:cl_material_optimization",
+        "target": "disease:clade",
+        "relation": "管理策略"
+      },
+      {
+        "source": "surgery:dsaek",
+        "target": "indication:fecd",
+        "relation": "适用术式"
+      },
+      {
+        "source": "surgery:dmek",
+        "target": "indication:fecd",
+        "relation": "更优术式 (视力更好)"
+      },
+      {
+        "source": "surgery:dsaek",
+        "target": "complication:graft_detachment",
+        "relation": "主要并发症"
+      },
+      {
+        "source": "surgery:dmek",
+        "target": "complication:graft_detachment",
+        "relation": "主要并发症 (发生率更高)"
+      }
+    ]
+  }
